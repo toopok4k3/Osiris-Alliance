@@ -1,0 +1,28 @@
+{
+	"specClass":"projectile",
+	"id":"oas_ai_orb_plasma",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/oas/weapons/oas_orb_turret_base_invisible2.png",
+	"turretGlowSprite":"graphics/oas/weapons/oas_orb_turret_glow.png",
+	"hardpointSprite":"graphics/oas/weapons/oas_orb_turret_base_invisible2.png",
+	"hardpointGlowSprite":"graphics/oas/weapons/oas_orb_turret_glow.png",
+	"turretOffsets":[33, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[33, 0],
+	"hardpointAngleOffsets":[0],
+	"glowColor":[120,120,255,200],
+    "barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":40,   # only used if animationType = MUZZLE_FLASH
+					   "spread":120,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":40.0,
+					   "particleDuration":0.05,
+					   "particleCount":30,
+					   "particleColor":[59,59,255,180]},
+	"interruptibleBurst":false,
+	"autocharge":true,
+	"projectileSpecId":"oas_ai_orb_shot",
+	"fireSoundTwo":"oas_ai_orb_plasma_fire"
+}

@@ -1,0 +1,21 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 15,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "phaeton",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "oas_phaeton_starter",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "lightdualmg",
+            "WS 002": "lightdualmg",
+            "WS 003": "lightdualmg",
+            "WS 004": "lightdualmg"
+        }
+    }]
+}

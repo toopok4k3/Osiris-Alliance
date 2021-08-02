@@ -1,0 +1,4 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Ballistic Drive,ballisticdrive,1,,,,,,,,,1,4,2,10,,TRUE,,,,,TRUE,TRUE,TRUE,TRUE,,,graphics/oas/icons/hullsys/ballistic_drive_icon.png
+Ballistic Maneuver,ballisticmaneuver,1,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphics/oas/icons/hullsys/ballistic_maneuver_icon.png
+Targeting Assistant,targetingassistant,1,,,,,0.2,,,,0.25,9.5,0.25,10,,,,,,,,,,,,,graphics/oas/icons/hullsys/targeting_assistant_icon2.png

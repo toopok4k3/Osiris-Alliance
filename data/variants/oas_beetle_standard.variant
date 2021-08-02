@@ -1,0 +1,28 @@
+{
+  "variantId": "oas_beetle_standard",
+  "hullId": "oas_beetle",
+  "displayName": "Heavy Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
+    },
+    {
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

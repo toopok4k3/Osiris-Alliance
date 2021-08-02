@@ -1,0 +1,16 @@
+{
+	"OAS":{
+		"engineColor":[210,200,183,150],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":0.5,
+		"contrailParticleFinalSizeMult":0.5,
+		"contrailWidthAddedFractionAtEnd":-1,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[120,100,80,25],
+		"contrailCampaignColor":[150,120,100,75],
+		"type":"SMOKE",
+		"glowSprite":"graphics/oas/fx/oas_engine32glow.png",
+		"glowOutline":"graphics/oas/fx/oas_engine32flame.png"
+	}
+}

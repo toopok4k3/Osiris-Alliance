@@ -1,0 +1,49 @@
+{
+  "hullName": "Spitter",
+  "hullId": "oas_blaster_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_unicorn_fighter.png",
+  "style": "MIDLINE",
+  "height": 34,
+  "width": 30,
+  "center": [15, 17],
+  "collisionRadius": 24.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 6.5],
+      "length": 13,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-16, -7.5],
+      "length": 13,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    14.5, 9,
+    -13.5, 14,
+    -13.5, -12,
+    13, -10.5
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "hullName": "Beetle",
+  "hullId": "oas_beetle",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_fighter_turtle.png",
+  "style": "MIDLINE",
+  "height": 39,
+  "width": 28,
+  "center": [14, 19.5],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [14, -6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [14, 6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [15.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, -8.5],
+      "length": 25.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "OAS"
+    },
+    {
+      "location": [-18.5, 8.5],
+      "length": 25.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    12.5, 11.5,
+    -18.5, 13,
+    -18.5, -13,
+    12.5, -11.5
+  ]
+}

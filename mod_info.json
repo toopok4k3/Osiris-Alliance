@@ -1,0 +1,8 @@
+{
+  "id":"oas",
+	"name":"Osiris Alliance",
+	"version":"1.0",
+	"description":"Osiris Alliance faction, Nexerilin compatible.",
+	"gameVersion":"0.95a-RC15",
+	"modPlugin":"data.scripts.OasPlugin"
+}

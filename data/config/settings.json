@@ -1,0 +1,14 @@
+{
+	"designTypeColors":{
+        "Osiris Alliance":[210,200,183,255]
+	},
+	"graphics":{
+		"blueprint_packages":{
+			"osiris_package":"graphics/oas/icons/cargo/bp_osiris.png"
+		}#,
+		#"characters":{
+			#"osiris_sun":"graphics/oas/portraits/characters/osiris_sun.png"
+		#}
+	}
+}
+

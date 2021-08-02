@@ -1,0 +1,46 @@
+{
+  "variantId": "oas_owl_assault",
+  "hullId": "oas_owl",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_s_cannon",
+        "WS0005": "oas_s_cannon",
+        "WS0006": "oas_s_cannon",
+        "WS0007": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_owl_orb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_m_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

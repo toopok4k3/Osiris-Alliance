@@ -1,0 +1,88 @@
+{
+  "variantId": "oas_osiris_standard",
+  "hullId": "oas_osiris",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 49,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_trident_large",
+        "WS0002": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "annihilatorpod",
+        "WS0015": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_xlcannon",
+        "WS0004": "oas_xlcannon",
+        "WS0008": "oas_m_cannon",
+        "WS0009": "oas_m_cannon",
+        "WS0016": "oas_s_cannon",
+        "WS0017": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "oas_ai_orb_plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "oas_ai_orb_laser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "devastator",
+        "WS0006": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "oas_m_pd",
+        "WS0011": "oas_m_pd",
+        "WS0012": "oas_m_pd",
+        "WS0013": "oas_m_pd",
+        "WS0018": "oas_s_pd",
+        "WS0019": "oas_s_pd",
+        "WS0020": "oas_s_pd",
+        "WS0021": "oas_s_pd",
+        "WS0022": "oas_s_pd",
+        "WS0023": "oas_s_pd",
+        "WS0024": "oas_s_pd",
+        "WS0025": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_beetle_wing",
+    "oas_beetle_wing"
+  ]
+}

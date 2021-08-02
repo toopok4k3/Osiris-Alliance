@@ -1,0 +1,17 @@
+{
+	"id":"oas_xl_blazer_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":48,
+	"width":24,
+    "hitGlowRadius":20,
+	"fadeTime":0.1,
+	"fringeColor":[255,150,0,255],
+	"coreColor":[255,255,255,255],
+    "glowColor":[190,0,0,190],
+    "bulletSprite":"graphics/oas/missiles/oas_blazer_bullet.png",
+	"passThroughMissiles":true,
+    "glowRadius":24,
+}

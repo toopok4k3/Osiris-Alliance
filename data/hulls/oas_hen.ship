@@ -1,0 +1,147 @@
+{
+  "hullName": "Hen",
+  "hullId": "oas_hen",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_hen.png",
+  "style": "MIDLINE",
+  "height": 113,
+  "width": 98,
+  "center": [49, 54],
+  "collisionRadius": 84,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 84,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0001": "oas_owl_orb"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [46, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [32, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [32, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [7, -11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [7, 11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -90,
+      "locations": [-10, -39]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 90,
+      "locations": [-10, 39]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, 7.5],
+      "length": 43,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "OAS"
+    },
+    {
+      "location": [-54, -7.5],
+      "length": 43,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "OAS"
+    },
+    {
+      "location": [-52, -19.5],
+      "length": 36,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "OAS"
+    },
+    {
+      "location": [-52, 19.5],
+      "length": 36,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    48, 15,
+    35.5, 15,
+    27, 31,
+    7.5, 31,
+    -10, 48,
+    -17, 35,
+    -43, 30,
+    -53, 14,
+    -53, -14,
+    -43, -30,
+    -17, -35,
+    -10, -48,
+    7.5, -31,
+    27, -31,
+    35.5, -15,
+    48, -15,
+    58, -0
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	"id":"oas_ai_orb_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":50,
+	"fadeTime":0.3,
+	"hitGlowRadius":22,
+	"fringeColor":[155,155,155,255],
+	"coreColor":[50,50,255,255],
+	"passThroughMissiles":true,	
+}

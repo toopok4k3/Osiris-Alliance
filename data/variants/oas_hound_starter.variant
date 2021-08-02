@@ -1,0 +1,21 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "hound",
+    "hullMods": ["auxiliarythrusters"],
+    "permaMods": [],
+    "variantId": "oas_hound_starter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightdualmg"}
+        }
+    ]
+}

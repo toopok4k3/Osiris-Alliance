@@ -1,0 +1,85 @@
+{
+  "variantId": "oas_hexa_balanced",
+  "hullId": "oas_hexa",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_xlcannon",
+        "WS0002": "oas_xlcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_m_cannon",
+        "WS0009": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "oas_s_cannon",
+        "WS0021": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_hml",
+        "WS0005": "oas_hml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "devastator",
+        "WS0010": "oas_m_pd",
+        "WS0011": "oas_m_pd",
+        "WS0012": "oas_m_pd",
+        "WS0013": "oas_m_pd",
+        "WS0014": "oas_s_pd",
+        "WS0015": "oas_s_pd",
+        "WS0016": "oas_s_pd",
+        "WS0017": "oas_s_pd",
+        "WS0018": "oas_s_pd",
+        "WS0019": "oas_s_pd",
+        "WS0022": "mininglaser",
+        "WS0023": "mininglaser",
+        "WS0024": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_beetle_wing"
+  ]
+}

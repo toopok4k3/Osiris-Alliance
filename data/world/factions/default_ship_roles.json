@@ -1,0 +1,70 @@
+{
+	"combatSmall":{
+		"oas_lasher2_standard":10,
+		"oas_viper_standard":4,
+		"oas_viper_assault":3,
+		"oas_viper_strike":3,
+		"oas_owl_maniac":3,
+		"oas_owl_assault":2,
+		"oas_owl_standard":3,
+		"oas_owl_strike":2,
+		"oas_hen_standard":10
+	},
+	#"combatFreighterSmall":{
+#		"oas_viper_standard":2
+	#},
+	"combatMedium":{
+		"oas_rhino_standard":2,
+		"oas_rhino_mjolnir":2,
+		"oas_rhino_balanced":3,
+		"oas_rhino_support":3
+		#"oas_unicorn_standard":10
+	},
+	"combatLarge":{
+		"oas_tusker_standard": 4,
+		"oas_tusker_balanced": 6,
+		"oas_gazer_assault": 2,
+		"oas_gazer_support": 2,
+		"oas_gazer_standard": 6
+	},
+	"combatCapital":{
+		"oas_observer_standard": 6,
+		"oas_observer_balanced": 4,
+		"oas_hexa_standard": 4,
+		"oas_hexa_balanced": 6,
+		"oas_osiris_standard": 10
+	},
+	"combatFreighterMedium":{
+#		"oas_rhino_standard":1,
+#		"oas_rhino_mjolnir":1,
+#		"oas_rhino_support":1,
+		"oas_unicorn_standard":10
+	},
+	"carrierSmall":{
+		"oas_wayfarer2_standard":5
+	},
+	"carrierMedium":{
+		"oas_crux_standard":10,
+		"oas_saltire_standard":10
+	},
+	#"freighterSmall":{
+		#"oas_unicorn_standard":2
+#	},
+	#"tankerSmall":{
+#		"oas_viper_standard":1
+#	},
+	#"tankerMedium":{
+	#	"oas_rhino_standard":1,
+	#	"oas_unicorn_standard":1,
+	#	"oas_tusker_standard":1
+	#},
+	#"crig":{
+#		"oas_unicorn_standard":1
+	#},
+	#"utility":{
+	#	"oas_unicorn_standard":1
+	#},
+	"civilianRandom":{
+		"oas_unicorn_standard":1
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "variantId": "oas_rhino_needler",
+  "hullId": "oas_rhino",
+  "displayName": "Needler",
+  "goalVariant": false,
+  "fluxCapacitors": 12,
+  "fluxVents": 14,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "multineedler",
+        "WS0002": "heavyneedler",
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_blaster_drone_wing"
+  ]
+}

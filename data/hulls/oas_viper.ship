@@ -1,0 +1,102 @@
+{
+  "hullName": "Viper",
+  "hullId": "oas_viper",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_viper.png",
+  "style": "MIDLINE",
+  "height": 132,
+  "width": 58,
+  "center": [29, 64],
+  "collisionRadius": 71,
+  "shieldCenter": [1.5, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "coversColor": "",
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 0,
+      "locations": [35, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 180,
+      "locations": [-33, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -90,
+      "locations": [0.5, -20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [56, 18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-64.5, -8],
+      "length": 42.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "OAS"
+    },
+    {
+      "location": [-64.5, 8],
+      "length": 42.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "OAS"
+    },
+    {
+      "location": [-62.5, -19.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "OAS"
+    },
+    {
+      "location": [-62.5, 19.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    56.5, -4,
+    50.5, -27.5,
+    0, -18,
+    -47, -27,
+    -61.5, -19.5,
+    -61.5, 19.5,
+    -47, 27,
+    0, 18,
+    50.5, 27.5,
+    56.5, 4
+  ]
+}

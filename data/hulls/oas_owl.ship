@@ -1,0 +1,116 @@
+{
+  "hullName": "Owl",
+  "hullId": "oas_owl",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_owl2.png",
+  "style": "MIDLINE",
+  "height": 112,
+  "width": 100,
+  "center": [50, 56],
+  "collisionRadius": 80,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 80,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0001": "oas_owl_orb"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [25, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18, -21]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18, 21]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18, -38]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [18, 38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56, -0],
+      "length": 58.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    55, 7.5,
+    44.5, 14.5,
+    34.5, 15.5,
+    22, 22,
+    22.5, 45.5,
+    -6.5, 47,
+    -12, 30,
+    -38.5, 22,
+    -54.5, 9,
+    -54.5, -9,
+    -38.5, -22,
+    -12, -30,
+    -6.5, -47,
+    22.5, -45.5,
+    22, -22,
+    34.5, -15.5,
+    44.5, -14.5,
+    55, -7.5
+  ]
+}

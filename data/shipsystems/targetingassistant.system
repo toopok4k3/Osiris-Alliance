@@ -1,0 +1,14 @@
+{
+	"id":"targetingassistant",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.TargetingAssistantAI",
+	
+	"statsScript":"data.shipsystems.scripts.TargetingAssistantStats",
+	
+	"weaponGlowColor":[255,50,100,170],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,37 @@
+id,trigger,conditions,script,text,options,notes
+ngcOasStart1,AddNewGameChoices,,"SetTooltip ngcOas1 ""The Unicorn-class destroyer is one of the best all around hulls for survey and salvage jobs. A wing of Spitter mining shuttles and a deadly Large Mining Laser keep possible pirates at bay.\n\nA Wayfarer Mk. II acts as companion carrier to let you explore in peace.""",,"60:ngcOas1:An explorer, following in the footsteps of the famous Osiris Sun with a Unicorn-class destroyer (Mod)",
+ngcOasStart2,AddNewGameChoices,,"SetTooltip ngcOas2 ""The Viper is a long range frigate that has good punching power and logistical properties for a ship of its size.\n\nComes with a sidekick Hound frigate, for the smuggling credibility.""",,"61:ngcOas2:A smuggler, commanding a Viper-class frigate. (Mod)",
+ngcOasStart3,AddNewGameChoices,,"SetTooltip ngcOas3 ""An agile strike frigate with a big cannon. An able captain can use its speed to gain the upper hand in battle.\n\nAccompanied by a Wayfarer Mk. II carrier.""",,"62:ngcOas3:A bounty hunter, commanding a Lasher Mk. II. (Mod)",
+ngcOasStart4,AddNewGameChoices,,"SetTooltip ngcOas4 ""A well doing and equipped trade fleet. Impressive logistic capability thanks to Colossus freighter and Phaeton tanker.\n\nThe fleet has two frigates, Viper-class combat freighter and a Lasher Mk. II along the Rhino-class destroyer.""",,"63:ngcOas4:A merchant captain, commanding a Rhino-class Destroyer. (Faster start, Mod)",
+ngcOasPicked1,NewGameOptionSelected,$option == ngcOas1,"NGCAddShip oas_unicorn_starter
+NGCAddShip oas_wayfarer2_starter
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+ngcOasPicked2,NewGameOptionSelected,$option == ngcOas2,"NGCAddShip oas_viper_starter
+NGCAddShip oas_hound_starter
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+ngcOasPicked3,NewGameOptionSelected,$option == ngcOas3,"NGCAddShip oas_lasher2_starter
+NGCAddShip oas_wayfarer2_starter
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+ngcOasPicked4,NewGameOptionSelected,$option == ngcOas4,"NGCAddShip oas_rhino_starter
+NGCAddShip oas_viper_starter
+NGCAddShip oas_lasher2_starter
+NGCAddShip oas_colossus_starter
+NGCAddShip oas_phaeton_starter
+NGCAddCredits 18000
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,

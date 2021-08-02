@@ -1,0 +1,16 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Small Mining Blaster,oas_miningblaster_fighter,0,,1000,500,,350,,0,7,10,,,,ENERGY,600,,0,2,,,,,,,,1000,,,,,,SYSTEM,energy12,,Osiris Alliance,,General,,,,,,,,,,22.2
+ORB Plasma Burster,oas_orb,3,,1000000,900,,50,200,0,45,,,,,ENERGY,100,,0,1,10,0.066,0,20,4,15,,400,,,250,,,SYSTEM,energy16,,Osiris Alliance,,Anti Armor,,,,,,,,,,40
+ORB Burst Laser,oas_owl_orb,3,,1000000,600,2000,,2000,0,45,,,,,ENERGY,,2000,0,0,0.4,5.6,,,,,10000,,,,250,,,SYSTEM,"energy8, beam7",,Osiris Alliance,,Anti Armor,,,,,,,,,,15.5
+ORB Plasma,oas_ai_orb_plasma,3,,1000000,900,,150,600,0,45,,,,,ENERGY,300,,0,1.5,3,0.2,0,10,1,10,,400,,,500,,,SYSTEM,energy17,,Osiris Alliance,,General,,,,,,,,,,41
+ORB Power Laser,oas_ai_orb_laser,3,,1000000,1000,3000,,,20,20,,3,0.1,,ENERGY,,3000,0.2,0,0.4,0.5,,,,,10000,,,,,,,SYSTEM,"beam15, energy19, LR",,Osiris Alliance,,General,,,,,,,,,,42
+ORB PD Burst Laser,oas_grb_laser,3,,1000000,600,500,,250,0,120,,10,1,,ENERGY,,350,0,0,0.2,0.1,,,,,10000,,,,,,,"PD,ANTI_FTR,IGNORES_FLARES,SYSTEM","pd16, beam11",,Osiris Alliance,,Point Defense,,,,,Advanced built-in targeting sensors enable the weapon to identify decoy flares and not fire on them.,decoy flares,,,,22.6
+Heavy Mining Laser,oas_hml,1,,3300,1000,400,,,0,20,16,,,,HIGH_EXPLOSIVE,,400,0.1,0.1,,,,,,,2400,,,,,,,SYSTEM,"beam13, LR",,Osiris Alliance,,General,,,,,,,,,,22.9
+Small Magnetron Cannon,oas_s_cannon,2,,500,700,,15,,5,40,7,20,5,,KINETIC,12,,0,0.05,1,,0,5,1,1,,500,,,10,,,,"kinetic7, osiris_bp, merc",,Osiris Alliance,,Anti Shield,,,,,,,,,,2.6
+Star Sprayer PD,oas_s_pd,1,,400,300,,30,,5,75,4,10,10,,FRAGMENTATION,2,,0,0.05,1,,0,20,2,10,,600,,,5,,,PD,"pd7, osiris_bp, merc",,Osiris Alliance,,Point Defense,,,,,,,,,,2.6
+Star Dome PD,oas_m_pd,1,,1400,450,,30,,5,75,8,20,20,,FRAGMENTATION,2,,0,0.05,2,,0,20,2,10,,600,,,5,,,PD,"pd14, osiris_bp, merc",,Osiris Alliance,,Point Defense,,,,,,,,,,2.6
+Medium Magnetron Cannon,oas_m_cannon,2,,2500,800,,150,,40,35,10,,,,KINETIC,150,,0,1.3,2,0.2,0,5,5,5,,500,,,75,,,,"kinetic14, osiris_bp, merc",,Osiris Alliance,,Anti Shield,,,,,,,,,,23.5
+Blazer,oas_m_blazer,2,,1500,700,,100,,0,50,10,,,,HIGH_EXPLOSIVE,75,,0,1,6,0.2,5,20,5,20,,500,,,100,,,,"he12, osiris_bp, merc",,Osiris Alliance,,Anti Armor,,,,,,,,,,12.5
+Magnetron Cannon,oas_xlcannon,2,,5000,900,,500,,80,35,25,,,,KINETIC,500,,0,1.5,1,,0,5,5,5,,500,,,200,,,,"kinetic20, rare_bp, hist1t, merc",,Osiris Alliance,,Anti Shield,,,,,,,,,,30.3
+Hyperblazer,oas_xl_blazer,2,,1500,700,,340,,0,50,20,,,,HIGH_EXPLOSIVE,300,,0,1.6,3,0.2,5,20,5,20,,500,,,200,,,,"he20, rare_bp, hist1t, merc",,Osiris Alliance,,Anti Armor,,,,,,,,,,25.6
+Trident Launcher,oas_trident_large,2,,5500,2500,,750,,15,10,25,12,,,HIGH_EXPLOSIVE,0,,0,15,3,0.75,0,0,0,0,,300,100,12.5,400,,,"DO_NOT_AIM, CONSERVE_3","missile20, strike15, rare_bp, hist1t, merc",,Osiris Alliance,,Finisher,Medium,Medium,,,,,,,TRUE,16.6

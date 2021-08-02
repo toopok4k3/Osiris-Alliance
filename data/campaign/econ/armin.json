@@ -1,0 +1,26 @@
+{
+	"starSystem":"armin",
+	"markets":[
+		{
+			"entities":["harman", "harman_station"],
+			"faction":"osiris",
+			"size":4,
+			"startingConditions":[
+                "population_4",
+                "no_atmosphere",
+                "cold",
+                "volatiles_trace",
+                "rare_ore_sparse",
+                "ore_moderate",
+                "low_gravity"
+			],
+			"industries":[
+                "population",
+                "spaceport",
+                "mining",
+                "grounddefenses",
+				"patrolhq"
+			]
+		}
+	]
+}

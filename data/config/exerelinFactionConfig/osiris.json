@@ -1,0 +1,38 @@
+{
+    "uniqueModClassName":"data.scripts.OasPlugin", # String
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "diplomacyTraits":["helps_allies", "stalwart","neutralist", "lowprofile"],
+
+    "startShipsSolo":[
+      ["oas_unicorn_standard"]
+    ],
+    "startShipsCombatSmall":[
+      ["oas_viper_standard", "oas_wayfarer2_standard", "oas_lasher2_standard"]
+    ],
+    "startShipsCombatLarge":[
+      ["oas_gazer_standard", "oas_rhino_balanced", "oas_lasher2_standard"]
+    ],
+    "startShipsCarrierLarge":[
+      ["oas_unicorn_standard", "oas_saltire_standard", "oas_viper_assault"]
+    ],
+    "startShipsSuper":[["oas_observer_standard"]],
+
+    "startSpecialItems":[
+        [["osiris_package", ""]]
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]}
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.3},
+        {"id":"lightindustry", "mult":0.3}
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1}
+    ]
+}
