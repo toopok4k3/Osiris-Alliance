@@ -3,8 +3,8 @@
   "hullId": "oas_saltire",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 10,
-  "fluxVents": 20,
+  "fluxCapacitors": 14,
+  "fluxVents": 14,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
@@ -60,8 +60,8 @@
   "modules": [],
   "wings": [
     "oas_beetle_wing",
-    "oas_beetle_wing",
-    "oas_beetle_wing",
-    "oas_beetle_wing"
+    "oas_fattie_wing",
+    "oas_fattie_wing",
+    "oas_blaster_drone_wing"
   ]
 }

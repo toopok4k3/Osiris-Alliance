@@ -2,12 +2,14 @@
   "variantId": "oas_observer_standard",
   "hullId": "oas_observer",
   "displayName": "Standard",
-  "goalVariant": false,
-  "fluxCapacitors": 34,
-  "fluxVents": 40,
+  "goalVariant": true,
+  "fluxCapacitors": 41,
+  "fluxVents": 41,
   "quality": 1,
   "permaMods": [],
-  "hullMods": ["dedicated_targeting_core"],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
@@ -17,7 +19,14 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "oas_orb"
+      }
+    },
+    {
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0002": "oas_xlcannon",
@@ -25,15 +34,16 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0004": "oas_m_cannon",
-        "WS0005": "oas_m_cannon"
+        "WS0005": "oas_m_cannon",
+        "WS0007": "oas_m_cannon"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0009": "salamanderpod",
@@ -41,22 +51,27 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "dualflak",
-        "WS0007": "heavyac",
+        "WS0006": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0008": "vulcan",
         "WS0011": "vulcan",
         "WS0012": "vulcan",
         "WS0013": "vulcan",
-        "WS0014": "vulcan"
+        "WS0014": "vulcan",
+        "WS0016": "vulcan"
       }
     }
   ],
   "modules": [],
   "wings": [
-    "oas_beetle_wing",
     "oas_beetle_wing"
   ]
 }

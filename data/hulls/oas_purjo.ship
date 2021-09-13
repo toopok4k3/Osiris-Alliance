@@ -1,0 +1,152 @@
+{
+  "hullName": "Blade",
+  "hullId": "oas_purjo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/oas/ships/purjo3.png",
+  "style": "HIGH_TECH",
+  "height": 184,
+  "width": 144,
+  "center": [72, 92],
+  "collisionRadius": 105,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 105,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [42, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17, -56]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-12, -38]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [16, 59]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [15, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, 15]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [37, 29]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 0,
+      "locations": [80, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91, -18],
+      "length": 41,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-91, 18],
+      "length": 41,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-89, -26],
+      "length": 37,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-89, 26],
+      "length": 37,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-87, -33],
+      "length": 21.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-87, 33],
+      "length": 21.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "OAS_RED"
+    }
+  ],
+  "bounds": [
+    90, 14,
+    71.5, 38.5,
+    16.5, 72,
+    -43.5, 37.5,
+    -65.5, 49,
+    -89.5, 12,
+    -89.5, -12,
+    -65.5, -49,
+    -45, -39.5,
+    12, -72,
+    65, -35,
+    91, 6
+  ]
+}

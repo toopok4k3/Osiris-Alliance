@@ -3,28 +3,14 @@
   "hullId": "oas_gazer",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 30,
+  "fluxCapacitors": 16,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "dedicated_targeting_core"
   ],
   "weaponGroups": [
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "oas_xlcannon"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0004": "pulselaser"
-      }
-    },
     {
       "autofire": false,
       "mode": "LINKED",
@@ -43,8 +29,22 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "heavyac",
-        "WS0007": "heavyac"
+        "WS0001": "oas_xlcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_m_blazer",
+        "WS0007": "oas_m_blazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyblaster"
       }
     },
     {
@@ -52,10 +52,16 @@
       "mode": "LINKED",
       "weapons": {
         "WS0003": "oas_grb_laser",
-        "WS0008": "flak",
-        "WS0009": "vulcan",
-        "WS0010": "vulcan",
-        "WS0011": "vulcan"
+        "WS0008": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "oas_s_pd",
+        "WS0010": "oas_s_pd",
+        "WS0011": "oas_s_pd"
       }
     }
   ],

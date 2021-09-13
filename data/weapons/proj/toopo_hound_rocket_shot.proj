@@ -1,0 +1,55 @@
+{
+	"id":"toopo_hound_rocket_shot",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/toopo/missiles/missile_hound_rocket.png",
+	"size":[18,44],	
+	"center":[9,23],
+	"collisionRadius":40,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":600, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":400,
+					 "coreRadius":200, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":200,
+					 "particleColor":[255,155,155,255]},
+	"flameoutTime":3, # total time from flameout to full fadeout
+	"armingTime":0.5,
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration					 
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":500,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-22.5, 0],
+					#"loc":[-14, 0],
+				    #"style":"TORPEDO",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[255,125,25,255],
+		"contrailDuration":2,
+		"contrailWidthMult":1.5,
+		"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailSpawnDistMult":0f, # how far away from engine it starts
+		"contrailColor":[50,50,50,50],
+        "glowSizeMult":2.5,
+		"glowAlternateColor":[255,0,0,255],
+		#"contrailCampaignColor":[120,50,50,50],
+		"type":"SMOKE" # GLOW or SMOKE
+					},
+				    "width":16.0,
+				    "length":80.0,
+				    "angle":180.0}]
+}
+			

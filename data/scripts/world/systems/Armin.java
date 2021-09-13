@@ -42,6 +42,7 @@ random(float spaceBefore, float spaceAfter, StarAge age, int min, int max, boole
             Oas.station(180f, 0f, 30f, "Harman Fuel Depot", "harman_station", "station_lowtech1", "hound_hangar", 0f).focusTo("harman").description("station_harman"),
             Oas.random(300f, 700f, StarAge.OLD, 1, 2, false, true),
             Oas.relay(1000f, 500f, 0f, 230f, "Harman Nav Buoy", "harman_nav_buoy", "nav_buoy_makeshift").faction("osiris"),
+            Oas.planet(500f, 1200f, 95f, 115f, "Fugura", "fugura", "cryovolcanic", 0f).description("planet_fugura"),
             Oas.nebula(StarAge.OLD)
 		};
 		Oas.generateAnyEntity(sector, entities, "Armin");

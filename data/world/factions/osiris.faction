@@ -26,73 +26,46 @@
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
-			"osiris_bp":2
+			"osiris_bp":3,
+			"osiris2_bp":3,
+			"osiris3_bp":3,
+			"toopo_bp":2
 		},
 		"hulls":{
-			"oas_osiris":0.5
+			"oas_osiris":3,
+			"oas_observer":3
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp"],
 		"hulls":[]
 	},
 	"knownShips":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],
 		"hulls":[
-            "oas_lasher2",
-            "oas_viper",
-			"oas_owl",
-			"oas_hen",
-            "oas_wayfarer2",
-            "oas_rhino",
-            "oas_unicorn",
-            "oas_saltire",
-			"oas_crux",
-			"oas_tusker",
-			"oas_gazer",
-			"apogee",
-            "oas_hexa",
+			"atlas",
+			"prometheus",
+			"oas_osiris",
 			"oas_observer",
-			"oas_osiris"
+			"oas_lolslaught"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":["osiris_bp"],
-		"hulls":[
-			"oas_lasher2",
-            "oas_viper",
-			"oas_owl",
-			"oas_hen",
-            "oas_wayfarer2",
-            "oas_rhino",
-            "oas_unicorn",
-            "oas_saltire",
-			"oas_crux",
-			"oas_tusker",
-			"oas_gazer",
-            "oas_observer",
-			"oas_hexa",
-			"oas_osiris"
-		],
+		"tags":["osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp"],
+		"hulls":["oas_osiris", "oas_observer"]
 	},
 	"knownFighters":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp"],
-		"fighters":[
-			"oas_beetle_wing",
-			"oas_blaster_drone_wing"
-		],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],
+		"fighters":[],
 	},
 	"priorityFighters":{
-		"tags":[],
-		"fighters":[
-			"oas_beetle_wing",
-			"oas_blaster_drone_wing"
-		],
+		"tags":["osiris_bp", "osiris2_bp", "osiris3_bp"],
+		"fighters":[],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "osiris_bp"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],
 		"weapons":[
 			"railgun",
 			"dualflak",
@@ -115,17 +88,13 @@
 			"ionpulser",
 			"oas_xlcannon",
 			"oas_xl_blazer",
-			"oas_trident_large"
+			"oas_trident_large",
+			"plasma"
 		],
 	},
 	"priorityWeapons":{
-		"tags":["osiris_bp"],
+		"tags":["osiris_bp", "osiris2_bp", "osiris3_bp"],
 		"weapons":[
-			"oas_xlcannon",
-			"oas_xl_blazer",
-			"oas_trident_large",
-			"oas_s_cannon",
-			"oas_m_cannon"
 		],
 	},
 	"knownHullMods":{

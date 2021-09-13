@@ -1,0 +1,29 @@
+{
+  "variantId": "oas_fatf_variant",
+  "hullId": "oas_fatf",
+  "displayName": "Strikecraft",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_matchstick_launcher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

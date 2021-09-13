@@ -1,0 +1,56 @@
+{
+  "variantId": "toopo_gemlasher_assault",
+  "hullId": "toopo_gemlasher",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 13,
+  "quality": 5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightdualmg",
+        "WS0008": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

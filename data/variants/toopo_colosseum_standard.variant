@@ -1,0 +1,30 @@
+{
+  "variantId": "toopo_colosseum_standard",
+  "hullId": "toopo_colosseum",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg",
+        "WS0004": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "piranha_wing",
+    "piranha_wing",
+    "warthog_wing",
+    "broadsword_wing"
+  ]
+}

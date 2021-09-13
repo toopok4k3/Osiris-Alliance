@@ -1,0 +1,134 @@
+{
+  "hullName": "Mutant",
+  "hullId": "toopo_xplorer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/toopo/ships/what_am_even_doing2.png",
+  "style": "MIDLINE",
+  "height": 148,
+  "width": 169,
+  "center": [85, 66],
+  "collisionRadius": 98.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 98.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [46, 53]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [26, -48]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -135,
+      "locations": [-22, -37]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 135,
+      "locations": [-22, 37]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [47, -17]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [37, 21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-49, -57],
+      "length": 50,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-49, 57],
+      "length": 50,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, -18.5],
+      "length": 62,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, 18.5],
+      "length": 62,
+      "width": 32,
+      "angle": -180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    37.5, 41,
+    47.5, 62.5,
+    19, 61.5,
+    -8, 39,
+    -8, 61.5,
+    -47, 62,
+    -35, 34.5,
+    -56.5, 28,
+    -56.5, -28,
+    -39, -35,
+    -47, -62,
+    -7.5, -62,
+    -7, -41,
+    21.5, -65.5,
+    42.5, -51,
+    60, 3
+  ]
+}

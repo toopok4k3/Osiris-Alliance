@@ -1,8 +1,8 @@
 {
-  "hullName": "Osiris",
+  "hullName": "Sun",
   "hullId": "oas_osiris",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/oas/ships/oas_supership4.png",
+  "spriteName": "graphics/oas/ships/oas_sun1.png",
   "style": "MIDLINE",
   "height": 306,
   "width": 272,
@@ -16,8 +16,6 @@
   ],
   "builtInWeapons": {
     "WS0007": "oas_ai_orb_plasma",
-    #"WS0007": "oas_orb",
-    #"WS0026": "oas_orb"
     "WS0026": "oas_ai_orb_laser"
   },
   "weaponSlots": [
@@ -28,7 +26,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [141.5, -68]
+      "locations": [142, -68]
     },
     {
       "id": "WS0002",
@@ -37,7 +35,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -0,
-      "locations": [141.5, 68]
+      "locations": [142, 68]
     },
     {
       "id": "WS0003",

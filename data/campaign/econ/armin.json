@@ -4,9 +4,9 @@
 		{
 			"entities":["harman", "harman_station"],
 			"faction":"osiris",
-			"size":4,
+			"size":5,
 			"startingConditions":[
-                "population_4",
+                "population_5",
                 "no_atmosphere",
                 "cold",
                 "volatiles_trace",
@@ -19,7 +19,27 @@
                 "spaceport",
                 "mining",
                 "grounddefenses",
-				"patrolhq"
+				"militarybase"
+			]
+		},
+		{
+			"entities":["fugura"],
+			"faction":"pirates",
+			"size":4,
+			"freePort":true,
+			"startingConditions":[
+				"population_4",
+				"no_atmosphere",
+				"volatiles_plentiful",
+				"cold"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"grounddefenses",
+				"heavybatteries",
+				"militarybase"
 			]
 		}
 	]

@@ -2,7 +2,7 @@
   "hullName": "Crux",
   "hullId": "oas_crux",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/oas/ships/oas_cruiser_carrier_croppered4.png",
+  "spriteName": "graphics/oas/ships/oas_crux1.png",
   "style": "MIDLINE",
   "height": 242,
   "width": 154,
@@ -78,7 +78,7 @@
     {
       "id": "WS0008",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
@@ -87,7 +87,7 @@
     {
       "id": "WS0009",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,

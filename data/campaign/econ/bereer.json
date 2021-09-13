@@ -4,10 +4,10 @@
 		{
 			"entities":["suns_gate"],
 			"faction":"osiris",
-			"size":6,
+			"size":7,
 			"startingConditions":[
 				"habitable",
-				"population_6",
+				"population_7",
 				"farmland_adequate",
                 "ruins_vast"
 			],
@@ -19,7 +19,9 @@
 				["orbitalworks", "pristine_nanoforge"],
                 "highcommand",
 				"starfortress_mid",
-                "techmining"
+                "techmining",
+				"ameghq",
+				"fuelprod"
 			]
 		},
         {

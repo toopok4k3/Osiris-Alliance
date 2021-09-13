@@ -1,0 +1,53 @@
+{
+  "variantId": "oas_hen_escort",
+  "hullId": "oas_hen",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 5,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_owl_orb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun",
+        "WS0005": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pilum",
+        "WS0003": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightag",
+        "WS0007": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

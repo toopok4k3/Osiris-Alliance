@@ -1,14 +1,17 @@
 id,trigger,conditions,script,text,options,notes
-ngcOasStart1,AddNewGameChoices,,"SetTooltip ngcOas1 ""The Unicorn-class destroyer is one of the best all around hulls for survey and salvage jobs. A wing of Spitter mining shuttles and a deadly Large Mining Laser keep possible pirates at bay.\n\nA Wayfarer Mk. II acts as companion carrier to let you explore in peace.""",,"60:ngcOas1:An explorer, following in the footsteps of the famous Osiris Sun with a Unicorn-class destroyer (Mod)",
-ngcOasStart2,AddNewGameChoices,,"SetTooltip ngcOas2 ""The Viper is a long range frigate that has good punching power and logistical properties for a ship of its size.\n\nComes with a sidekick Hound frigate, for the smuggling credibility.""",,"61:ngcOas2:A smuggler, commanding a Viper-class frigate. (Mod)",
-ngcOasStart3,AddNewGameChoices,,"SetTooltip ngcOas3 ""An agile strike frigate with a big cannon. An able captain can use its speed to gain the upper hand in battle.\n\nAccompanied by a Wayfarer Mk. II carrier.""",,"62:ngcOas3:A bounty hunter, commanding a Lasher Mk. II. (Mod)",
-ngcOasStart4,AddNewGameChoices,,"SetTooltip ngcOas4 ""A well doing and equipped trade fleet. Impressive logistic capability thanks to Colossus freighter and Phaeton tanker.\n\nThe fleet has two frigates, Viper-class combat freighter and a Lasher Mk. II along the Rhino-class destroyer.""",,"63:ngcOas4:A merchant captain, commanding a Rhino-class Destroyer. (Faster start, Mod)",
-ngcOasPicked1,NewGameOptionSelected,$option == ngcOas1,"NGCAddShip oas_unicorn_starter
-NGCAddShip oas_wayfarer2_starter
+ngcOasStartMenu,AddNewGameChoices,,"SetTooltip ngcOasStartPicked ""Multiple new different starting options are available from the mod Osiris Alliance.""",,"60:ngcOasStartPicked:On a pause, as you were traveling to the Osiris Alliance Territory...",
+ngcOasStartPicked,NewGameOptionSelected,$option == ngcOasStartPicked,FireAll AddNewOasGameChoices,"...and now that you have arrived, can now continue your life as...",,
+ngcOasStart1,AddNewOasGameChoices,,"SetTooltip ngcOas1 ""The Radiator is a commercially unsuccessful Domain-era Mining hull. It has a damper-field to protect itself, a front facing energy cannon and strong flux dissipation. However, it lacks a modern shield. Your best bet on survival is to not get hit too many times.""",,"1:ngcOas1:A Spacer, Your lone Radiator-class frigate barely made the journey.  Countless riches await your greedy grasp (Hard)",
+ngcOasStart2,AddNewOasGameChoices,,"SetTooltip ngcOas2 ""The Muskrat is a long range frigate that has good punching power and logistical properties for a ship of its size. It can easily carry the needed supplies for itself during longer voyages. Commonly used by the smugglers due to it's thick sensor blocking skin.\n\nHound is the weaker companion, lacking modern shield makes it really vulnerable to any enemy fire.""",,"2:ngcOas2:A Smuggler, commanding a Muskrat-class frigate and a sidekick Hound-class frigate, for the smuggling credibility.",
+ngcOasStart3,AddNewOasGameChoices,,"SetTooltip ngcOas3 ""Lasher MK. II is an agile strike frigate with a big cannon. An able captain can use its speed to gain the upper hand in battle.\n\nAccompanied by a Dramster that has the capability to zap anything around it. Stopping engines and missiles from working.""",,"3:ngcOas3:A Bounty hunter, commanding a Lasher Mk. II-class frigate and a Dramster to EMP your targets motors.",
+ngcOasStart4,AddNewOasGameChoices,,"SetTooltip ngcOas4 ""A well doing and equipped leet. Lead by a Rhino-class destroyer with a big cannon. Along with two military ships, Hen-class missile frigate and a Wayfarer MK. II-class small carrier. Fleet logistic is handled by a Buffalo-class freighter and a Dram-class tanker.""",,"4:ngcOas4:A Mercenary, commanding a small force from aboard a Rhino-class Destroyer (Faster start)",
+ngcOasStart5,AddNewOasGameChoices,,"SetTooltip ngcOas5 ""Unicorn-class destroyer comes built-in with a proprietary Heavy Mining Laser that melts trough ship hulls, a wing of three Spitter-mining shuttles modified to fight and a medium missi mount.\n\nThe Radiator is a commercially unsuccessful Domain-era Mining hull. It has a damper-field to protect itself, a front facing energy cannon and strong flux dissipation. However, it lacks a modern shield.""",,"5:ngcOas5:A Miner, commanding an Unicorn-class destroyer, along with a Radiator-class frigate (Faster start)",
+ngcOasStart6,AddNewOasGameChoices,,"SetTooltip ngcOas6 ""A Mutant with hybrid mounts can be equipped in multiple ways. It is well protected against heavy hits from the front, but flankers cause trouble.\n\nComes with two escorting frigate: a Radiator and a Dramster.""",,"6:ngcOas6:An Adventurer, leading a small salvage expedition from aboard a Mutant-class destroyer. (Faster start)",
+ngcOasStart7,AddNewOasGameChoices,,"SetTooltip ngcOas7 ""Apparatus-class Cruiser and a Mutant-class Destroyer work in tandem, bringing survey power to planetary wide surveys. Lower level tasks are handled by the Radiator and Scanner-class frigates.\n\nThe fleet has a tanker to ensure fuel is aplenty.""",,"7:ngcOas7:An Explorer, leading a planetary survey expedition from aboard an Apparatus-class cruiser (Faster start)",
+ngcOasStart8,AddNewOasGameChoices,,"SetTooltip ngcOas8 ""A well protected trade convoy Protecting the fleet against possible threats is a massive Tusker Cruiser, a Rhino destroyer with a fighter wing accompanied by a Muskrat frigate.\n\nThe logistic prowess is handled partly by the Tusker, but mainly by a Colossus freighter. A single Phaeton tanker, along with the protective fleets internal fuel tanks is enough to keep the ships fell fed.""",,"8:ngcOas8:A Merchant, sitting atop a Tusker-class cruiser, powering trough the trade routes with a well protected convoy (Faster start)",
+ngcOasStart9,AddNewOasGameChoices,,"SetTooltip ngcOas9 ""Pick a ship from an unique selection of the Osiris Alliance catalogue.""",,"9:ngcOas9:An Ex-Ground Soldier, commanding a Radiator MK. III Troop transporter full of marines, your team has just ""acquired"" a brand new ship...",
+ngcOasPicked1,NewGameOptionSelected,$option == ngcOas1,"NGCAddShip toopo_miningboi_standard
 $ngcOasSelected = true
-AddTextSmall ""Acquired level 1 officer"" good
-SetTextHighlights ""level 1 officer""
-$ngcAddOfficer = true
 FireAll NGCDifficultyOptions",,,
 ngcOasPicked2,NewGameOptionSelected,$option == ngcOas2,"NGCAddShip oas_viper_starter
 NGCAddShip oas_hound_starter
@@ -18,20 +21,91 @@ SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
 FireAll NGCDifficultyOptions",,,
 ngcOasPicked3,NewGameOptionSelected,$option == ngcOas3,"NGCAddShip oas_lasher2_starter
-NGCAddShip oas_wayfarer2_starter
+NGCAddShip toopo_dramster_standard
 $ngcOasSelected = true
 AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
 FireAll NGCDifficultyOptions",,,
 ngcOasPicked4,NewGameOptionSelected,$option == ngcOas4,"NGCAddShip oas_rhino_starter
-NGCAddShip oas_viper_starter
-NGCAddShip oas_lasher2_starter
-NGCAddShip oas_colossus_starter
-NGCAddShip oas_phaeton_starter
+NGCAddShip oas_hen_escort
+NGCAddShip oas_wayfarer2_starter
+NGCAddShip buffalo_d_Standard
+NGCAddShip dram_Light
 NGCAddCredits 18000
 $ngcOasSelected = true
 AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
 FireAll NGCDifficultyOptions",,,
+ngcOasPicked5,NewGameOptionSelected,$option == ngcOas5,"NGCAddShip oas_unicorn_starter
+NGCAddShip toopo_miningboi_standard
+NGCAddCredits 18000
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+ngcOasPicked6,NewGameOptionSelected,$option == ngcOas6,"NGCAddShip toopo_xplorer_standard
+NGCAddShip toopo_miningboi_standard
+NGCAddShip toopo_dramster_standard
+NGCAddCredits 18000
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+ngcOasPicked7,NewGameOptionSelected,$option == ngcOas7,"NGCAddShip toopo_apoture_standard
+NGCAddShip toopo_xplorer_standard
+NGCAddShip toopo_miningboi_standard
+NGCAddShip dram_Light
+NGCAddCredits 36000
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+ngcOasPicked8,NewGameOptionSelected,$option == ngcOas8,"NGCAddShip oas_tusker_standard
+NGCAddShip oas_rhino_starter
+NGCAddShip oas_viper_starter
+NGCAddShip oas_colossus_starter
+NGCAddShip oas_phaeton_starter
+NGCAddCredits 36000
+$ngcOasSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+ngcOasPicked9,NewGameOptionSelected,$option == ngcOas9,"$ngcOasSelected = true
+NGCAddShip toopo_trooperboi_starter
+NGCAddCargo RESOURCES marines 45
+FireAll NGCAddOasStealOptions","The ship you ""aqcuired"" is...",,
+ngcOasStealOptionScanner,NGCAddOasStealOptions,,"SetTooltip ngcOasStealScanner ""Scanner is a heavy frigate, used commonly by military patrols. It contains ORB technology.""",,1:ngcOasStealScanner: A Scanner-class Heavy frigate,
+ngcOasStealOptionRibcageOA,NGCAddOasStealOptions,,"SetTooltip ngcOasStealRibcageOA ""A ballistic version of the Antimatter Energy Groups' Ribcage. A deadly ship that can take down bigger prey.""",,2:ngcOasStealRibcageOA:A Ribcage (OA)-class frigate,
+ngcOasStealOptionRibcage,NGCAddOasStealOptions,,"SetTooltip ngcOasStealRibcage ""Antimatter Energy Groups' Ribcage-class frigate. A deadly ship that can take down bigger prey.""",,3:ngcOasStealRibcage:A Ribcage-class frigate,
+ngcOasStealOptionBlade,NGCAddOasStealOptions,,"SetTooltip ngcOasStealBlade ""Antimatter Energy Groups' Blade-class Destroyer. One of the most advanced destroyers out in the sector. Blade is equipped with an AMEG Time Dilator shipsystem, plenty of weapon mounts and an appearance that scares children.""",,4:ngcOasStealBlade:A Blade-class destroyer,
+ngcOasStealOptionHourglass,NGCAddOasStealOptions,,"SetTooltip ngcOasStealHourglass ""Cruiser with Time Dilator ship system.  One of the latest designs straight from the Osiris Alliance military industry.""",,5:ngcOasStealHourglass:A Hourglass-class cruiser,
+ngcOasStealOptionGazer,NGCAddOasStealOptions,,"SetTooltip ngcOasStealGazer ""Gazer is able to control the battlefield from a long range. Thanks to a composite mount arrangement, you can arm it in anyway to fit your needs.""",,6:ngcOasStealGazer:A Gazer-class cruiser,
+ngcOasPickedStealScanner,NewGameOptionSelected,$option == ngcOasStealScanner,"NGCAddShip oas_owl_standard
+FireAll NGCDifficultyOptions",,,
+ngcOasPickedStealRibcageOA,NewGameOptionSelected,$option == ngcOasStealRibcageOA,"NGCAddShip oas_airo_oa_standard
+FireAll NGCDifficultyOptions",,,
+ngcOasPickedStealRibcage,NewGameOptionSelected,$option == ngcOasStealRibcage,"NGCAddShip oas_airo_standard
+FireAll NGCDifficultyOptions",,,
+ngcOasPickedStealBlade,NewGameOptionSelected,$option == ngcOasStealBlade,"NGCAddShip oas_purjo_standard
+FireAll NGCDifficultyOptions",,,
+ngcOasPickedStealHourglass,NewGameOptionSelected,$option == ngcOasStealHourglass,"NGCAddShip oas_hourglass_standard
+FireAll NGCDifficultyOptions",,,
+ngcOasPickedStealGazer,NewGameOptionSelected,"$option == ngcOasStealGazer","NGCAddShip oas_gazer_standard
+FireAll NGCDifficultyOptions",,,
+ngcOasTutorialPicked,NewGameOptionSelected,"$option == ngcTutorial
+$ngcOasSelected","NGCSetStartingLocation Galatia 1000 -15000
+NGCAddStandardStartingScript
+#NGCSetWithTimePass false
+NGCDone",,,
+ngcOasSkipTutorialPicked,NewGameOptionSelected,"$option == ngcSkip
+$ngcOasSelected","$ngcSkipTutorial = true
+NGCAddCharacterPoints 1
+NGCSetStartingLocation Armin -9000 0
+NGCAddStandardStartingScript
+NGCDone",,,

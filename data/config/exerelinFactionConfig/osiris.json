@@ -4,23 +4,53 @@
     "corvusCompatible":true,
 
     "diplomacyTraits":["helps_allies", "stalwart","neutralist", "lowprofile"],
-
+    "alignments":{ "corporate":0.5,"technocratic":0.5,"diplomatic":0.5,"ideological":0.5 },
     "startShipsSolo":[
-      ["oas_unicorn_standard"]
+      ["toopo_dramster_standard"],
+      ["toopo_miningboi_standard"],
+      ["oas_viper_starter"],
+      ["oas_lasher2_starter"],
+      ["oas_owl_standard"]
     ],
     "startShipsCombatSmall":[
-      ["oas_viper_standard", "oas_wayfarer2_standard", "oas_lasher2_standard"]
+      ["oas_unicorn_standard", "oas_wayfarer2_standard", "oas_viper_standard"],
+      ["oas_rhino_standard", "oas_viper_standard", "oas_lasher2_standard"],
+      ["oas_unicorn_standard", "oas_wayfarer2_standard", "toopo_dramster_standard"],
+      ["toopo_gemlasher_standard", "toopo_miningboi_standard", "toopo_dramster_standard"]
     ],
     "startShipsCombatLarge":[
-      ["oas_gazer_standard", "oas_rhino_balanced", "oas_lasher2_standard"]
+      ["oas_tusker_standard", "oas_rhino_standard", "oas_viper_standard"],
+      ["oas_gazer_standard", "oas_rhino_standard", "oas_lasher2_standard"],
+      ["oas_hourglass_standard", "oas_unicorn_standard", "oas_hen_standard"],
+      ["toopo_boomer_standard", "toopo_bucket_standard", "toopo_gemlasher_standard"]
+    ],
+    "startShipsExplorerSmall":[
+      ["oas_unicorn_standard", "oas_wayfarer2_standard"],
+      ["toopo_xplorer_standard", "toopo_miningboi_standard"]
+    ],
+    "startShipsExplorerLarge":[
+      ["oas_hexa_standard", "oas_unicorn_standard", "oas_unicorn_standard"],
+      ["toopo_apoture_standard", "toopo_xplorer_escort", "toopo_miningboi_standard"]
     ],
     "startShipsCarrierLarge":[
-      ["oas_unicorn_standard", "oas_saltire_standard", "oas_viper_assault"]
+      ["oas_saltire_standard", "oas_rhino_standard", "oas_wayfarer2_standard"],
+      ["oas_crux_standard", "oas_unicorn_standard", "oas_wayfarer2_standard"],
+      ["toopo_colosseum_strike", "toopo_boomer_standard", "oas_wayfarer2_standard"]
     ],
-    "startShipsSuper":[["oas_observer_standard"]],
+    "startShipsSuper":[
+      ["oas_observer_standard"],
+      ["oas_osiris_standard"],
+      ["toopo_gallium_standard"],
+      ["oas_purjo_standard","oas_airo_standard","oas_airo_standard"],
+      ["oas_lolslaught_standard"]
+  ],
 
     "startSpecialItems":[
-        [["osiris_package", ""]]
+        [["osiris_package1", ""]],
+        [["osiris_package2", ""]],
+        [["osiris_package3", ""]],
+        [["toopo_cheap_package", ""]],
+        [["toopo_ameg_package", ""]]
     ],
     
     "defenceStations":[

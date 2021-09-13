@@ -76,6 +76,26 @@
 	"oas_grb_laser_fire2":
 	[
 		{"file":"sounds/oas/fx/oas_heavy_mining_laser_mono2.ogg","pitch":1.3,"volume":0.25}
+	],
+
+	"oas_system_redtime_start":[ 
+		{"file":"sounds/oas/fx/oas_time_start.ogg","pitch":0.66,"volume":1.0}
+	],
+	"oas_system_redtime_loop":[
+		{"file":"sounds/oas/fx/oas_time_loop.ogg","pitch":0.66,"volume":1.0}
+	],
+	"oas_system_redtime_off":[
+		{"file":"sounds/oas/fx/oas_time_end.ogg","pitch":0.66,"volume":1.0}
+	],
+
+	"oas_system_time_start":[ 
+		{"file":"sounds/oas/fx/oas_time_start.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_system_time_loop":[
+		{"file":"sounds/oas/fx/oas_time_loop.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_system_time_off":[
+		{"file":"sounds/oas/fx/oas_time_end.ogg","pitch":1,"volume":1.0}
 	]
 }
 

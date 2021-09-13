@@ -1,8 +1,8 @@
 {
-  "hullName": "Owl",
+  "hullName": "Scanner",
   "hullId": "oas_owl",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/oas/ships/oas_owl2.png",
+  "spriteName": "graphics/oas/ships/oas_scanner1.png",
   "style": "MIDLINE",
   "height": 112,
   "width": 100,

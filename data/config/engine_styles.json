@@ -12,5 +12,19 @@
 		"type":"SMOKE",
 		"glowSprite":"graphics/oas/fx/oas_engine32glow.png",
 		"glowOutline":"graphics/oas/fx/oas_engine32flame.png"
-	}
+	},
+	"OAS_RED":{
+		"engineColor":[255,100,100,255],
+		"contrailParticleSizeMult":8,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[255,100,100,25],
+		"glowSizeMult":1.5,
+		"glowAlternateColor":[255,0,0,90],
+		"type":"GLOW", # GLOW or SMOKE
+		"glowSprite":"graphics/oas/fx/oas_engine32glow.png",
+		"glowOutline":"graphics/oas/fx/oas_engine32flame.png"
+	},
 }

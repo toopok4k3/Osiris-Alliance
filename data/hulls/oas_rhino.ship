@@ -2,7 +2,7 @@
   "hullName": "Rhino",
   "hullId": "oas_rhino",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/oas/ships/oas_rhino3.png",
+  "spriteName": "graphics/oas/ships/oas_horn1.png",
   "style": "MIDLINE",
   "height": 205,
   "width": 102,

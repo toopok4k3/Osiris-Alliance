@@ -2,13 +2,13 @@
   "hullName": "Observer",
   "hullId": "oas_observer",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/oas/ships/oas_battlecruiser_16.png",
+  "spriteName": "graphics/oas/ships/oas_observer2.png",
   "style": "MIDLINE",
   "height": 325,
   "width": 158,
-  "center": [79, 162.5],
+  "center": [79, 163],
   "collisionRadius": 230,
-  "shieldCenter": [0, 0],
+  "shieldCenter": [0, -0],
   "shieldRadius": 230,
   "viewOffset": 0,
   "builtInMods": [
@@ -35,7 +35,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 0,
-      "locations": [92.5, -11]
+      "locations": [92, -11]
     },
     {
       "id": "WS0003",
@@ -44,25 +44,25 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": -180,
-      "locations": [-88.5, -25]
+      "locations": [-89, -25]
     },
     {
       "id": "WS0004",
       "size": "MEDIUM",
-      "type": "HYBRID",
+      "type": "UNIVERSAL",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [149.5, -8]
+      "locations": [149, -8]
     },
     {
       "id": "WS0005",
       "size": "MEDIUM",
-      "type": "HYBRID",
+      "type": "UNIVERSAL",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [132.5, 13]
+      "locations": [132, 13]
     },
     {
       "id": "WS0006",
@@ -71,7 +71,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 70,
-      "locations": [66.5, 58]
+      "locations": [66, 58]
     },
     {
       "id": "WS0007",
@@ -80,7 +80,7 @@
       "mount": "TURRET",
       "arc": 90,
       "angle": 90,
-      "locations": [-7.5, 21]
+      "locations": [-8, 21]
     },
     {
       "id": "WS0008",
@@ -89,7 +89,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": -90,
-      "locations": [38.5, -57]
+      "locations": [38, -57]
     },
     {
       "id": "WS0009",
@@ -98,7 +98,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -90,
-      "locations": [-34.5, -50]
+      "locations": [-35, -50]
     },
     {
       "id": "WS0010",
@@ -107,7 +107,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -90,
-      "locations": [-61.5, -53]
+      "locations": [-62, -53]
     },
     {
       "id": "WS0011",
@@ -116,7 +116,7 @@
       "mount": "TURRET",
       "arc": 110,
       "angle": 90,
-      "locations": [-46.5, 49]
+      "locations": [-47, 49]
     },
     {
       "id": "WS0012",
@@ -125,7 +125,7 @@
       "mount": "TURRET",
       "arc": 110,
       "angle": 90,
-      "locations": [27.5, 49]
+      "locations": [27, 49]
     },
     {
       "id": "WS0013",
@@ -134,7 +134,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": -90,
-      "locations": [-125.5, -56]
+      "locations": [-126, -56]
     },
     {
       "id": "WS0014",
@@ -143,7 +143,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": 90,
-      "locations": [-125.5, 56]
+      "locations": [-126, 56]
     },
     {
       "id": "WS0015",
@@ -152,7 +152,7 @@
       "mount": "TURRET",
       "arc": 100,
       "angle": 39,
-      "locations": [85, 43]
+      "locations": [84.5, 43]
     },
     {
       "id": "LB 1",
@@ -162,9 +162,9 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        10, 44,
-        2, 44,
-        -6, 44
+        9.5, 44,
+        1.5, 44,
+        -6.5, 44
       ]
     },
     {
@@ -175,9 +175,9 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -14, 44,
-        -22, 44,
-        -28.5, 44
+        -14.5, 44,
+        -22.5, 44,
+        -29, 44
       ]
     },
     {
@@ -187,12 +187,12 @@
       "mount": "TURRET",
       "arc": 150,
       "angle": 180,
-      "locations": [-139.5, -0]
+      "locations": [-140, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-162.5, -21],
+      "location": [-163, -21],
       "length": 62.5,
       "width": 28,
       "angle": 180,
@@ -200,7 +200,7 @@
       "style": "OAS"
     },
     {
-      "location": [-162.5, 21],
+      "location": [-163, 21],
       "length": 62.5,
       "width": 28,
       "angle": -180,
@@ -208,7 +208,7 @@
       "style": "OAS"
     },
     {
-      "location": [-157.5, -43],
+      "location": [-158, -43],
       "length": 47,
       "width": 8,
       "angle": 180,
@@ -216,7 +216,7 @@
       "style": "OAS"
     },
     {
-      "location": [-157.5, 43],
+      "location": [-158, 43],
       "length": 47,
       "width": 8,
       "angle": -180,
@@ -224,7 +224,7 @@
       "style": "OAS"
     },
     {
-      "location": [-159.5, -55],
+      "location": [-160, -55],
       "length": 27.5,
       "width": 13,
       "angle": 180,
@@ -232,7 +232,7 @@
       "style": "OAS"
     },
     {
-      "location": [-159.5, 55],
+      "location": [-160, 55],
       "length": 27.5,
       "width": 13,
       "angle": -180,
@@ -241,25 +241,25 @@
     }
   ],
   "bounds": [
-    117, 57.5,
-    92, 76.5,
-    58.5, 71.5,
-    43, 47.5,
-    27.5, 52.5,
-    -46, 52.5,
-    -144, 69.5,
-    -158.5, 57.5,
-    -158.5, -57.5,
-    -141, -69.5,
-    -64, -60,
-    -7, -39.5,
-    58.5, -74.5,
-    118.5, -77.5,
-    143, -60,
-    137, -42.5,
-    155.5, -35,
-    161, -22,
-    135.5, 24,
-    115, 23.5
+    116.5, 57.5,
+    91.5, 76.5,
+    58, 71.5,
+    42.5, 47.5,
+    27, 52.5,
+    -46.5, 52.5,
+    -144.5, 69.5,
+    -159, 57.5,
+    -159, -57.5,
+    -141.5, -69.5,
+    -64.5, -60,
+    -7.5, -39.5,
+    58, -74.5,
+    118, -77.5,
+    142.5, -60,
+    136.5, -42.5,
+    155, -35,
+    160.5, -22,
+    135, 24,
+    114.5, 23.5
   ]
 }

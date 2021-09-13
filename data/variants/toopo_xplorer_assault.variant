@@ -1,0 +1,55 @@
+{
+  "variantId": "toopo_xplorer_assault",
+  "hullId": "toopo_xplorer",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 12,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "extendedshieldemitter",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightneedler",
+        "WS0007": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

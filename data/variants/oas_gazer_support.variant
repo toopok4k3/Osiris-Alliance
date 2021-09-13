@@ -23,22 +23,22 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "pulselaser"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
         "WS0005": "sabotpod"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "heavymauler",
-        "WS0007": "heavymauler"
+        "WS0006": "hveldriver",
+        "WS0007": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ionpulser"
       }
     },
     {
@@ -52,10 +52,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "dualflak",
-        "WS0009": "lightdualmg",
-        "WS0010": "lightdualmg",
-        "WS0011": "lightdualmg"
+        "WS0008": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan"
       }
     }
   ],

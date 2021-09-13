@@ -13,21 +13,23 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "oas_m_cannon",
-        "WS0002": "oas_m_blazer",
-        "WS0003": "oas_s_pd",
-        "WS0004": "harpoon"
+        "WS0001": "oas_m_cannon"
       }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {"WS0002": "oas_m_blazer"}
+    },
+      {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {"WS0003": "oas_s_pd"}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {        "WS0004": "harpoon"}
     }
   ],
   "modules": [],

@@ -1,0 +1,38 @@
+{
+  "variantId": "toopo_trooperboi_starter",
+  "hullId": "toopo_trooperboi",
+  "displayName": "Custom",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

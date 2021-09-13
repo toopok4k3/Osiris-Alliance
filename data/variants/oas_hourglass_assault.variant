@@ -1,0 +1,54 @@
+{
+  "variantId": "oas_hourglass_assault",
+  "hullId": "oas_hourglass",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 24,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "squall"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "irpulse",
+        "WS0004": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_pd",
+        "WS0007": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,6 +1,26 @@
 {
+	"combatSmallForSmallFleet":{
+		"oas_viper_standard":4,
+		"oas_viper_assault":3,
+		"oas_viper_strike":3,
+		"oas_lasher2_standard":5,
+		"oas_lasher2_starter":5,
+		"oas_owl_maniac":3,
+		"oas_owl_assault":2,
+		"oas_owl_standard":3,
+		"oas_owl_strike":2,
+		"oas_hen_assault":3,
+		"oas_hen_escort":3,
+		"oas_hen_standard":4,
+		"toopo_miningboi_standard":5, #no damper fields...? well this boi has no shield.
+		"toopo_miningboi_strike":5, #no damper fields...? well this boi has no shield.
+		"toopo_dramster_od":3,
+		"toopo_dramster_standard":7
+	},
 	"combatSmall":{
-		"oas_lasher2_standard":10,
+		"oas_lasher2_od":2,
+		"oas_lasher2_standard":4,
+		"oas_lasher2_starter":4,
 		"oas_viper_standard":4,
 		"oas_viper_assault":3,
 		"oas_viper_strike":3,
@@ -8,7 +28,20 @@
 		"oas_owl_assault":2,
 		"oas_owl_standard":3,
 		"oas_owl_strike":2,
-		"oas_hen_standard":10
+		"oas_hen_assault":3,
+		"oas_hen_escort":3,
+		"oas_hen_standard":4,
+		"oas_airo_standard":6,
+		"oas_airo_strike":4,
+		"oas_airo_oa_armored":3,
+		"oas_airo_oa_od":2,
+		"oas_airo_oa_ranged":2,
+		"oas_airo_oa_standard":3,
+		"toopo_miningboi_standard":5,
+		"toopo_miningboi_strike":5,
+		"toopo_dramster_od":3,
+		"toopo_dramster_standard":7,
+		"oas_wayfarer2_standard":5 # also in small carriers half
 	},
 	#"combatFreighterSmall":{
 #		"oas_viper_standard":2
@@ -17,39 +50,66 @@
 		"oas_rhino_standard":2,
 		"oas_rhino_mjolnir":2,
 		"oas_rhino_balanced":3,
-		"oas_rhino_support":3
+		"oas_rhino_support":3,
+		"oas_purjo_disabler":3,
+		"oas_purjo_standard":4,
+		"oas_purjo_strike":3,
+		"toopo_boomer_balanced":3,
+		"toopo_boomer_broadside":3,
+		"toopo_boomer_standard":4,
+		"toopo_bucket_standard":4,
+		"toopo_bucket_balanced":3,
+		"toopo_bucket_railer":3,
+		"toopo_gemlasher_standard":7,
+		"toopo_gemlasher_assault":3,
+		"toopo_xplorer_standard":4,
+		"toopo_xplorer_assault":3,
+		"toopo_xplorer_escort":3,
 		#"oas_unicorn_standard":10
 	},
 	"combatLarge":{
 		"oas_tusker_standard": 4,
 		"oas_tusker_balanced": 6,
-		"oas_gazer_assault": 2,
-		"oas_gazer_support": 2,
-		"oas_gazer_standard": 6
+		"oas_gazer_assault":2.5,
+		"oas_gazer_missile":2.5,
+		"oas_gazer_standard":2.5,
+		"oas_gazer_support":2.5,
+		"oas_hourglass_assault":2.5,
+		"oas_hourglass_plasma":2.5,
+		"oas_hourglass_standard":2.5,
+		"oas_hourglass_strike":2.5,
+		"toopo_apoture_od":2,
+		"toopo_apoture_plasma":3,
+		"toopo_apoture_standard":5,
 	},
 	"combatCapital":{
 		"oas_observer_standard": 6,
 		"oas_observer_balanced": 4,
 		"oas_hexa_standard": 4,
 		"oas_hexa_balanced": 6,
-		"oas_osiris_standard": 10
+		"oas_osiris_standard": 10,
+		"toopo_gallium_standard":10
 	},
 	"combatFreighterMedium":{
-#		"oas_rhino_standard":1,
-#		"oas_rhino_mjolnir":1,
-#		"oas_rhino_support":1,
+		#		"oas_rhino_standard":1,
+		#		"oas_rhino_mjolnir":1,
+		#		"oas_rhino_support":1,
 		"oas_unicorn_standard":10
 	},
 	"carrierSmall":{
-		"oas_wayfarer2_standard":5
+		"oas_wayfarer2_standard":5 # we don't want to spam this one in carriers
 	},
 	"carrierMedium":{
-		"oas_crux_standard":10,
-		"oas_saltire_standard":10
+		"oas_crux_assault":3,
+		"oas_crux_bomber":3,
+		"oas_crux_standard":4,
+		"oas_saltire_standard":10,
+		"toopo_colosseum_standard":5,
+		"toopo_colosseum_strike":5,
 	},
 	#"freighterSmall":{
 		#"oas_unicorn_standard":2
-#	},
+		#	},
 	#"tankerSmall":{
 #		"oas_viper_standard":1
 #	},
@@ -66,5 +126,8 @@
 	#},
 	"civilianRandom":{
 		"oas_unicorn_standard":1
+	},
+	"personnelSmall":{
+		"toopo_trooperboi_standard":10,
 	}
 }

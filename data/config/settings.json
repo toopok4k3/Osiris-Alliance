@@ -1,10 +1,17 @@
 {
 	"designTypeColors":{
-        "Osiris Alliance":[210,200,183,255]
+        "Osiris Alliance":[210,200,183,255],
+		"Power Jinx R&D":[202,130,68,255],
+		"Antimatter Energy Group":[137,144,148,255]
 	},
 	"graphics":{
 		"blueprint_packages":{
-			"osiris_package":"graphics/oas/icons/cargo/bp_osiris.png"
+			"osiris_package":"graphics/oas/icons/cargo/bp_osiris.png",
+			"osiris_package1":"graphics/oas/icons/cargo/bp_osiris.png",
+			"osiris_package2":"graphics/oas/icons/cargo/osiris_package2.png",
+			"osiris_package3":"graphics/oas/icons/cargo/osiris_package3.png",
+			"toopo_cheap_package":"graphics/oas/icons/cargo/power_jinx_logo3_smoll.png",
+			"toopo_ameg_package":"graphics/oas/icons/cargo/ameg_logo6_smoll2.png"
 		}#,
 		#"characters":{
 			#"osiris_sun":"graphics/oas/portraits/characters/osiris_sun.png"

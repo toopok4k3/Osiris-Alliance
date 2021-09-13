@@ -1,0 +1,75 @@
+{
+  "variantId": "toopo_gallium_standard",
+  "hullId": "toopo_gallium",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 30,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hurricane"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hveldriver",
+        "WS0005": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "harpoon",
+        "WS0009": "harpoon",
+        "WS0014": "harpoonpod",
+        "WS0015": "harpoonpod",
+        "WS0016": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heavymg",
+        "WS0007": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "lrpdlaser",
+        "WS0013": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

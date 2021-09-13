@@ -2,3 +2,7 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 Ballistic Drive,ballisticdrive,1,,,,,,,,,1,4,2,10,,TRUE,,,,,TRUE,TRUE,TRUE,TRUE,,,graphics/oas/icons/hullsys/ballistic_drive_icon.png
 Ballistic Maneuver,ballisticmaneuver,1,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphics/oas/icons/hullsys/ballistic_maneuver_icon.png
 Targeting Assistant,targetingassistant,1,,,,,0.2,,,,0.25,9.5,0.25,10,,,,,,,,,,,,,graphics/oas/icons/hullsys/targeting_assistant_icon2.png
+Makeshift EMP Emitter,toopo_makeshift_emp,1,,,,,0.2,,,,0.5,3,0.5,4,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Time Dilator,oas_timedilation,,,,,,0.1,,2,0.05,1,5,1,,,,,,TRUE,,,,TRUE,TRUE,,,graphics/icons/hullsys/temporal_shell.png
+AMEG Time Dilator,oas_timedilation_ameg,1,,,,,0.1,,2,0.05,0.5,5,0.5,,,,,,TRUE,,,,TRUE,TRUE,,,graphics/icons/hullsys/temporal_shell.png
+AMEG X-axis Time Dilator,oas_timedilation_ameg_x,,,,,,0.1,,2,0.1,0.5,2,0.5,,,,,,,TRUE,TRUE,,,TRUE,,,graphics/icons/hullsys/temporal_shell.png

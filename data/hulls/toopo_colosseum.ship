@@ -1,0 +1,243 @@
+{
+  "hullName": "Colosseum",
+  "hullId": "toopo_colosseum",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/toopo/ships/coloventure.png",
+  "style": "LOW_TECH",
+  "height": 240,
+  "width": 180,
+  "center": [90, 136],
+  "collisionRadius": 163,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 163,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -45,
+      "locations": [36, -75]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [36, 75]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -135,
+      "locations": [-30, -74.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 135,
+      "locations": [-30, 74.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        14.5, -59,
+        84, -15
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, -58]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-10, -59]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [83, -1]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        84.5, 14,
+        18, 61.5
+      ]
+    },
+    {
+      "id": "LB 6",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1.5, 59.5]
+    },
+    {
+      "id": "LB 7",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -13.5, 60.5,
+        -80, 17
+      ]
+    },
+    {
+      "id": "LB 8",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-77, 1.5]
+    },
+    {
+      "id": "LB 9",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-80.5, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-136, -67],
+      "length": 14,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136, 67],
+      "length": 14,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136, -62],
+      "length": 34,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136, 62],
+      "length": 34,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136, -55],
+      "length": 42.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136, 55],
+      "length": 42.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136, -47.5],
+      "length": 35,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136, 47.5],
+      "length": 35,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    95.5, 13,
+    102, 25.5,
+    84, 36.5,
+    58.5, 39,
+    56.5, 82.5,
+    31.5, 87.5,
+    17.5, 71,
+    -10, 71.5,
+    -20.5, 85.5,
+    -45.5, 86.5,
+    -53.5, 77,
+    -119, 82,
+    -133, 71,
+    -134, 43,
+    -83, 43.5,
+    -83, -43.5,
+    -134, -43,
+    -133, -71,
+    -119, -82,
+    -54, -77.5,
+    -45.5, -86.5,
+    -20.5, -85.5,
+    -10, -71.5,
+    16.5, -70.5,
+    31.5, -87.5,
+    56.5, -82.5,
+    58.5, -39,
+    84, -36.5,
+    100.5, -24.5,
+    95.5, -13
+  ]
+}
