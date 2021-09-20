@@ -1,7 +1,7 @@
 {
   "variantId": "oas_fatf_variant",
   "hullId": "oas_fatf",
-  "displayName": "Strikecraft",
+  "displayName": "Bomber",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

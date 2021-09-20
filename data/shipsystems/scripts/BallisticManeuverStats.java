@@ -8,18 +8,18 @@ import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
 
 public class BallisticManeuverStats extends BaseShipSystemScript {
 
-	public static final float BONUS = 1f;
+	public static final float BONUS = 0.5f;
 
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 		float mult = 1f + BONUS * effectLevel;
 		stats.getBallisticRoFMult().modifyMult(id, mult);
-		stats.getBallisticWeaponFluxCostMod().modifyMult(id, 0.5f);
+		stats.getBallisticWeaponFluxCostMod().modifyMult(id, 0.25f);
 
 		if (state == ShipSystemStatsScript.State.OUT) {
 			stats.getMaxSpeed().unmodify(id); // to slow down ship to its regular top speed while powering drive down
 			stats.getMaxTurnRate().unmodify(id);
 		} else {
-			stats.getMaxSpeed().modifyFlat(id, 50f);
+			stats.getMaxSpeed().modifyFlat(id, 25f);
 			stats.getAcceleration().modifyPercent(id, 200f * effectLevel);
 			stats.getDeceleration().modifyPercent(id, 200f * effectLevel);
 			stats.getTurnAcceleration().modifyFlat(id, 30f * effectLevel);
@@ -42,7 +42,7 @@ public class BallisticManeuverStats extends BaseShipSystemScript {
 		if (index == 0) {
 			return new StatusData("improved maneuverability", false);
 		} else if (index == 1) {
-			return new StatusData("+50 top speed", false);
+			return new StatusData("+25 top speed", false);
 		}
 		float mult = 1f + BONUS * effectLevel;
 		float bonusPercent = (int) ((mult - 1f) * 100f);
@@ -50,7 +50,7 @@ public class BallisticManeuverStats extends BaseShipSystemScript {
 			return new StatusData("ballistic rate of fire +" + (int) bonusPercent + "%", false);
 		}
 		if (index == 3) {
-			return new StatusData("ballistic flux use -50%", false);
+			return new StatusData("ballistic flux use -25%", false);
 		}
 		return null;
 	}

@@ -1,0 +1,96 @@
+{
+  "hullName": "Flabellina",
+  "hullId": "oas_flabellina",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/oas/ships/oas_tanker2.png",
+  "style": "HIGH_TECH",
+  "height": 138,
+  "width": 128,
+  "center": [64, 80],
+  "collisionRadius": 91,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 91,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_scatter_amp"
+  ],
+  "builtInWeapons": {
+    "WS0002": "ameg_tanker_blaster",
+    "WS0003": "ameg_tanker_blaster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [28, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [46, -44]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [46, 44]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, 36.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-50, -36.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-75, -0],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "OAS_RED"
+    }
+  ],
+  "bounds": [
+    20, 8.5,
+    46, 16,
+    46, 50,
+    27, 62,
+    7.5, 53.5,
+    -12, 60,
+    -48, 39,
+    -38.5, 22,
+    -73, 14,
+    -73, -14,
+    -38.5, -22,
+    -48, -39,
+    -12, -60,
+    7.5, -53.5,
+    27, -62,
+    46, -50,
+    46, -16,
+    20, -8.5
+  ]
+}

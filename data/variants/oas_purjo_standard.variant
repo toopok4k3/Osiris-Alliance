@@ -3,7 +3,7 @@
   "hullId": "oas_purjo",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 19,
+  "fluxCapacitors": 9,
   "fluxVents": 18,
   "quality": 0.5,
   "permaMods": [],
@@ -33,7 +33,7 @@
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
         "WS0006": "reaper",

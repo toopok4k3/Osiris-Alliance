@@ -47,7 +47,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [36, -5]
     },
@@ -56,7 +56,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [34, 11]
     },

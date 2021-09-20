@@ -47,10 +47,7 @@
 
     "startSpecialItems":[
         [["osiris_package1", ""]],
-        [["osiris_package2", ""]],
-        [["osiris_package3", ""]],
-        [["toopo_cheap_package", ""]],
-        [["toopo_ameg_package", ""]]
+        [["osiris_package2", ""]]
     ],
     
     "defenceStations":[

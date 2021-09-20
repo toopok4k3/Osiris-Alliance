@@ -15,5 +15,6 @@ Magnetron Cannon,oas_xlcannon,2,,5000,900,,500,,80,35,25,,,,KINETIC,500,,0,1.5,1
 Hyperblazer,oas_xl_blazer,3,,1500,700,,340,,0,50,20,,,,HIGH_EXPLOSIVE,300,,0,1.6,3,0.2,5,20,5,20,,500,,,200,,,,"he20, osiris2_bp, hist1t, merc",,Osiris Alliance,,Anti Armor,,,,,,,,,,25.6
 Trident Launcher,oas_trident_large,2,,5500,2500,,750,,15,10,25,12,,,HIGH_EXPLOSIVE,0,,0,15,3,0.75,0,0,0,0,,300,100,12.5,400,,,"DO_NOT_AIM, CONSERVE_3","missile20, strike15, osiris2_bp, hist1t, merc",,Osiris Alliance,,Finisher,Medium,Medium,,,,,,,TRUE,16.6
 Dogleg Torpedo,toopo_hound_rocket,3,,0,1200,,12000,,100,10,20,1,,,HIGH_EXPLOSIVE,0,,0,30,1,,0,0,0,0,,400,100,3.5,1000,,,"SYSTEM, STRIKE","missile10, strike20",,Osiris Alliance,,Torpedo,Fast,None,,,,,,,TRUE,17.5
-Dual Matchstick Torpedo,oas_s_matchstick_launcher,0,,500,1000,,400,,5,30,1,2,,,HIGH_EXPLOSIVE,0,,0,30,2,0.33,0,0,0,0,,800,50,3,25,,,"SYSTEM, STRIKE","missile1, strike1",,Osiris Alliance,,Torpedo,Fast,None,,,,,,,TRUE,11.1
+Dual Matchstick Torpedo,oas_s_matchstick_launcher,0,,500,500,,400,,5,30,1,2,,,HIGH_EXPLOSIVE,0,,0,30,2,0.33,0,0,0,0,,800,50,3,25,,,"SYSTEM, STRIKE","missile1, strike1",,Osiris Alliance,,Torpedo,Fast,None,,,,,,,TRUE,11.1
 Hound Leg deco,toopo_bucket_houndleg_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,1
+AM Pulse Blaster,ameg_tanker_blaster,3,,1000000,400,,350,,0,30,10,,,,ENERGY,330,,0,1.6,3,0.2,0,20,2,4,,1000,,,100,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING","strike9, energy14, merc, SR",,Antimatter Energy Group,,General,,,,,,,,,,22.8

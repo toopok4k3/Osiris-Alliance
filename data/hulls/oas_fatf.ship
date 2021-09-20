@@ -17,7 +17,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [14, 2]
     },
@@ -26,7 +26,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [14, -10]
     }

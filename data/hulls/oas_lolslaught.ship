@@ -21,7 +21,7 @@
       "size": "LARGE",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [162, -70]
     },
@@ -30,7 +30,7 @@
       "size": "LARGE",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": -0,
       "locations": [162, 70]
     },
@@ -39,7 +39,7 @@
       "size": "LARGE",
       "type": "SYNERGY",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [57, -39]
     },
@@ -48,7 +48,7 @@
       "size": "LARGE",
       "type": "SYNERGY",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": -0,
       "locations": [57, 39]
     },
@@ -57,7 +57,7 @@
       "size": "LARGE",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [95, -0]
     },
@@ -66,7 +66,7 @@
       "size": "LARGE",
       "type": "ENERGY",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 5,
       "angle": 0,
       "locations": [140, -0]
     },

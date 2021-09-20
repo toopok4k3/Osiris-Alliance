@@ -113,11 +113,12 @@
 	#"tankerSmall":{
 #		"oas_viper_standard":1
 #	},
-	#"tankerMedium":{
+	"tankerMedium":{
+		"oas_flabellina_standard":10,
 	#	"oas_rhino_standard":1,
 	#	"oas_unicorn_standard":1,
 	#	"oas_tusker_standard":1
-	#},
+	},
 	#"crig":{
 #		"oas_unicorn_standard":1
 	#},

@@ -3,8 +3,8 @@
   "hullId": "oas_purjo",
   "displayName": "disabler",
   "goalVariant": true,
-  "fluxCapacitors": 16,
-  "fluxVents": 16,
+  "fluxCapacitors": 11,
+  "fluxVents": 11,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [

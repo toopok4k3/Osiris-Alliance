@@ -96,6 +96,14 @@
 	],
 	"oas_system_time_off":[
 		{"file":"sounds/oas/fx/oas_time_end.ogg","pitch":1,"volume":1.0}
+	],
+	"ameg_am_pulse_blaster":
+	[
+		{"file":"sounds/oas/fx/ameg_pulse_blaster.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/oas/fx/ameg_pulse_blaster.ogg","pitch":0.98,"volume":0.6},
+		{"file":"sounds/oas/fx/ameg_pulse_blaster.ogg","pitch":0.96,"volume":0.6},
+		{"file":"sounds/oas/fx/ameg_pulse_blaster.ogg","pitch":0.94,"volume":0.6},
+		{"file":"sounds/oas/fx/ameg_pulse_blaster.ogg","pitch":0.92,"volume":0.6}
 	]
 }
 
