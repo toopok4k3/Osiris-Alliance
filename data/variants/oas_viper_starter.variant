@@ -3,7 +3,7 @@
   "hullId": "oas_viper",
   "displayName": "Custom",
   "goalVariant": true,
-  "fluxCapacitors": 7,
+  "fluxCapacitors": 6,
   "fluxVents": 7,
   "quality": 0.5,
   "permaMods": [],

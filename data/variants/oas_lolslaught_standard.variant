@@ -3,71 +3,65 @@
   "hullId": "oas_lolslaught",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 29,
-  "fluxVents": 30,
+  "fluxCapacitors": 24,
+  "fluxVents": 25,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
-    "dedicated_targeting_core",
-    "eccm"
+    "eccm",
+    "unstable_injector"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "tpc",
-        "WS0002": "tpc"
+        "WS0001": "ameg_lolslaught_blaster",
+        "WS0002": "ameg_lolslaught_blaster"
       }
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0006": "plasma"
+        "WS0005": "cyclone",
+        "WS0006": "cyclone"
       }
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0003": "cyclone",
-        "WS0004": "cyclone",
-        "WS0005": "cyclone"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0031": "harpoon",
-        "WS0032": "harpoon",
-        "WS0033": "harpoon",
-        "WS0034": "harpoon"
+        "WS0011": "reaper",
+        "WS0012": "reaper",
+        "WS0013": "reaper",
+        "WS0014": "reaper",
+        "WS0031": "reaper",
+        "WS0032": "reaper",
+        "WS0033": "reaper",
+        "WS0034": "reaper"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "taclaser",
-        "WS0008": "taclaser",
-        "WS0009": "taclaser",
-        "WS0010": "taclaser",
-        "WS0019": "taclaser",
-        "WS0020": "taclaser",
-        "WS0021": "taclaser",
-        "WS0022": "taclaser"
+        "WS0003": "ionpulser",
+        "WS0004": "ionpulser"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "ioncannon",
-        "WS0012": "ioncannon",
-        "WS0013": "ioncannon",
-        "WS0014": "ioncannon"
+        "WS0007": "irpulse",
+        "WS0008": "irpulse",
+        "WS0009": "irpulse",
+        "WS0010": "irpulse",
+        "WS0019": "irpulse",
+        "WS0020": "irpulse",
+        "WS0021": "irpulse",
+        "WS0022": "irpulse"
       }
     },
     {
@@ -77,7 +71,13 @@
         "WS0015": "heavyburst",
         "WS0016": "heavyburst",
         "WS0017": "heavyburst",
-        "WS0018": "heavyburst",
+        "WS0018": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0023": "pdlaser",
         "WS0024": "pdlaser",
         "WS0025": "pdlaser",

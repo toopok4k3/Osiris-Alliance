@@ -3,13 +3,11 @@
   "hullId": "toopo_trooperboi",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 7,
-  "fluxVents": 8,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "militarized_subsystems"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,

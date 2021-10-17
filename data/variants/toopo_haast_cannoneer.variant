@@ -1,0 +1,79 @@
+{
+  "variantId": "toopo_haast_cannoneer",
+  "hullId": "toopo_haast",
+  "displayName": "Cannoneer",
+  "goalVariant": false,
+  "fluxCapacitors": 28,
+  "fluxVents": 29,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics",
+    "high_scatter_amp",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0002": "hellbore",
+        "WS0003": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "guardian"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam",
+        "WS0007": "gravitonbeam",
+        "WS0008": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavymg",
+        "WS0010": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser",
+        "WS0015": "taclaser",
+        "WS0016": "taclaser",
+        "WS0017": "taclaser",
+        "WS0018": "taclaser",
+        "WS0019": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

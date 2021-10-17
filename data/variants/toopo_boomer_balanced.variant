@@ -8,7 +8,7 @@
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
-    "militarized_subsystems"
+    "blast_doors"
   ],
   "weaponGroups": [
     {

@@ -1,5 +1,5 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Small Mining Blaster,oas_miningblaster_fighter,0,,1000,500,,350,,0,7,10,,,,ENERGY,600,,0,2,,,,,,,,1000,,,,,,SYSTEM,energy12,,Osiris Alliance,,General,,,,,,,,,,22.2
+Small Mining Blaster,oas_miningblaster_fighter,0,,1000000,500,,350,,0,7,,,,,ENERGY,600,,0,2,,,,,,,,1000,,,,,,SYSTEM,energy12,,Osiris Alliance,,General,,,,,,,,,,22.2
 ORB Burst Plasma,oas_orb,3,,1000000,900,,50,200,0,45,,,,,ENERGY,100,,0,1,10,0.066,0,20,4,15,,400,,,250,,,SYSTEM,energy16,,Osiris Alliance,,Anti Armor,,,,,,,,,,40
 ORB Burst Laser,oas_owl_orb,3,,1000000,600,2000,,2000,0,45,,,,,ENERGY,,2000,0,0,0.4,5.6,,,,,10000,,,,250,,,SYSTEM,"energy8, beam7",,Osiris Alliance,,Anti Armor,,,,,,,,,,15.5
 ORB Plasma,oas_ai_orb_plasma,3,,1000000,900,,150,600,0,45,,,,,ENERGY,300,,0,1.5,3,0.2,0,10,1,10,,400,,,500,,,SYSTEM,energy17,,Osiris Alliance,,General,,,,,,,,,,41
@@ -9,12 +9,18 @@ Heavy Mining Laser,oas_hml,1,,3300,1000,400,,,0,20,16,,,,HIGH_EXPLOSIVE,,400,0.1
 Small Magnetron Cannon,oas_s_cannon,1,,500,700,,15,,5,40,7,20,5,,KINETIC,12,,0,0.05,1,,0,5,1,1,,500,,,10,,,,"kinetic7, osiris2_bp, merc",,Osiris Alliance,,Anti Shield,,,,,,,,,,2.6
 Star Sprayer PD,oas_s_pd,0,,400,300,,30,,5,75,4,10,10,,FRAGMENTATION,2,,0,0.05,1,,0,20,2,10,,600,,,5,,,PD,"pd7, osiris2_bp, merc",,Osiris Alliance,,Point Defense,,,,,,,,,,2.6
 Star Dome PD,oas_m_pd,0,,1400,450,,30,,5,75,8,20,20,,FRAGMENTATION,2,,0,0.05,2,,0,20,2,10,,600,,,5,,,PD,"pd14, osiris2_bp, merc",,Osiris Alliance,,Point Defense,,,,,,,,,,2.6
-Medium Magnetron Cannon,oas_m_cannon,1,,2500,800,,150,,40,35,10,,,,KINETIC,150,,0,1.3,2,0.2,0,5,5,5,,500,,,75,,,,"kinetic14, osiris2_bp, merc",,Osiris Alliance,,Anti Shield,,,,,,,,,,23.5
+Medium Magnetron Cannon,oas_m_cannon,1,,1750,800,,150,,40,35,11,,,,KINETIC,150,,0,1.3,2,0.2,0,5,5,5,,500,,,75,,,,"kinetic14, osiris2_bp, merc",,Osiris Alliance,,Anti Shield,,,,,,,,,,23.5
 Blazer,oas_m_blazer,2,,1500,700,,100,,0,50,10,,,,HIGH_EXPLOSIVE,75,,0,1,6,0.2,5,20,5,20,,500,,,100,,,,"he12, osiris2_bp, merc",,Osiris Alliance,,Anti Armor,,,,,,,,,,12.5
 Magnetron Cannon,oas_xlcannon,2,,5000,900,,500,,80,35,25,,,,KINETIC,500,,0,1.5,1,,0,5,5,5,,500,,,200,,,,"kinetic20, osiris2_bp, hist1t, merc",,Osiris Alliance,,Anti Shield,,,,,,,,,,30.3
-Hyperblazer,oas_xl_blazer,3,,1500,700,,340,,0,50,20,,,,HIGH_EXPLOSIVE,300,,0,1.6,3,0.2,5,20,5,20,,500,,,200,,,,"he20, osiris2_bp, hist1t, merc",,Osiris Alliance,,Anti Armor,,,,,,,,,,25.6
+Hyperblazer,oas_xl_blazer,3,,6500,700,,340,,0,50,20,,,,HIGH_EXPLOSIVE,300,,0,1.6,3,0.2,5,20,5,20,,500,,,200,,,,"he20, osiris2_bp, hist1t, merc",,Osiris Alliance,,Anti Armor,,,,,,,,,,25.6
 Trident Launcher,oas_trident_large,2,,5500,2500,,750,,15,10,25,12,,,HIGH_EXPLOSIVE,0,,0,15,3,0.75,0,0,0,0,,300,100,12.5,400,,,"DO_NOT_AIM, CONSERVE_3","missile20, strike15, osiris2_bp, hist1t, merc",,Osiris Alliance,,Finisher,Medium,Medium,,,,,,,TRUE,16.6
-Dogleg Torpedo,toopo_hound_rocket,3,,0,1200,,12000,,100,10,20,1,,,HIGH_EXPLOSIVE,0,,0,30,1,,0,0,0,0,,400,100,3.5,1000,,,"SYSTEM, STRIKE","missile10, strike20",,Osiris Alliance,,Torpedo,Fast,None,,,,,,,TRUE,17.5
+Dogleg Torpedo,toopo_hound_rocket,3,,1000000,1200,,8000,,100,10,,1,,,HIGH_EXPLOSIVE,0,,0,60,1,,0,0,0,0,,400,100,3.5,1000,,,"SYSTEM, STRIKE","missile10, strike20",,Osiris Alliance,,Torpedo,Fast,None,,,,,,,TRUE,17.5
 Dual Matchstick Torpedo,oas_s_matchstick_launcher,0,,500,500,,400,,5,30,1,2,,,HIGH_EXPLOSIVE,0,,0,30,2,0.33,0,0,0,0,,800,50,3,25,,,"SYSTEM, STRIKE","missile1, strike1",,Osiris Alliance,,Torpedo,Fast,None,,,,,,,TRUE,11.1
 Hound Leg deco,toopo_bucket_houndleg_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,1
-AM Pulse Blaster,ameg_tanker_blaster,3,,1000000,400,,350,,0,30,10,,,,ENERGY,330,,0,1.6,3,0.2,0,20,2,4,,1000,,,100,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING","strike9, energy14, merc, SR",,Antimatter Energy Group,,General,,,,,,,,,,22.8
+Antimatter Pulse Blaster,ameg_tanker_blaster,3,,1000000,400,,350,,0,30,,,,,ENERGY,330,,0,1.6,3,0.2,0,20,2,4,,1000,,,100,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING","strike9, energy14, SR",,Antimatter Energy Group,,General,,,,,,,,,,22.8
+Super Antimatter Pulse Blaster,ameg_lolslaught_blaster,3,,1000000,500,,350,,0,30,,,,,ENERGY,330,,0,0.3,1,,0,20,2,4,,1000,,,100,,,SYSTEM,"strike15, energy17, SR",,Antimatter Energy Group,,General,,,,,,,,,,30.5
+Integrated Snapper SRM Pod,oas_phasey_big,2,,1000000,1200,,1500,,80,10,,6,,,KINETIC,0,,0,5,1,0,0,0,0,0,,700,50,4.5,400,,,"SYSTEM, GUIDED_POOR","missile12, strike8",,Osiris Alliance,,Anti Shield,Fast,Good,,,,,,,TRUE,12.7
+Integrated Trident Launcher,oas_phasey_big_rear,2,,1000000,2500,,750,,15,10,,4,,,HIGH_EXPLOSIVE,0,,0,15,2,0.75,0,0,0,0,,300,100,12.5,400,,,"SYSTEM, DO_NOT_AIM, CONSERVE_ALL","missile12, strike9",,Osiris Alliance,,Finisher,Medium,Medium,,,,,,,TRUE,12.8
+Integrated Bomb Bay,oas_phasey_small,2,,1000000,2000,,400,,50,15,,30,,,HIGH_EXPLOSIVE,0,,0,10,10,0.25,0,0,0,0,,170,60,25,150,,,"SYSTEM, STRIKE, BOMB","he2, strike2",,Osiris Alliance,,Strike,,,,,,,,,TRUE,3.6
+Antimatter Autopulser,oas_l_energy,3,,5000,500,,350,,0,30,30,15,1.5,3,ENERGY,400,,0,0.2,1,,0,20,2,4,,1000,,,100,,,"STRIKE, USE_VS_FRIGATES","strike13, energy15, SR, osiris2_bp",,Osiris Alliance,,General,,,,,,,,,,30.5
+Portable AM Pulse Blaster,oas_m_energy,3,,2250,400,,350,,0,30,14,,,,ENERGY,400,,0,2,3,0.2,0,20,2,4,,1000,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING","strike9, energy12, SR, osiris2_bp",,Osiris Alliance,,General,,,,,,,,,,25.7

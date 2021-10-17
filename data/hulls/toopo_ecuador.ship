@@ -1,0 +1,170 @@
+{
+  "hullName": "Ecuador",
+  "hullId": "toopo_ecuador",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/toopo/ships/toopo_ecuador.png",
+  "style": "LOW_TECH",
+  "height": 197,
+  "width": 150,
+  "center": [81, 91],
+  "collisionRadius": 126,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 126,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -90,
+      "locations": [-11, -37]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [5, 44]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [62, -40]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [89, 21]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        41.5, 4.5,
+        -37, 60,
+        -46.5, 60
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        34.5, -1.5,
+        29, -7.5,
+        29.5, -14.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91, -18.5],
+      "length": 75,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-91, 18.5],
+      "length": 75,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, -38],
+      "length": 60,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, 38],
+      "length": 60,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, -47],
+      "length": 60,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, 47],
+      "length": 60,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-84, -0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, -29],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, 29],
+      "length": 50,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    81, 48,
+    53, 46,
+    24.5, 69,
+    -24, 65,
+    -32, 79,
+    -73, 54,
+    -90, 18,
+    -82.5, -0,
+    -90, -18,
+    -75.5, -54,
+    -48, -55,
+    -31, -67,
+    0, -67,
+    59, -40,
+    78.5, 10.5,
+    99, 20.5
+  ]
+}

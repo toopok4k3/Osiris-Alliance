@@ -3,13 +3,11 @@
   "hullId": "toopo_boomer",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 15,
-  "fluxVents": 15,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
   "quality": 0.5,
   "permaMods": [],
-  "hullMods": [
-    "militarized_subsystems"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,

@@ -1,0 +1,79 @@
+{
+  "variantId": "toopo_haast_standard",
+  "hullId": "toopo_haast",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mark9",
+        "WS0003": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ionbeam",
+        "WS0006": "ionbeam",
+        "WS0007": "ionbeam",
+        "WS0008": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "lrpdlaser",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "lrpdlaser",
+        "WS0018": "lrpdlaser",
+        "WS0019": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "dualflak",
+        "WS0010": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,44 @@
+{
+  "variantId": "toopo_dramster_elite",
+  "hullId": "toopo_dramster",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "reaper",
+        "WS0005": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

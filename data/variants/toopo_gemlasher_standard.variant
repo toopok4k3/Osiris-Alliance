@@ -3,13 +3,12 @@
   "hullId": "toopo_gemlasher",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 13,
-  "fluxVents": 14,
+  "fluxCapacitors": 18,
+  "fluxVents": 19,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
-    "targetingunit",
-    "militarized_subsystems"
+    "targetingunit"
   ],
   "weaponGroups": [
     {

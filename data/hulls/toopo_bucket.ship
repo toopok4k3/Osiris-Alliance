@@ -11,9 +11,6 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 112,
   "viewOffset": 0,
-  "builtInMods": [
-    "civgrade"
-  ],
   "builtInWeapons": {
     "WS0009": "toopo_hound_rocket",
     "WS0010": "toopo_bucket_houndleg_deco"

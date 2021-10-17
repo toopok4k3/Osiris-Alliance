@@ -14,7 +14,6 @@
 			"industries":[
 				"population",
 				"megaport",
-                "lightindustry",
 				"heavybatteries",
 				["orbitalworks", "pristine_nanoforge"],
                 "highcommand",
@@ -45,7 +44,7 @@
 				"heavybatteries",
                 "refining",
 				"orbitalstation_mid",
-				"militarybase"
+				"patrolhq"
 			]
 		},
         {

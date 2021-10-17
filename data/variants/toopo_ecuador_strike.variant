@@ -1,0 +1,48 @@
+{
+  "variantId": "toopo_ecuador_strike",
+  "hullId": "toopo_ecuador",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "cobra_wing",
+    "cobra_wing"
+  ]
+}

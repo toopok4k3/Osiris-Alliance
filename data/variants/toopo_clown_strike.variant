@@ -1,0 +1,69 @@
+{
+  "variantId": "toopo_clown_strike",
+  "hullId": "toopo_clown",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyneedler",
+        "WS0006": "lightneedler",
+        "WS0007": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "typhoon",
+        "WS0004": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "hammer",
+        "WS0009": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightmg",
+        "WS0011": "lightmg",
+        "WS0012": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

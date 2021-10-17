@@ -1,0 +1,51 @@
+{
+  "variantId": "toopo_tsunamic_escort",
+  "hullId": "toopo_tsunamic",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "salamanderpod",
+        "WS0003": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heatseeker",
+        "WS0007": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "dualflak",
+        "WS0005": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "warthog_wing"
+  ]
+}

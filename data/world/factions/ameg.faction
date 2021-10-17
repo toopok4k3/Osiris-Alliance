@@ -64,7 +64,8 @@
 			"tempest",
 			"eagle",
 			"harbinger",
-			"oas_lolslaught"
+			"oas_lolslaught",
+			"toopo_gallium"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -74,7 +75,7 @@
 			"oas_lolslaught",
 			"prometheus",
 			"phaeton",
-			"dram"
+			"dram",
 			]
 	},
 	"knownFighters":{

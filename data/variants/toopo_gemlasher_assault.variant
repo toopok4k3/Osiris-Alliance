@@ -3,9 +3,9 @@
   "hullId": "toopo_gemlasher",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 13,
-  "fluxVents": 13,
-  "quality": 5,
+  "fluxCapacitors": 11,
+  "fluxVents": 11,
+  "quality": 1,
   "permaMods": [],
   "hullMods": [
     "heavyarmor"
@@ -23,6 +23,14 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0007": "lightag",
+        "WS0008": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0009": "chaingun"
       }
     },
@@ -30,8 +38,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "lightdualmg",
-        "WS0008": "lightdualmg"
+        "WS0001": "heavymg",
+        "WS0002": "heavymg"
       }
     },
     {
@@ -40,14 +48,6 @@
       "weapons": {
         "WS0003": "lightdualmg",
         "WS0004": "lightdualmg"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "flak",
-        "WS0002": "flak"
       }
     }
   ],

@@ -1,0 +1,64 @@
+{
+  "variantId": "toopo_tsunami_escort",
+  "hullId": "toopo_tsunami",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0003": "heavyac",
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "harpoonpod",
+        "WS0006": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "harpoon",
+        "WS0012": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightag",
+        "WS0010": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "dualflak",
+        "WS0008": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

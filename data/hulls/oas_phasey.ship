@@ -1,0 +1,155 @@
+{
+  "hullName": "Panther",
+  "hullId": "oas_phasey",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/oas/ships/oas_phasey1.png",
+  "style": "MIDLINE",
+  "height": 213,
+  "width": 96,
+  "center": [48, 107],
+  "collisionRadius": 136,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 136.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "phasefield",
+    "advanced_ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0003": "oas_phasey_small",
+    "WS0004": "oas_phasey_big_rear",
+    "WS0005": "oas_phasey_big"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [97, -8]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [83, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [91, 8]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [-61, -41]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [87, 21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-107, -9],
+      "length": 38,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-107, 9],
+      "length": 38,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-107, -15.5],
+      "length": 26,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-107, 15.5],
+      "length": 26,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-107, -20.5],
+      "length": 21.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-107, 20.5],
+      "length": 21.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-106, -28],
+      "length": 19.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-106, 28],
+      "length": 19.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "OAS_RED"
+    }
+  ],
+  "bounds": [
+    80, 30.5,
+    64.5, 42,
+    36, 42,
+    19, 28,
+    -30.5, 28,
+    -44.5, 42,
+    -78, 42,
+    -104, 30.5,
+    -104, -30.5,
+    -79.5, -42,
+    -44, -42,
+    -29, -27,
+    12.5, -27,
+    39, -47,
+    68.5, -47,
+    95.5, -8
+  ]
+}

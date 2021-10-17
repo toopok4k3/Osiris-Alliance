@@ -3,13 +3,12 @@
   "hullId": "toopo_bucket",
   "displayName": "Railer",
   "goalVariant": true,
-  "fluxCapacitors": 11,
-  "fluxVents": 11,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
-    "assault_package",
-    "militarized_subsystems"
+    "targetingunit"
   ],
   "weaponGroups": [
     {
@@ -21,7 +20,7 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0007": "railgun",

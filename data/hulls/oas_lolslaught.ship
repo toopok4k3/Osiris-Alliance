@@ -11,9 +11,13 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 238,
   "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "safetyoverrides"
+  ],
   "builtInWeapons": {
-    "WS0001": "tpc",
-    "WS0002": "tpc"
+    "WS0001": "ameg_lolslaught_blaster",
+    "WS0002": "ameg_lolslaught_blaster"
   },
   "weaponSlots": [
     {
@@ -36,8 +40,8 @@
     },
     {
       "id": "WS0003",
-      "size": "LARGE",
-      "type": "SYNERGY",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
@@ -45,8 +49,8 @@
     },
     {
       "id": "WS0004",
-      "size": "LARGE",
-      "type": "SYNERGY",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": -0,
@@ -55,7 +59,7 @@
     {
       "id": "WS0005",
       "size": "LARGE",
-      "type": "MISSILE",
+      "type": "SYNERGY",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
@@ -64,7 +68,7 @@
     {
       "id": "WS0006",
       "size": "LARGE",
-      "type": "ENERGY",
+      "type": "SYNERGY",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,

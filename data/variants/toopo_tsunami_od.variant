@@ -1,0 +1,65 @@
+{
+  "variantId": "toopo_tsunami_od",
+  "hullId": "toopo_tsunami",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "typhoon",
+        "WS0006": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "reaper",
+        "WS0012": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "chaingun",
+        "WS0004": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "vulcan",
+        "WS0010": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "flak",
+        "WS0008": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

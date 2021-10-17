@@ -3,12 +3,12 @@
   "hullId": "toopo_bucket",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 14,
-  "fluxVents": 14,
+  "fluxCapacitors": 13,
+  "fluxVents": 13,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
-    "militarized_subsystems"
+    "missleracks"
   ],
   "weaponGroups": [
     {

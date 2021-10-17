@@ -48,13 +48,16 @@
 			"prometheus",
 			"oas_osiris",
 			"oas_observer",
-			"oas_lolslaught"
+			"oas_lolslaught",
+			"oas_hexa",
+			"toopo_gallium",
+			"toopo_haast"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":["osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp"],
-		"hulls":["oas_osiris", "oas_observer"]
+		"hulls":["oas_osiris", "oas_observer", "oas_hexa", "oas_gallium"]
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],

@@ -10,12 +10,12 @@
     47,
     103
   ],
-  "collisionRadius": 107,
+  "collisionRadius": 115,
   "shieldCenter": [
     0,
     -0
   ],
-  "shieldRadius": 107,
+  "shieldRadius": 115,
   "viewOffset": 0,
   "builtInMods": [
     "surveying_equipment",

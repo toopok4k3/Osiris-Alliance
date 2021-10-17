@@ -15,7 +15,10 @@
 		"toopo_miningboi_standard":5, #no damper fields...? well this boi has no shield.
 		"toopo_miningboi_strike":5, #no damper fields...? well this boi has no shield.
 		"toopo_dramster_od":3,
-		"toopo_dramster_standard":7
+		"toopo_dramster_standard":3,
+		"toopo_dramster_elite":2,
+		"toopo_dramster_strike":2,
+		"toopo_egg_standard":10
 	},
 	"combatSmall":{
 		"oas_lasher2_od":2,
@@ -40,7 +43,10 @@
 		"toopo_miningboi_standard":5,
 		"toopo_miningboi_strike":5,
 		"toopo_dramster_od":3,
-		"toopo_dramster_standard":7,
+		"toopo_dramster_standard":3,
+		"toopo_dramster_elite":2,
+		"toopo_dramster_strike":2,
+		"toopo_egg_standard":10,
 		"oas_wayfarer2_standard":5 # also in small carriers half
 	},
 	#"combatFreighterSmall":{
@@ -57,14 +63,24 @@
 		"toopo_boomer_balanced":3,
 		"toopo_boomer_broadside":3,
 		"toopo_boomer_standard":4,
-		"toopo_bucket_standard":4,
-		"toopo_bucket_balanced":3,
-		"toopo_bucket_railer":3,
+		"toopo_bucket_standard":2.5,
+		"toopo_bucket_balanced":2.5,
+		"toopo_bucket_railer":2.5,
+		"toopo_bucket_elite":2.5,
 		"toopo_gemlasher_standard":7,
 		"toopo_gemlasher_assault":3,
 		"toopo_xplorer_standard":4,
 		"toopo_xplorer_assault":3,
 		"toopo_xplorer_escort":3,
+		"toopo_blaster_assault":2.5,
+		"toopo_blaster_elite":2.5,
+		"toopo_blaster_overdriven":2.5,
+		"toopo_blaster_standard":2.5,
+		"toopo_master_assault":2.5,
+		"toopo_master_elite":2.5,
+		"toopo_master_overdriven":2.5,
+		"toopo_master_standard":2.5,
+		"oas_flabellina_support":2.5, # we dont want to spam these for combat purposes
 		#"oas_unicorn_standard":10
 	},
 	"combatLarge":{
@@ -81,6 +97,12 @@
 		"toopo_apoture_od":2,
 		"toopo_apoture_plasma":3,
 		"toopo_apoture_standard":5,
+		"toopo_clown_standard":5,
+		"toopo_clown_strike":5,
+		"toopo_tsunami_elite":2.5,
+		"toopo_tsunami_escort":2.5,
+		"toopo_tsunami_od":2.5,
+		"toopo_tsunami_standard":2.5,
 	},
 	"combatCapital":{
 		"oas_observer_standard": 6,
@@ -88,7 +110,12 @@
 		"oas_hexa_standard": 4,
 		"oas_hexa_balanced": 6,
 		"oas_osiris_standard": 10,
-		"toopo_gallium_standard":10
+		"oas_lolslaught_standard":10,
+		"toopo_gallium_standard":10,
+		"toopo_haast_brawler":2.5,
+		"toopo_haast_cannoneer":2.5,
+		"toopo_haast_elite":2.5,
+		"toopo_haast_standard":2.5,
 	},
 	"combatFreighterMedium":{
 		#		"oas_rhino_standard":1,
@@ -106,6 +133,13 @@
 		"oas_saltire_standard":10,
 		"toopo_colosseum_standard":5,
 		"toopo_colosseum_strike":5,
+		"toopo_ecuador_assault":2.5,
+		"toopo_ecuador_escort":2.5,
+		"toopo_ecuador_standard":2.5,
+		"toopo_ecuador_strike":2.5,
+		"toopo_tsunamic_elite":3,
+		"toopo_tsunamic_escort":3,
+		"toopo_tsunamic_standard":4,
 	},
 	#"freighterSmall":{
 		#"oas_unicorn_standard":2
@@ -130,5 +164,11 @@
 	},
 	"personnelSmall":{
 		"toopo_trooperboi_standard":10,
+	},
+	"personnelMedium":{
+		"oas_phasey_standard":10,
+	},
+	"phaseMedium":{
+		"oas_phasey_standard":10,
 	}
 }

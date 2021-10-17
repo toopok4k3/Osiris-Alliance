@@ -1,0 +1,44 @@
+{
+  "variantId": "toopo_dramster_strike",
+  "hullId": "toopo_dramster",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "reaper",
+        "WS0005": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

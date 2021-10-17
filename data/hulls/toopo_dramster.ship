@@ -11,9 +11,6 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 68.5,
   "viewOffset": 0,
-  "builtInMods": [
-    "civgrade"
-  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -63,7 +60,7 @@
     {
       "angle": 0,
       "arc": 90,
-      "id": "WS0005",
+      "id": "WS0006",
       "locations": [39, -20],
       "mount": "HIDDEN",
       "size": "SMALL",

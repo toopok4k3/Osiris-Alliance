@@ -1,0 +1,41 @@
+{
+  "variantId": "toopo_blaster_overdriven",
+  "hullId": "toopo_blaster",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

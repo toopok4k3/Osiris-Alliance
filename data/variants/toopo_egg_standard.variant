@@ -1,0 +1,42 @@
+{
+  "variantId": "toopo_egg_standard",
+  "hullId": "toopo_egg",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0002": "lightac",
+        "WS0003": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "taclaser",
+        "WS0005": "taclaser",
+        "WS0006": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
