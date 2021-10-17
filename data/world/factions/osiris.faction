@@ -29,11 +29,13 @@
 			"osiris_bp":3,
 			"osiris2_bp":3,
 			"osiris3_bp":3,
-			"toopo_bp":2
+			"toopo_bp":1,
+			"ameg_bp":0.75,
+			"lowtech_bp":0.2,
+			"midline_bp":0.5,
+			"hightech_bp":0.1
 		},
 		"hulls":{
-			"oas_osiris":3,
-			"oas_observer":3
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -56,8 +58,10 @@
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":["osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp"],
-		"hulls":["oas_osiris", "oas_observer", "oas_hexa", "oas_gallium"]
+		"tags":[],
+		#"tags":["osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp"],
+		#let's try prioritising only caps
+		"hulls":["oas_osiris", "oas_observer", "oas_hexa", "toopo_gallium", "toopo_haast", "oas_lolslaught"]
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],
