@@ -296,14 +296,16 @@ protected IntervalUtil tracker = new IntervalUtil(5f, 9f);
 		
         if(type == PatrolType.FAST) {
 			combat = Math.round(3f + (float) random.nextFloat() * 2f) * 5f;
+			tanker = Math.round((float) random.nextFloat()) * 8f;
             rankId = Ranks.SPACE_LIEUTENANT;
         } else if(type == PatrolType.COMBAT) {
 			combat = Math.round(6f + (float) random.nextFloat() * 3f) * 5f;
-			tanker = Math.round((float) random.nextFloat()) * 5f;
+			tanker = (Math.round((float) random.nextFloat()*2f) * 5f) + 5f;
             rankId = Ranks.SPACE_COMMANDER;
         } else if(type == PatrolType.HEAVY) {
 			combat = Math.round(10f + (float) random.nextFloat() * 5f) * 5f;
-			tanker = Math.round((float) random.nextFloat()) * 10f;
+			//tanker = Math.round((float) random.nextFloat()) * 10f;
+			tanker = (Math.round((float) random.nextFloat()*2f) * 10f) + 10f;
 			freighter = Math.round((float) random.nextFloat()) * 10f;
             rankId = Ranks.SPACE_CAPTAIN;
         }

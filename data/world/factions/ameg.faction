@@ -27,14 +27,16 @@
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
-			"ameg_bp":2,
-			"toopo_bp":1.25,
-			"lowtech_bp":0.5,
-			"midline_bp":0.75,
+			"ameg_bp":2.5,
+			"toopo_bp":1.5,
+			"lowtech_bp":0.25,
+			"midline_bp":0.5,
 			"hightech_bp":1.5,
 		},
 		"hulls":{
-			"oas_lolslaught":0.25
+			"oas_lolslaught":0.25,
+			"toopo_gallium":1,
+			"toopo_haast":0.5
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -65,18 +67,14 @@
 			"eagle",
 			"harbinger",
 			"oas_lolslaught",
-			"toopo_gallium"
+			"toopo_gallium",
+			"toopo_haast"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":["ameg_bp", "toopo_bp"],
-		"hulls":[
-			"oas_lolslaught",
-			"prometheus",
-			"phaeton",
-			"dram",
-			]
+		"tags":[],
+		"hulls":[ "oas_lolslaught", "toopo_gallium", "toopo_haast"]
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "toopo_bp", "ameg_bp"],
@@ -120,7 +118,9 @@
 			"oas_trident_large",
 			"plasma",
 			"guardian",
-			"tachyonlance"
+			"tachyonlance",
+			"oas_l_energy",
+			"oas_m_energy"
 		],
 	},
 	"priorityWeapons":{
