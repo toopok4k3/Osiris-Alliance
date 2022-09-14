@@ -51,7 +51,6 @@
 			"oas_sun",
 			"oas_observer",
 			"oas_lolslaught",
-			#"oas_hexa",
 			"toopo_haast",
 			"toopo_genesis",
 			"oas_unicorn2",
@@ -63,7 +62,7 @@
 		"tags":[],
 		#"tags":["osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp"],
 		#let's try prioritising only caps
-		"hulls":["oas_sun", "oas_observer", "toopo_haast", "oas_lolslaught","toopo_genesis"] #oas_hexa
+		"hulls":["oas_sun", "oas_observer", "toopo_haast", "oas_lolslaught","toopo_genesis"]
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],

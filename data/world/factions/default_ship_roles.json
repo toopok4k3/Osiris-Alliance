@@ -109,8 +109,6 @@
 	"combatCapital":{
 		"oas_observer_standard": 6,
 		"oas_observer_balanced": 4,
-#		"oas_hexa_standard": 4,
-#		"oas_hexa_balanced": 6,
 		"oas_sun_standard": 5,
 		"oas_sun_assault": 5,
 		"oas_lolslaught_standard":10,

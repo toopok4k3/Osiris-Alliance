@@ -28,7 +28,6 @@ Bowler,oas_bowler,,Osiris Alliance,flarelauncher_fighter,,500,125,300,,75,0,,170
 Fisher,oas_fisher,,Osiris Alliance,,,700,150,400,,75,0,,150,200,200,120,180,60,NONE,,,,,,,2,2,,,,,,,,,,,,,,,,0,,,108.2
 Igniter,oas_igniter,,Osiris Alliance,flarelauncher_single,,150,75,200,,40,0,,280,400,300,120,180,20,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,0,,,108.5
 Retinator,oas_retinator,,Osiris Alliance,,,500,100,200,,350,,,300,400,400,200,4000,5,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0,,,4.5
-Hexagon,oas_hexa,Battleship,Osiris Alliance,ballisticdrive,28,20000,1700,16000,17500,700,300,3,25,20,15,7,10,4000,OMNI,,150,0.4,1,,,600,1200,1000,1200,12,100,7,360000,5,12,720,0.25,40,40,HIDE_IN_CODEX,,,0.3,2,4,510.1
 Sun,oas_sun,Battleship,Osiris Alliance,oas_sunboost,30,20000,1800,18000,27500,800,330,,30,20,15,5,5,4000,OMNI,,150,0.4,1.1,,,400,1000,300,300,12,25,7,450000,4,12,720,0.25,60,60,,rare_bp,,0.3,2,4,511.2
 Onslaught (AMEG),oas_lolslaught,Battleship,Antimatter Energy Group,oas_timedilation_ameg,30,20000,1150,21000,27500,1250,300,,35,50,40,15,20,3000,FRONT,,210,0.4,1.2,,,500,1000,300,300,10,30,9,750000,3,30,600,0.25,50,50,HIDE_IN_CODEX,rare_bp,0.05,0.5,2,4,500.5
 Butcher,toopo_bucket,Destroyer,Power Jinx R&D,burndrive,7,4500,550,3500,4555,225,80,,75,60,50,30,15,400,FRONT,,270,0.5,0.9,,,15,100,150,80,2,40,9,19000,5,12,360,0.25,7,7,,"toopo_bp, merc, lowtech_bp",,0.5,2,3,313.5

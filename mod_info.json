@@ -1,7 +1,7 @@
 {
   "id":"oas",
 	"name":"Osiris Alliance",
-	"version":"3.0.0",
+	"version":"3.0.1",
 	"description":"Osiris Alliance faction, Nexerilin and commissioned crews compatible.",
 	"gameVersion":"0.95.1a-RC6",
 	"modPlugin":"data.scripts.OasPlugin",

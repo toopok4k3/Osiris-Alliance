@@ -31,7 +31,6 @@
       ["toopo_xplorer_standard", "toopo_miningboi_standard", "toopo_cutie_standard"]
     ],
     "startShipsExplorerLarge":[
-      #["oas_hexa_standard", "oas_unicorn_standard", "toopo_oscillator_standard"],
       ["toopo_apoture_standard", "toopo_oscillator_starter", "toopo_cutie_starter"]
     ],
     "startShipsCarrierLarge":[
