@@ -1,0 +1,23 @@
+{
+  "variantId": "oas_igniter_standard",
+  "hullId": "oas_igniter",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "oas_s_matchstick_bomber",
+        "WS0002": "oas_s_matchstick_bomber"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "oas_wayfarer2_oa",
+  "hullId": "oas_wayfarer2",
+  "displayName": "Patrol",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_kineticmissile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_turtle2_ball_wing"
+  ]
+}

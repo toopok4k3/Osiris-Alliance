@@ -19,8 +19,8 @@ public class BallisticDriveStats extends BaseShipSystemScript {
 			stats.getMaxSpeed().unmodify(id); // to slow down ship to its regular top speed while powering drive down
 		} else {
 			stats.getMaxSpeed().modifyMult(id, mult);
-			stats.getMaxSpeed().modifyFlat(id, 100f);
-			stats.getAcceleration().modifyFlat(id, 150f);
+			stats.getMaxSpeed().modifyFlat(id, (100f*effectLevel));
+			stats.getAcceleration().modifyFlat(id, (150f*effectLevel));
 		}
 	}
 	public void unapply(MutableShipStatsAPI stats, String id) {

@@ -1,0 +1,23 @@
+{
+  "variantId": "oas_blaster_drone2_standard",
+  "hullId": "oas_blaster_drone2",
+  "displayName": "Mining Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_miningblaster_fighter",
+        "WS0002": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

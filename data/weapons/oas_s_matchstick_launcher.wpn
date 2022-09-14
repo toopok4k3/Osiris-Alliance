@@ -25,5 +25,5 @@
     "blowbackSpread": 15,
     "particleColor": [ 100, 100, 100, 200 ]
   },
-  "fireSoundTwo": "harpoon_fire"
+  "fireSoundTwo": "swarmer_fire"
 }

@@ -1,0 +1,19 @@
+{
+	"baseHullId":"toopo_ecuador",
+	"skinHullId":"toopo_ecuador_p",
+	"hullName":"Ecuador (P)",
+	"descriptionId":"toopo_ecuador",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":1.0,
+	"systemId":"burndrive",
+	"addHints":["NO_AUTO_ESCORT"],
+	"spriteName":"graphics/toopo/ships/toopo_ecuador_p.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+}

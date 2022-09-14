@@ -1,0 +1,65 @@
+{
+  "variantId": "toopo_scorpion_starter",
+  "hullId": "toopo_scorpion",
+  "displayName": "Custom",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 21,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag",
+        "WS0004": "lightag",
+        "WS0005": "lightag",
+        "WS0006": "lightag",
+        "WS0007": "lightag",
+        "WS0008": "lightag",
+        "WS0009": "lightag",
+        "WS0010": "lightag",
+        "WS0011": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "multineedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

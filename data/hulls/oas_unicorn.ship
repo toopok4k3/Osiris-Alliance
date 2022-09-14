@@ -2,27 +2,21 @@
   "hullName": "Unicorn",
   "hullId": "oas_unicorn",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/oas/ships/oas_voyager2.png",
+  "spriteName": "graphics/oas/ships/oas_unicorn3.png",
   "style": "MIDLINE",
-  "height": 206,
-  "width": 94,
-  "center": [
-    47,
-    103
-  ],
-  "collisionRadius": 115,
-  "shieldCenter": [
-    0,
-    -0
-  ],
-  "shieldRadius": 115,
+  "height": 202,
+  "width": 90,
+  "center": [42, 103],
+  "collisionRadius": 125,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 125,
   "viewOffset": 0,
   "builtInMods": [
     "surveying_equipment",
     "repair_gantry"
   ],
   "builtInWings": [
-    "oas_blaster_drone_wing"
+    "oas_blaster_drone2_wing"
   ],
   "builtInWeapons": {
     "WS0001": "oas_hml"
@@ -35,10 +29,7 @@
       "mount": "TURRET",
       "arc": 280,
       "angle": 0,
-      "locations": [
-        53,
-        -0
-      ]
+      "locations": [55, -0]
     },
     {
       "id": "WS0002",
@@ -47,34 +38,25 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [
-        84,
-        -29
-      ]
+      "locations": [82, -24]
     },
     {
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 215,
-      "angle": -120,
-      "locations": [
-        -53,
-        -31
-      ]
+      "arc": 225,
+      "angle": -135,
+      "locations": [-61, -33]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 230,
-      "angle": 120,
-      "locations": [
-        -62,
-        28
-      ]
+      "arc": 135,
+      "angle": -90,
+      "locations": [4, -27]
     },
     {
       "id": "LB 1",
@@ -84,81 +66,53 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -1.5,
-        19.5,
-        12,
-        22.5,
-        -17.5,
-        23
+        2, 26,
+        -14, 26
       ]
     },
     {
-      "angle": 0,
-      "arc": 90,
       "id": "WS0005",
-      "locations": [
-        84,
-        8
-      ],
-      "mount": "HIDDEN",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [75, 29]
     }
   ],
   "engineSlots": [
     {
-      "location": [
-        -102,
-        11
-      ],
-      "length": 51,
-      "width": 26,
-      "angle": 180,
-      "contrailSize": 26,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [
-        -102,
-        -11
-      ],
+      "location": [-102, 12.5],
       "length": 51,
       "width": 26,
       "angle": -180,
       "contrailSize": 26,
       "style": "MIDLINE"
+    },
+    {
+      "location": [-102, -12.5],
+      "length": 51,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "MIDLINE"
     }
   ],
   "bounds": [
-    -101.5,
-    14.5,
-    -101.5,
-    -14.5,
-    -79,
-    -40,
-    -39,
-    -40,
-    -20,
-    -27.5,
-    15,
-    -27.5,
-    29,
-    -17.5,
-    38.5,
-    -45,
-    71,
-    -45.5,
-    90.5,
-    -0.5,
-    47.5,
-    40,
-    21,
-    23.5,
-    -24.5,
-    24,
-    -39,
-    40,
-    -79,
-    40
+    -99, -24,
+    -62.5, -47.5,
+    -24.5, -27.5,
+    5, -36.5,
+    31, -22.5,
+    39.5, -45,
+    62.5, -45,
+    94.5, -1.5,
+    47.5, 40.5,
+    11.5, 20,
+    -13.5, 35.5,
+    -24, 25,
+    -37, 40,
+    -75.5, 40,
+    -99, 24
   ]
 }

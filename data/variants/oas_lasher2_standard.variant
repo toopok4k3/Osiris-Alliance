@@ -3,25 +3,34 @@
   "hullId": "oas_lasher2",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 8,
+  "fluxCapacitors": 7,
   "fluxVents": 8,
   "quality": 0.5,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
   "weaponGroups": [
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "oas_m_blazer"
-      }
-    },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "oas_m_shottie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0002": "oas_s_cannon",
         "WS0003": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_s_pd"
       }
     }
   ],

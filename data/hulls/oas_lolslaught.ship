@@ -17,7 +17,8 @@
   ],
   "builtInWeapons": {
     "WS0001": "ameg_lolslaught_blaster",
-    "WS0002": "ameg_lolslaught_blaster"
+    "WS0002": "ameg_lolslaught_blaster",
+    "WS0035": "oas_deco_love"
   },
   "weaponSlots": [
     {
@@ -325,6 +326,15 @@
       "arc": 120,
       "angle": 45,
       "locations": [-46, 21]
+    },
+    {
+      "id": "WS0035",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14, -0]
     }
   ],
   "engineSlots": [

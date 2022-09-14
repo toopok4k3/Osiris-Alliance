@@ -4,17 +4,19 @@
   "displayName": "Strike",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 4,
+  "fluxVents": 10,
   "quality": 0.5,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "unstable_injector"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "oas_m_blazer",
-        "WS0002": "oas_m_blazer"
+        "WS0001": "oas_m_shottie",
+        "WS0002": "oas_m_shottie"
       }
     },
     {
@@ -28,8 +30,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "sabot"
+        "WS0004": "oas_s_kineticmissile"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

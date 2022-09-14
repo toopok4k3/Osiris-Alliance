@@ -1,0 +1,18 @@
+{
+	"id":"oas_l_benergy_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":100,
+	"hitGlowRadius":36,
+	"width":4.0,
+	"fadeTime":0.3,
+	"fringeColor":[75,95,255,255],
+	"coreColor":[235,235,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/oas/missiles/oas_benergy_bullet.png",
+	"glowColor":[235,180,255,50],
+	"glowRadius":30,
+}

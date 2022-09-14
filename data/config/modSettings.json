@@ -2,9 +2,9 @@
     "nexerelin":{
 		"mining_ship_strengths":{
 			"toopo_miningboi": 4,
-			"oas_blaster_drone": 1,
+			"oas_blaster_drone2": 1,
 			"oas_hexa": 120,
-			"oas_unicorn": 12
+			"oas_unicorn2": 12
 		},
 		"mining_weapon_strengths":{
 			"oas_hml": 25,

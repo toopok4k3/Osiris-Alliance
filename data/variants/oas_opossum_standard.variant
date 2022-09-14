@@ -1,0 +1,29 @@
+{
+  "variantId": "oas_opossum_standard",
+  "hullId": "oas_opossum",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavyblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

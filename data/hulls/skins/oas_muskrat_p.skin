@@ -1,0 +1,24 @@
+{
+	"baseHullId":"oas_viper",
+	"skinHullId":"oas_viper_p",
+	"hullName":"Muskrat (P)",
+	"descriptionId":"oas_viper",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":1.2,
+    "systemId":"burndrive",
+	"spriteName":"graphics/oas/ships/oas_muskrat_p.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS0002":{
+            "type": "COMPOSITE"
+		}	
+	},
+	"builtInMods":["comp_armor"],
+	"builtInWeapons":{
+    },
+}

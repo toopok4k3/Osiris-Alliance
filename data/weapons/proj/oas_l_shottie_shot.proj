@@ -1,0 +1,19 @@
+{
+	"id":"oas_l_shottie_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+    "onFireEffect":"data.scripts.weapons.OasShottieOnFireEffect",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":25.0,
+	"hitGlowRadius":50,
+	"glowRadius":11,
+	"width":10,
+	"fadeTime":0.3,
+	"fringeColor":[255,150,70,235],
+	"coreColor":[255,255,255,170],
+	"glowColor":[255,230,0,80],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics//oas/missiles/oas_hotred_ball.png"
+}

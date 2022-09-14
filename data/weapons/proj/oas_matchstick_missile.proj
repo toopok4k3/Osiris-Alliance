@@ -7,32 +7,32 @@
 	"center":[3,6],
 	"collisionRadius":12,
 	"collisionClass":"MISSILE_FF",
-	"explosionColor":[255,70,20,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":80, # purely visual
 	"explosionSpec":{"duration":0.3f, # not visual
 					 "radius":80,
-					 "coreRadius":40, # full damage within core radius
+					 "coreRadius":30, # full damage within core radius
 					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
 					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
 					 "particleSizeMin":5.0,
 					 "particleSizeRange":3.0,
 					 "particleDuration":1,
 					 "particleCount":150,
-					 "particleColor":[255,70,20,255]},
+					 "particleColor":[255,155,155,255]},
 	"flameoutTime":3, # total time from flameout to full fadeout
-	"armingTime":.5,
-	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"armingTime":0.2,
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration					 
-	"engineSpec":{"turnAcc":60,
-				  "turnRate":5,
-				  "acc":400,
-				  "dec":200},
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0.1,
+				  "acc":500,
+				  "dec":0},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-7, 0],
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[255,25,0,90],
+						"engineColor":[255,25,0,255],
 						"glowSizeMult":2,
 						"contrailDuration":2,
 						"contrailWidthMult":1,
@@ -41,10 +41,10 @@
 						"contrailMaxSpeedMult":.0f,
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":.5, # how far away from engine it starts
-						"contrailColor":[255,150,0,25],
+						"contrailColor":[255,150,150,50],
 						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
 					},
-				    "width":4.0,
+				    "width":6.0,
 				    "length":15.0,
 				    "angle":180.0}]
 }

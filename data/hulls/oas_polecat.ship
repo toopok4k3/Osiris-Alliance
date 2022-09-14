@@ -1,0 +1,63 @@
+{
+  "hullName": "Polecat",
+  "hullId": "oas_polecat",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_polecat.png",
+  "style": "MIDLINE",
+  "height": 92,
+  "width": 48,
+  "center": [24, 46],
+  "collisionRadius": 59.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 59.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [19, -3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-11, 18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 3],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "OAS"
+    },
+    {
+      "location": [-43, -9],
+      "length": 42,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    -41.5, 9,
+    -37, -12,
+    30, -21,
+    43.5, -12.5,
+    13.5, -3,
+    43.5, 7,
+    31, 16,
+    12, 12,
+    8.5, 18.5
+  ]
+}

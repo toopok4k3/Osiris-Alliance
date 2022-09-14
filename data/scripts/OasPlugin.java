@@ -8,6 +8,8 @@ import com.fs.starfarer.api.campaign.RepLevel;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
+import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.impl.campaign.intel.SystemBountyManager;
 
 public class OasPlugin extends BaseModPlugin {
 	
@@ -55,6 +57,14 @@ public class OasPlugin extends BaseModPlugin {
 			osiris.setRelationship(diktat.getId(), RepLevel.SUSPICIOUS);
 			osiris.setRelationship(persean.getId(), RepLevel.NEUTRAL);
 			osiris.setRelationship(remnant.getId(), RepLevel.HOSTILE);
+		}
+	}
+
+	@Override
+	public void onNewGameAfterTimePass() {
+		MarketAPI harman = Global.getSector().getEconomy().getMarket("harman");
+		if(harman != null) {
+			SystemBountyManager.getInstance().addOrResetBounty(harman);
 		}
 	}
 }

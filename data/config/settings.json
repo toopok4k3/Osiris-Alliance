@@ -16,6 +16,9 @@
 		#"characters":{
 			#"osiris_sun":"graphics/oas/portraits/characters/osiris_sun.png"
 		#}
-	}
+	},
+	"ruleCommandPackages":[
+		"fi.toopok4k3.oas.rulecmd"
+	]
 }
 

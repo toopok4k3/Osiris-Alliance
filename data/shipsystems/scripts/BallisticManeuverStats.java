@@ -13,13 +13,13 @@ public class BallisticManeuverStats extends BaseShipSystemScript {
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 		float mult = 1f + BONUS * effectLevel;
 		stats.getBallisticRoFMult().modifyMult(id, mult);
-		stats.getBallisticWeaponFluxCostMod().modifyMult(id, 0.25f);
+		stats.getBallisticWeaponFluxCostMod().modifyMult(id, 0.75f);
 
 		if (state == ShipSystemStatsScript.State.OUT) {
 			stats.getMaxSpeed().unmodify(id); // to slow down ship to its regular top speed while powering drive down
 			stats.getMaxTurnRate().unmodify(id);
 		} else {
-			stats.getMaxSpeed().modifyFlat(id, 25f);
+			stats.getMaxSpeed().modifyFlat(id, 50f);
 			stats.getAcceleration().modifyPercent(id, 200f * effectLevel);
 			stats.getDeceleration().modifyPercent(id, 200f * effectLevel);
 			stats.getTurnAcceleration().modifyFlat(id, 30f * effectLevel);
@@ -42,7 +42,7 @@ public class BallisticManeuverStats extends BaseShipSystemScript {
 		if (index == 0) {
 			return new StatusData("improved maneuverability", false);
 		} else if (index == 1) {
-			return new StatusData("+25 top speed", false);
+			return new StatusData("+50 top speed", false);
 		}
 		float mult = 1f + BONUS * effectLevel;
 		float bonusPercent = (int) ((mult - 1f) * 100f);

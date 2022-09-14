@@ -1,0 +1,12 @@
+{
+	"masterVersionFile":"https://raw.githubusercontent.com/toopok4k3/Osiris-Alliance/master/osiris_alliance.version",
+	"modName":"Osiris Alliance",
+	"modThreadId":22163,
+	"modVersion":
+	{
+		"major":3,
+		"minor":0,
+		"patch":0
+	},
+	"starsectorVersion":"0.95.1a-RC6"
+}

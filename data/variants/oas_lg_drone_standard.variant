@@ -1,0 +1,22 @@
+{
+  "variantId": "oas_lg_drone_standard",
+  "hullId": "oas_lg_drone",
+  "displayName": "Arcwelder",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_lg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

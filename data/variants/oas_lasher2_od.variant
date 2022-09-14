@@ -1,10 +1,10 @@
 {
   "variantId": "oas_lasher2_od",
   "hullId": "oas_lasher2",
-  "displayName": "Overdrive",
+  "displayName": "Overdriven",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 2,
+  "fluxVents": 2,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
@@ -13,18 +13,25 @@
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "heavymg"
       }
     },
     {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_shottie",
+        "WS0003": "oas_s_shottie"
+      }
+    },
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "lightag",
-        "WS0003": "lightag"
+        "WS0004": "oas_s_pd"
       }
     }
   ],

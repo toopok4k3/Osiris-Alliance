@@ -4,6 +4,7 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.OasMagnetronOnHitEffect",
 	"length":20,
 	"hitGlowRadius":80,
 	"width":10,

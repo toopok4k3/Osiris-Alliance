@@ -4,6 +4,7 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.OasMagnetronOnHitEffect",
 	"length":30,
 	"hitGlowRadius":150,
 	"width":15,
@@ -15,4 +16,5 @@
 	"bulletSprite":"graphics/oas/missiles/oas_xlcannon_shell.png",
 	"glowColor":[190,80,80,190],
 	"glowRadius":50,
+	"passThroughMissiles":true
 }

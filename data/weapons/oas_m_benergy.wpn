@@ -1,0 +1,33 @@
+{
+	"id":"oas_m_benergy",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretGlowSprite":"graphics/oas/weapons/oas_m_benergy_turret_glow.png",
+	"turretSprite":"graphics/oas/weapons/oas_m_benergy_turret_base.png",
+	"turretGunSprite":"graphics/oas/weapons/oas_m_benergy_turret_barrel.png",
+	"hardpointGlowSprite":"graphics/oas/weapons/oas_m_benergy_hardpoint_glow.png",	
+	"hardpointSprite":"graphics/oas/weapons/oas_m_benergy_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/oas/weapons/oas_m_benergy_hardpoint_barrel.png",	
+	"visualRecoil":4.0,
+	"renderHints":["RENDER_BARREL_BELOW"],
+	#"glowColor":[255,255,255,180],
+	"glowColor":[75,95,255,180],
+	"turretOffsets":[26, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[31, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":20.0,
+					   "spread":10.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":40.0,
+					   "particleDuration":0.3,
+					   "particleCount":10,
+					   "particleColor":[235,235,255,150]},
+	"projectileSpecId":"oas_m_benergy_shot",
+	#"fireSoundTwo":"oas_xlcannon_fire"
+	#"fireSoundTwo":"oas_xl_blazer_fire"
+	"fireSoundTwo":"oas_benergy4_small"
+}

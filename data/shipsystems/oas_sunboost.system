@@ -1,0 +1,14 @@
+{
+	"id":"oas_sunboost",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+#	"aiScript":"data.shipsystems.scripts.ai.TargetingAssistantAI",
+	
+	"statsScript":"data.shipsystems.scripts.OasSunBoostStats",
+	
+	"weaponGlowColor":[255,255,255,100],
+	"weaponTypes":[BALLISTIC, ENERGY, MISSILE],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

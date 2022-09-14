@@ -2,9 +2,9 @@
   "variantId": "oas_viper_standard",
   "hullId": "oas_viper",
   "displayName": "Standard",
-  "goalVariant": false,
-  "fluxCapacitors": 10,
-  "fluxVents": 2,
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
@@ -16,22 +16,28 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "arbalest",
-        "WS0002": "heavymortar"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0004": "swarmer"
+        "WS0001": "oas_m_cannon"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "vulcan"
+        "WS0002": "oas_m_shottie"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_pd"
       }
     }
   ],

@@ -1,0 +1,69 @@
+{
+  "hullName": "Starburst",
+  "hullId": "oas_starburst",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_starburst.png",
+  "style": "MIDLINE",
+  "height": 24,
+  "width": 24,
+  "center": [12, 10],
+  "collisionRadius": 17.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 17.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-6, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6.5, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, -7.5],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "OAS"
+    },
+    {
+      "location": [-9.5, 7.5],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    -8, 9.5,
+    -8, -9.5,
+    13, -0.5
+  ]
+}

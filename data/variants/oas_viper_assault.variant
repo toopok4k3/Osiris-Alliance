@@ -3,33 +3,41 @@
   "hullId": "oas_viper",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 9,
-  "fluxVents": 7,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
   "quality": 0.5,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
   "weaponGroups": [
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "oas_m_cannon"
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabot"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {"WS0002": "oas_m_blazer"}
-    },
-      {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {"WS0003": "oas_s_pd"}
+      "weapons": {
+        "WS0002": "heavymg"
+      }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
-      "weapons": {        "WS0004": "harpoon"}
+      "weapons": {
+        "WS0003": "oas_s_pd"
+      }
     }
   ],
   "modules": [],

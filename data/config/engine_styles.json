@@ -27,4 +27,16 @@
 		"glowSprite":"graphics/oas/fx/oas_engine32glow.png",
 		"glowOutline":"graphics/oas/fx/oas_engine32flame.png"
 	},
+	"OAS_SNAPPER":{
+		"engineColor":[150,70,255,150],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[150,70,255,15],
+		"glowSizeMult":3.5,
+		"glowAlternateColor":[150,70,255,255],
+		"type":"GLOW" # GLOW or SMOKE
+	}
 }

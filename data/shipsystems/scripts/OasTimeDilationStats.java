@@ -29,6 +29,13 @@ public class OasTimeDilationStats extends BaseShipSystemScript {
 			return;
 		}
 		
+		float fluxmod = 0.0f;
+		if(ship.getMaxFlux() > 0.0f) {
+			fluxmod = ship.getCurrFlux() / ship.getMaxFlux();
+		}
+		if(fluxmod > 1.0f) fluxmod = 1.0f;
+		if(fluxmod < 0.0f) fluxmod = 0.0f;
+
 		float jitterLevel = effectLevel;
 		float jitterRangeBonus = 0f;
 		float maxRangeBonus = 5f;
@@ -63,7 +70,8 @@ public class OasTimeDilationStats extends BaseShipSystemScript {
 		ship.getEngineController().extendFlame(this, -0.25f, -0.25f, -0.25f);
 
         //float mult = 1f + BONUS * effectLevel;
-        float mult = shipTimeMult;
+		float fluxDecrease = (shipTimeMult * 0.75f) * fluxmod;
+		float mult = shipTimeMult - fluxDecrease; // reduce the effect if we have high flux
 
 		if (state == ShipSystemStatsScript.State.OUT) {
 			stats.getMaxSpeed().unmodify(id); // to slow down ship to its regular top speed while powering drive down

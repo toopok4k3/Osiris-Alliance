@@ -1,0 +1,61 @@
+{
+  "hullName": "Spitter Mk. III",
+  "hullId": "oas_blaster_drone3",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_unicorn_ht_drone.png",
+  "style": "HIGH_TECH",
+  "height": 30,
+  "width": 26,
+  "center": [13, 16],
+  "collisionRadius": 24.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [4, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-4.5, -9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-7.5, 3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -0],
+      "length": 16,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    7, 13.5,
+    -15.5, 0.5,
+    7, -13.5
+  ]
+}

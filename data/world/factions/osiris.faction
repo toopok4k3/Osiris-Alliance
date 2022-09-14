@@ -5,8 +5,8 @@
 	"displayNameWithArticle":"the Osiris Alliance",
 	"displayNameLong":"Osiris Alliance",
 	"displayNameLongWithArticle":"the Osiris Alliance",
-	"logo":"graphics/oas/factions/logo_osiris_alliance4.png",
-	"crest":"graphics/oas/factions/crest_osiris_alliance4.png",
+	"logo":"graphics/oas/factions/logo_osiris_alliance7.png",
+	"crest":"graphics/oas/factions/crest_osiris_alliance7.png",
 	"shipNamePrefix":"OAS",
 	"shipNameSources":{
 		"GREEK":1,
@@ -48,12 +48,14 @@
 		"hulls":[
 			"atlas",
 			"prometheus",
-			"oas_osiris",
+			"oas_sun",
 			"oas_observer",
 			"oas_lolslaught",
-			"oas_hexa",
-			"toopo_gallium",
-			"toopo_haast"
+			#"oas_hexa",
+			"toopo_haast",
+			"toopo_genesis",
+			"oas_unicorn2",
+			"toopo_bucket2"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -61,7 +63,7 @@
 		"tags":[],
 		#"tags":["osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp"],
 		#let's try prioritising only caps
-		"hulls":["oas_osiris", "oas_observer", "oas_hexa", "toopo_gallium", "toopo_haast", "oas_lolslaught"]
+		"hulls":["oas_sun", "oas_observer", "toopo_haast", "oas_lolslaught","toopo_genesis"] #oas_hexa
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],
@@ -93,9 +95,6 @@
 			"pulselaser",
 			"heavyburst",
 			"ionpulser",
-			"oas_xlcannon",
-			"oas_xl_blazer",
-			"oas_trident_large",
 			"plasma"
 		],
 	},
@@ -144,7 +143,7 @@
 		
 		"shipSize":3,
 		
-		"aggression":2,
+		"aggression":5,
 		
 		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0.25,				# as part of the normal combat lineup

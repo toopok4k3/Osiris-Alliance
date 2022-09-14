@@ -1,0 +1,52 @@
+{
+  "hullName": "Retinator",
+  "hullId": "oas_retinator",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_gazer_drone.png",
+  "style": "MIDLINE",
+  "height": 27,
+  "width": 20,
+  "center": [10, 13],
+  "collisionRadius": 20,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "builtInMods": [
+    "oas_retinator_core"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [13, -3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1.5, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -0],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "OAS_SNAPPER"
+    }
+  ],
+  "bounds": [
+    -9.5, 9,
+    -9.5, -9,
+    13, -0.5
+  ]
+}

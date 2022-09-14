@@ -1,0 +1,112 @@
+{
+  "hullName": "Opossum",
+  "hullId": "oas_opossum",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_smallunicorn.png",
+  "style": "MIDLINE",
+  "height": 120,
+  "width": 86,
+  "center": [43, 60],
+  "collisionRadius": 79,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 79,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "oas_lg_drone_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [54, -14]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11.5, 14]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        33, 4.5,
+        33, 14.5
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-33, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-59, -6],
+      "length": 22,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, 6],
+      "length": 22,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -12.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, 12.5],
+      "length": 25,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    39, 29.5,
+    19.5, 38.5,
+    -20, 34,
+    -26, 26,
+    -57, 17.5,
+    -57, 4.5,
+    -39.5, -1,
+    -57, -4.5,
+    -57, -17.5,
+    -28, -22,
+    -23, -35,
+    44.5, -36,
+    44.5, -19,
+    51.5, -12
+  ]
+}

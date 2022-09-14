@@ -1,0 +1,30 @@
+{
+  "variantId": "oas_turtle2_ball",
+  "hullId": "oas_turtle2",
+  "displayName": "Ballshot",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_s_pd_fighter",
+        "WS0002": "oas_s_pd_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_shottie_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -35,11 +35,17 @@
 	],
 	"oas_s_pd_fire":
 	[
-		{"file":"sounds/oas/fx/oas_s1_normalized_mono2.ogg","pitch":0.33,"volume":0.17}
+		{"file":"sounds/oas/fx/oas_s_pd1.ogg","pitch":1,"volume":0.17},
+		{"file":"sounds/oas/fx/oas_s_pd2.ogg","pitch":0.98,"volume":0.17},
+		{"file":"sounds/oas/fx/oas_s_pd3.ogg","pitch":0.96,"volume":0.17},
+		{"file":"sounds/oas/fx/oas_s_pd4.ogg","pitch":0.96,"volume":0.17}
 	],
 	"oas_m_pd_fire":
 	[
-		{"file":"sounds/oas/fx/oas_s1_normalized_mono2.ogg","pitch":0.33,"volume":0.20}
+		{"file":"sounds/oas/fx/oas_s_pd1.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/oas/fx/oas_s_pd2.ogg","pitch":0.98,"volume":0.2},
+		{"file":"sounds/oas/fx/oas_s_pd3.ogg","pitch":0.96,"volume":0.2},
+		{"file":"sounds/oas/fx/oas_s_pd4.ogg","pitch":0.96,"volume":0.2}
 	],
 	"oas_m_blazer_fire":
 	[
@@ -121,11 +127,141 @@
 		{"file":"sounds/oas/fx/oas_l_energy.ogg","pitch":0.73,"volume":0.9},
 		{"file":"sounds/oas/fx/oas_l_energy.ogg","pitch":0.72,"volume":0.9}
 	],
+	"oas_benergy1":
+	[
+		{"file":"sounds/oas/fx/oas_benergy1.ogg","pitch":0.5,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy1.ogg","pitch":0.48,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy1.ogg","pitch":0.46,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy1.ogg","pitch":0.54,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy1.ogg","pitch":0.52,"volume":0.9}
+	],
+	"oas_benergy2":
+	[
+		{"file":"sounds/oas/fx/oas_benergy2.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy2.ogg","pitch":0.98,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy2.ogg","pitch":0.96,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy2.ogg","pitch":1.04,"volume":0.9},
+		{"file":"sounds/oas/fx/oas_benergy2.ogg","pitch":1.02,"volume":0.9}
+	],
+	"oas_benergy3":
+	[
+		{"file":"sounds/oas/fx/oas_benergy3.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy3.ogg","pitch":0.98,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy3.ogg","pitch":0.96,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy3.ogg","pitch":1.04,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy3.ogg","pitch":1.02,"volume":0.8}
+	],
+	"oas_benergy4":
+	[
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":0.98,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":0.96,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.04,"volume":0.8},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.02,"volume":0.8}
+	],
+	"oas_benergy4_small":
+	[
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":0.98,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":0.96,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.04,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.02,"volume":0.65}
+	],
+	"oas_boom1":
+	[
+		{"file":"sounds/oas/fx/oas_boom1.ogg","pitch":1,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom1.ogg","pitch":1.02,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom1.ogg","pitch":0.98,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom2.ogg","pitch":1,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom3.ogg","pitch":1,"volume":1}
+	],
+	"oas_boom2":
+	[
+		{"file":"sounds/oas/fx/oas_boom1.ogg","pitch":0.66,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom1.ogg","pitch":0.68,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom1.ogg","pitch":0.64,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom2.ogg","pitch":0.66,"volume":1},
+		{"file":"sounds/oas/fx/oas_boom3.ogg","pitch":0.66,"volume":1}
+	],
+	"oas_bigboom1":
+	[
+		{"file":"sounds/oas/fx/oas_bigboom1_2.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/oas/fx/oas_bigboom2_2.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/oas/fx/oas_bigboom3_2.ogg","pitch":1,"volume":0.75}
+	],
+	"oas_smollboom1":
+	[
+		{"file":"sounds/oas/fx/oas_bigboom1_2.ogg","pitch":1.33,"volume":0.70},
+		{"file":"sounds/oas/fx/oas_bigboom2_2.ogg","pitch":1.33,"volume":0.70},
+		{"file":"sounds/oas/fx/oas_bigboom3_2.ogg","pitch":1.33,"volume":0.70}
+	],
+	"oas_smollboom2":
+	[
+		{"file":"sounds/oas/fx/oas_bigboom4_short.ogg","pitch":1.05,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_bigboom4_short.ogg","pitch":1.0,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_bigboom4_short.ogg","pitch":0.95,"volume":0.65}
+	],
 	"oas_snapper":
 	[
 		{"file":"sounds/oas/fx/oas_snapper2.ogg","pitch":1,"volume":0.7},
 		#{"file":"sounds/oas/fx/oas_snapper2.ogg","pitch":0.66,"volume":0.7},
 		#{"file":"sounds/oas/fx/oas_snapper2.ogg","pitch":0.33,"volume":0.7}
+	],
+	"oas_burn_start":[ 
+		{"file":"sounds/oas/fx/oas_burn_start.ogg","pitch":1,"volume":0.75}
+	],
+	"oas_burn_loop":[ 
+		{"file":"sounds/oas/fx/oas_burn_loop.ogg","pitch":1,"volume":0.75}
+	],
+	"oas_burn_end":[ 
+		{"file":"sounds/oas/fx/oas_burn_end.ogg","pitch":1,"volume":0.75}
+	],
+	"oas_burn_start2":[ 
+		{"file":"sounds/oas/fx/oas_burn_start3.ogg","pitch":1,"volume":1}
+	],
+	"oas_burn_loop2":[ 
+		{"file":"sounds/oas/fx/oas_burn_loop3.ogg","pitch":1,"volume":1}
+	],
+	"oas_burn_end2":[ 
+		{"file":"sounds/oas/fx/oas_burn_end3.ogg","pitch":1,"volume":1}
+	],
+	"oas_snapper_hit":[
+		{"file":"sounds/oas/fx/oas_snapper_hit.ogg","pitch":0.66,"volume":1}
+	],
+	"oas_l_pd":[
+		{"file":"sounds/oas/fx/oas_l_pd2.ogg","pitch":1,"volume":0.9}
+	],
+	"oas_l_hyper":
+	[
+		{"file":"sounds/oas/fx/oas_hyper1.ogg","pitch":1.0,"volume":0.40},
+		{"file":"sounds/oas/fx/oas_hyper1.ogg","pitch":0.98,"volume":0.37},
+		{"file":"sounds/oas/fx/oas_hyper1.ogg","pitch":0.96,"volume":0.43},
+		{"file":"sounds/oas/fx/oas_hyper1.ogg","pitch":0.93,"volume":0.45},
+		{"file":"sounds/oas/fx/oas_hyper1.ogg","pitch":0.91,"volume":0.35}
+	],
+	"oas_l_hyperloop":
+	[
+		{"file":"sounds/oas/fx/oas_hyperloop.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_benergy4_rotary":
+	[
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.40,"volume":0.53},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.38,"volume":0.55},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.36,"volume":0.56},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.44,"volume":0.58},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.42,"volume":0.52}
+	],
+	"oas_orb_blast_gazer":
+	[
+		{"file":"sounds/oas/fx/oas_orb_blast5.ogg","pitch":1.1,"volume":0.9}
+	],
+	"oas_orb_blast_observer":
+	[
+		{"file":"sounds/oas/fx/oas_orb_blast5.ogg","pitch":1.05,"volume":0.95}
+	],
+	"oas_orb_blast_sun":
+	[
+		{"file":"sounds/oas/fx/oas_orb_blast5.ogg","pitch":1.0,"volume":1.0}
 	]
 }
 

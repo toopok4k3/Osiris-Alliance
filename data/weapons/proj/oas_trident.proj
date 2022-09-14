@@ -2,9 +2,9 @@
 	"id":"oas_trident",
 	"specClass":"missile",	
 	"missileType":"MIRV",
-	"sprite":"graphics/oas/missiles/oas_trident_missile.png",
-	"size":[20,34],	
-	"center":[10,17],
+	"sprite":"graphics/oas/missiles/oas_trident_missile2.png",
+	"size":[18,34],	
+	"center":[9,17],
 	"collisionRadius":16,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color

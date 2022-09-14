@@ -4,7 +4,7 @@
   "displayName": "Custom",
   "goalVariant": false,
   "fluxCapacitors": 9,
-  "fluxVents": 8,
+  "fluxVents": 9,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
@@ -19,11 +19,18 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0002": "lightac",
         "WS0003": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "vulcan"
       }
     }
   ],

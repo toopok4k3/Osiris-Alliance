@@ -1,0 +1,31 @@
+{
+	"id":"oas_l_hyper",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/oas/weapons/oas_hyper/oas_l_hyper_t_00.png",
+	"hardpointSprite":"graphics/oas/weapons/oas_hyper/oas_l_hyper_hp_00.png",	
+	"numFrames":4,	
+	"frameRate":20,
+	"everyFrameEffect":"data.scripts.weapons.OasHyperEveryFrameEffect",
+	"turretOffsets":[31, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[42, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":55.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":2.0,
+					   "particleSizeRange":4.0,
+					   "particleDuration":0.05,
+					   "particleCount":30,
+					   "particleColor":[120,255,165,200]},	
+	"projectileSpecId":"oas_l_hyper_shot",  # projectile that will be fired
+	#"noImpactSounds":true,
+	#"noShieldImpactSounds":true,
+	#"noNonShieldImpactSounds":true,
+	#"fireSoundOne":"chaingun_intro",	
+	"interruptibleBurst":true,
+	"fireSoundTwo":"oas_l_hyper",	
+}

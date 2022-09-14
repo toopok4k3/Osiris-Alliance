@@ -1,0 +1,58 @@
+{
+  "hullName": "Igniter",
+  "hullId": "oas_igniter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_igniter.png",
+  "style": "MIDLINE",
+  "height": 38,
+  "width": 18,
+  "center": [9, 19],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, -2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, 2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [2.5, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    13.5, 7,
+    -19, 1,
+    9.5, -8.5
+  ]
+}

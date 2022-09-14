@@ -4,6 +4,7 @@
 	"spawnType":"PLASMA",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onFireEffect":"data.scripts.weapons.OasShottieOnFireEffect",
 	"width":25.0,
 	"fadeTime":0.3,
 	"hitGlowRadius":22,

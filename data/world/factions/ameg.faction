@@ -35,8 +35,8 @@
 		},
 		"hulls":{
 			"oas_lolslaught":0.25,
-			"toopo_gallium":1,
-			"toopo_haast":0.5
+			"toopo_haast":1,
+			"toopo_genesis":1,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -67,14 +67,16 @@
 			"eagle",
 			"harbinger",
 			"oas_lolslaught",
-			"toopo_gallium",
-			"toopo_haast"
+			"toopo_haast",
+			"toopo_genesis",
+			"oas_unicorn2",
+			"toopo_bucket2"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":[],
-		"hulls":[ "oas_lolslaught", "toopo_gallium", "toopo_haast"]
+		"hulls":[ "oas_lolslaught", "toopo_haast", "toopo_genesis"]
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "toopo_bp", "ameg_bp"],
@@ -92,7 +94,7 @@
 		"fighters":[],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "osiris_bp", "toopo_bp", "ameg_bp"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "osiris_bp", "osiris2_bp", "toopo_bp", "ameg_bp"],
 		"weapons":[
 			"railgun",
 			"dualflak",
@@ -113,9 +115,6 @@
 			"pulselaser",
 			"heavyburst",
 			"ionpulser",
-			"oas_xlcannon",
-			"oas_xl_blazer",
-			"oas_trident_large",
 			"plasma",
 			"guardian",
 			"tachyonlance",

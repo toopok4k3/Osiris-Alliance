@@ -12,7 +12,7 @@
   "shieldRadius": 68,
   "viewOffset": 0,
   "builtInMods": [
-    "ground_support",
+    "oas_ground_support",
     "frontshield"
   ],
   "weaponSlots": [

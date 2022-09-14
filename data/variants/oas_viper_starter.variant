@@ -3,7 +3,7 @@
   "hullId": "oas_viper",
   "displayName": "Custom",
   "goalVariant": true,
-  "fluxCapacitors": 6,
+  "fluxCapacitors": 7,
   "fluxVents": 7,
   "quality": 0.5,
   "permaMods": [],
@@ -16,14 +16,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "oas_m_cannon"
+        "WS0001": "oas_m_shottie"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "reaper"
+        "WS0004": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "railgun"
       }
     },
     {
@@ -31,13 +38,6 @@
       "mode": "LINKED",
       "weapons": {
         "WS0002": "flak"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0003": "lightmg"
       }
     },
     {

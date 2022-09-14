@@ -4,10 +4,10 @@
 		{
 			"entities":["suns_gate"],
 			"faction":"osiris",
-			"size":7,
+			"size":6,
 			"startingConditions":[
 				"habitable",
-				"population_7",
+				"population_6",
 				"farmland_adequate",
                 "ruins_vast"
 			],
@@ -15,7 +15,7 @@
 				"population",
 				"megaport",
 				"heavybatteries",
-				["orbitalworks", "pristine_nanoforge"],
+				["orbitalworks", "corrupted_nanoforge"],
                 "highcommand",
 				"starfortress_mid",
                 "techmining",
@@ -52,7 +52,6 @@
 			"faction":"independent",
 			"size":4,
 			"startingConditions":[
-				"habitable",
 				"population_4",
 				"extreme_tectonic_activity",
                 "rare_ore_abundant",
@@ -65,7 +64,6 @@
 				"population",
 				"spaceport",
                 "mining",
-                "planetaryshield",
                 "grounddefenses",
 				"patrolhq"
 			]

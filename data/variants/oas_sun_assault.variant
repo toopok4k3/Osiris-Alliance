@@ -1,0 +1,81 @@
+{
+  "variantId": "oas_sun_assault",
+  "hullId": "oas_sun",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 34,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_trident_large",
+        "WS0002": "oas_m_trident"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "oas_s_kineticmissile",
+        "WS0011": "oas_s_kineticmissile",
+        "WS0012": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_l_hyper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "oas_orb_sun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "oas_s_benergy",
+        "WS0014": "oas_s_benergy",
+        "WS0015": "oas_s_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_cannon",
+        "WS0005": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_l_pd",
+        "WS0007": "oas_l_pd",
+        "WS0008": "oas_m_pd",
+        "WS0009": "oas_m_pd",
+        "WS0016": "oas_s_pd",
+        "WS0017": "oas_s_pd",
+        "WS0018": "oas_s_pd",
+        "WS0019": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

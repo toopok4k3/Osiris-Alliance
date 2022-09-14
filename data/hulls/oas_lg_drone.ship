@@ -1,0 +1,76 @@
+{
+  "hullName": "Bob",
+  "hullId": "oas_lg_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_lg_drone.png",
+  "style": "MIDLINE",
+  "height": 22,
+  "width": 20,
+  "center": [10, 11],
+  "collisionRadius": 17,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [3, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -4.5],
+      "length": 8,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-11, 4.5],
+      "length": 8,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-4, -9],
+      "length": 4,
+      "width": 4,
+      "angle": -128.5,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-4, 9],
+      "length": 4,
+      "width": 4,
+      "angle": 128.5,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    5, -9,
+    -10, -0,
+    5, 9
+  ]
+}

@@ -3,67 +3,63 @@
   "hullId": "oas_gazer",
   "displayName": "Missile",
   "goalVariant": true,
-  "fluxCapacitors": 13,
-  "fluxVents": 13,
+  "fluxCapacitors": 16,
+  "fluxVents": 16,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "missleracks",
-    "dedicated_targeting_core"
+    "targetingunit"
   ],
   "weaponGroups": [
     {
       "autofire": false,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
-        "WS0001": "hurricane",
-        "WS0002": "hurricane"
+        "WS0007": "oas_m_trident",
+        "WS0008": "oas_m_trident",
+        "WS0009": "oas_m_trident"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_orb_gazer"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "arbalest",
-        "WS0007": "arbalest"
+        "WS0002": "oas_xlcannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_m_shottie",
+        "WS0004": "oas_s_shottie"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "gravitonbeam"
+        "WS0005": "oas_s_pd",
+        "WS0006": "oas_s_pd"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "pilum"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0003": "oas_grb_laser"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0008": "flak"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0009": "lightmg",
-        "WS0010": "lightmg",
-        "WS0011": "lightmg"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

@@ -1,0 +1,29 @@
+{
+  "variantId": "oas_starburst_standard",
+  "hullId": "oas_starburst",
+  "displayName": "Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_s_pd_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_matchstick_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

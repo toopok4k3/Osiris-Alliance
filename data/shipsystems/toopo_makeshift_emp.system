@@ -3,7 +3,7 @@
 	"type":"EMP",
 	"aiType":"EMP",
 	
-	"range":350,
+	"range":500,
 	
 	"empDamage":350,
 	"damage":75,
@@ -20,7 +20,7 @@
 	"outOfUsesSound":"gun_out_of_ammo",
 	
 	"aiHints":{
-		"threatRange":450,
+		"threatRange":600,
 		"threatAmount":3,
 		"threatAngle":0,
 		"threatArc":360,

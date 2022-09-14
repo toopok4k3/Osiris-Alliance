@@ -1,0 +1,41 @@
+{
+  "hullName": "Fisher",
+  "hullId": "oas_fisher",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_fisher.png",
+  "style": "MIDLINE",
+  "height": 44,
+  "width": 36,
+  "center": [18, 22],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [11, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, -0],
+      "length": 30,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "OAS_SNAPPER"
+    }
+  ],
+  "bounds": [
+    -3, 17,
+    -21.5, -0.5,
+    -4, -17.5,
+    21, -0
+  ]
+}
