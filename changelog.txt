@@ -1,3 +1,6 @@
+Changelog for v4.0.2
+Fixed versioncheck file that cause crash if you have lunalib
+
 Changelog from v3.0.1 to v4.0.0
 The changelog may not 100% accurate as things were changing fluidly.
 
