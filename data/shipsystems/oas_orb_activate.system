@@ -1,0 +1,28 @@
+{
+	"id":"oas_orb_activate",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.OasOrbActivateStats",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.33,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":50,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":25,
+	}
+}

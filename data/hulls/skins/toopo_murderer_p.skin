@@ -1,0 +1,17 @@
+{
+	"baseHullId":"toopo_murderer",
+	"skinHullId":"toopo_murderer_p",
+	"hullName":"Slayer (P)",
+	"descriptionId":"toopo_murderer",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":1.0,
+	"spriteName":"graphics/toopo/ships/toopo_murderer_p.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+}

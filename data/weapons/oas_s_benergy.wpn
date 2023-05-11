@@ -26,6 +26,6 @@
 	"projectileSpecId":"oas_s_benergy_shot",
 	#"fireSoundTwo":"oas_xlcannon_fire"
 	#"fireSoundTwo":"oas_xl_blazer_fire"
-    "interruptibleBurst":true,
+    #"interruptibleBurst":true,
 	"fireSoundTwo":"oas_benergy4_rotary"
 }

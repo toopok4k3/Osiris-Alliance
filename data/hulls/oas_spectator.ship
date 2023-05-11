@@ -1,0 +1,199 @@
+{
+  "hullName": "Spectator",
+  "hullId": "oas_spectator",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/oas/ships/oas_spectator.png",
+  "style": "MIDLINE",
+  "height": 106,
+  "width": 162,
+  "center": [81, 60],
+  "collisionRadius": 100,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 87.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm",
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "WS0001": "oas_orb_spectator",
+    "WS0010": "oas_deco_specorb"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [5, -50]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -0,
+      "locations": [5, 50]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [30, -50]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [30, 41]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [30, 59]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -135,
+      "locations": [-25, -28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 135,
+      "locations": [-25, 28]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-59, -22],
+      "length": 60,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "OAS"
+    },
+    {
+      "location": [-59, 22],
+      "length": 60,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "OAS"
+    },
+    {
+      "location": [-48, -35],
+      "length": 40,
+      "width": 12,
+      "angle": -160,
+      "contrailSize": 12,
+      "style": "OAS"
+    },
+    {
+      "location": [-48, 35],
+      "length": 40,
+      "width": 12,
+      "angle": 160,
+      "contrailSize": 12,
+      "style": "OAS"
+    },
+    {
+      "location": [-18, -71],
+      "length": 40,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "OAS"
+    },
+    {
+      "location": [-18, 71],
+      "length": 40,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "OAS"
+    },
+    {
+      "location": [-8, -79],
+      "length": 30,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "OAS"
+    },
+    {
+      "location": [-8, 79],
+      "length": 30,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    44, 10,
+    35, 30,
+    33.5, 42,
+    39, 50.5,
+    33.5, 63,
+    2.5, 79.5,
+    -19, 71.5,
+    -20, 57,
+    -36, 55,
+    -40, 46,
+    -29, 46,
+    -57.5, 26,
+    -57.5, -26,
+    -29, -46,
+    -40, -46,
+    -36, -55,
+    -20, -57,
+    -19, -71.5,
+    2.5, -79.5,
+    39, -62.5,
+    34, -50,
+    38.5, -33,
+    35, -30,
+    44, -10,
+    19.5, -10,
+    19.5, 10
+  ]
+}

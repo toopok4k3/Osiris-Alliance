@@ -3,22 +3,15 @@
   "hullId": "oas_tusker2",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 11,
-  "fluxVents": 11,
-  "quality": 1,
+  "fluxCapacitors": 14,
+  "fluxVents": 15,
+  "quality": 0.5,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
     "missleracks"
   ],
   "weaponGroups": [
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "oas_l_benergy"
-      }
-    },
     {
       "autofire": false,
       "mode": "LINKED",
@@ -30,15 +23,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "harpoonpod"
+        "WS0005": "oas_m_smartbomb",
+        "WS0006": "oas_s_smartbomb",
+        "WS0007": "oas_s_smartbomb"
       }
     },
     {
-      "autofire": false,
-      "mode": "ALTERNATING",
+      "autofire": true,
+      "mode": "LINKED",
       "weapons": {
-        "WS0006": "harpoon",
-        "WS0007": "harpoon"
+        "WS0001": "oas_l_benergy"
       }
     },
     {
@@ -57,6 +51,11 @@
         "WS0009": "oas_s_pd",
         "WS0010": "oas_s_pd"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     },
     {
       "autofire": false,

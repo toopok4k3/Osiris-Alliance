@@ -5,7 +5,7 @@
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
 	"onHitEffect":"data.scripts.weapons.OasMagnetronOnHitEffect",
-	"length":30,
+	"length":60,
 	"hitGlowRadius":150,
 	"width":15,
 	"fadeTime":0.3,

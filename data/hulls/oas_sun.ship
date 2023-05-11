@@ -14,7 +14,8 @@
   "builtInMods": [
     "hiressensors",
     "eccm",
-    "advancedcore"
+    "targetingunit",
+    "oas_datalinker"
   ],
   "builtInWeapons": {
     "WS0020": "oas_orb_sun",

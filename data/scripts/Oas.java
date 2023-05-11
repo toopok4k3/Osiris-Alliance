@@ -1,6 +1,9 @@
 package data.scripts;
 
+import org.lwjgl.util.vector.Vector2f;
+
 import java.awt.Color;
+import java.lang.Math;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.JumpPointAPI;
@@ -40,6 +43,8 @@ public class Oas {
 	private static final int OAS_KEY_RANDOM_REST = 10;
 	private static final int OAS_KEY_STATION = 11;
 	private static final int OAS_KEY_COMBINE_RINGS = 12;
+	private static final int OAS_KEY_SECONDARY_STAR = 13;
+	private static final int OAS_KEY_SECONDARY_STAR_EXT = 14;
 
 	public static class AnyEntity {
 		public int type;
@@ -109,6 +114,35 @@ public class Oas {
 		return entity;
 	}
 	
+	public static AnyEntity secondaryStar(float spaceBefore, float spaceAfter, float angle, String id, String starType, float radius, float coronaSize) {
+		AnyEntity entity = new AnyEntity();
+		entity.type = OAS_KEY_SECONDARY_STAR;
+		entity.id = id;
+		entity.entityType = starType;
+		entity.radius = radius;
+		entity.coronaSize = coronaSize;
+		entity.angle = angle;
+		entity.spaceBefore = spaceBefore;
+		entity.spaceAfter = spaceAfter;
+		return entity;
+	}
+
+	public static AnyEntity secondaryStar(float spaceBefore, float spaceAfter, float angle, String id, String starType, float radius, float coronaSize, float solarWindBurnLevel, float flareProbability, float crLossMultiplier) {
+		AnyEntity entity = new AnyEntity();
+		entity.type = OAS_KEY_SECONDARY_STAR_EXT;
+		entity.id = id;
+		entity.entityType = starType;
+		entity.radius = radius;
+		entity.coronaSize = coronaSize;
+		entity.solarWindBurnLevel = solarWindBurnLevel;
+		entity.flareProbability = flareProbability;
+		entity.crLossMultiplier = crLossMultiplier;
+		entity.angle = angle;
+		entity.spaceBefore = spaceBefore;
+		entity.spaceAfter = spaceAfter;
+		return entity;
+	}
+
 	public static AnyEntity planet(float spaceBefore, float spaceAfter, float radius, float angle, String name, String id, String planetType, float orbitDays) {
 		AnyEntity entity = new AnyEntity();
 		entity.type = OAS_KEY_PLANET;
@@ -275,6 +309,13 @@ public class Oas {
 			} else if(current.type == OAS_KEY_STAR_EXTENDED) {
 				star = system.initStar(current.id, current.entityType, current.radius, current.coronaSize, current.solarWindBurnLevel, current.flareProbability, current.crLossMultiplier);
 				createdEntity = star;
+			} else if(current.type == OAS_KEY_SECONDARY_STAR) {
+				createdEntity = system.addPlanet(current.id, focus, current.name, current.entityType, current.angle, current.radius, calculatedDistance, calculatedOrbitDays);
+				system.addCorona(createdEntity, 250, 2f, 0.1f, 2f);
+				planetOffset++;
+			} else if(current.type == OAS_KEY_SECONDARY_STAR_EXT) {
+				createdEntity = system.addPlanet(current.id, focus, current.name, current.entityType, current.angle, current.radius, calculatedDistance, calculatedOrbitDays);
+				planetOffset++;
 			} else if(current.type == OAS_KEY_PLANET) {
 				createdEntity = system.addPlanet(current.id, focus, current.name, current.entityType, current.angle, current.radius, calculatedDistance, calculatedOrbitDays);
 				planetOffset++;
@@ -333,4 +374,5 @@ public class Oas {
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
 	}
+
 }

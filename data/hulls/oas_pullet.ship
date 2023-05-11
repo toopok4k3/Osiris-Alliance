@@ -1,0 +1,113 @@
+{
+  "hullName": "Pullet",
+  "hullId": "oas_pullet",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_pullet.png",
+  "style": "LOW_TECH",
+  "height": 144,
+  "width": 72,
+  "center": [36, 72],
+  "collisionRadius": 99,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 94,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "oas_aux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-31, -27]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-31, 27]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [34, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [62, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 180,
+      "locations": [-51, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71, -9],
+      "length": 40,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71, 9],
+      "length": 40,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, -21.5],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, 21.5],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    62.5, 7,
+    56.5, 32,
+    -18, 34.5,
+    -22, 28.5,
+    -60.5, 24,
+    -68.5, 13.5,
+    -68.5, -13.5,
+    -60.5, -24,
+    -22, -28.5,
+    -18, -34.5,
+    56.5, -32,
+    62.5, -7
+  ]
+}

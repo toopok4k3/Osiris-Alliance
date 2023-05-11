@@ -1,0 +1,58 @@
+{
+  "variantId": "oas_magma_elite",
+  "hullId": "oas_magma",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_kinetic2_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_l_hyper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_l_orb_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_pd",
+        "WS0006": "oas_s_pd",
+        "WS0007": "oas_s_pd",
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd",
+        "WS0010": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,62 @@
+{
+  "variantId": "oas_spectator_strike",
+  "hullId": "oas_spectator",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_kinetic2_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_orb_spectator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_shottie",
+        "WS0003": "oas_m_shottie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_s_energy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

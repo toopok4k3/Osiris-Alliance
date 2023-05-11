@@ -26,5 +26,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[100,100,100,200]},
 	"projectileSpecId":"oas_trident",
-	"fireSoundTwo":"harpoon_fire"
+	"fireSoundTwo":"oas_big_missile_smooth"
 }

@@ -1,0 +1,43 @@
+{
+	"baseHullId":"oas_wayfarer2",
+	"skinHullId":"oas_wayfarer2_p",
+	"hullName":"Wombat (P)",
+	"descriptionId":"oas_wayfarer2",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":0.9,
+    "systemId":"burndrive",
+	"spriteName":"graphics/oas/ships/oas_lilcarrie_p4.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["oas_fast_flames", "shield_shunt"],
+    "builtInWings":["oas_fisher_p_wing"],
+    "engineSlotChanges":{
+        "0":{
+			"width": 24,
+			"length": 36.5,
+			"angle": 180,
+			"style": "LOW_TECH",
+		},
+        "1":{
+			"width": 24,
+			"length": 36.5,
+			"angle": 180,
+			"style": "LOW_TECH",
+		}
+   },
+   "weaponSlotChanges":{
+		"WS0001":{
+            "type": "BALLISTIC"
+		},
+		"WS0002":{
+            "type": "BALLISTIC"
+		},
+		"WS0003":{
+            "type": "MISSILE"
+		}
+	}
+}

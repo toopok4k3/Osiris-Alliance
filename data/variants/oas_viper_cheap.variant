@@ -1,0 +1,40 @@
+{
+  "variantId": "oas_viper_cheap",
+  "hullId": "oas_viper",
+  "displayName": "Cheap",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_poor_cannon",
+        "WS0002": "oas_m_poor_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_cracker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_s_kineticmissile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

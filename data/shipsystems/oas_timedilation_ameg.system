@@ -1,10 +1,13 @@
 {
 	"id":"oas_timedilation_ameg",
 	"type":"ENGINE_MOD",
-	"aiType":"MANEUVERING_JETS",
+	#"aiType":"MANEUVERING_JETS",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.OasTimeDilationAI",
 	#"type":"STAT_MOD",
 	#"aiType":"TEMPORAL_SHELL",
 	
+
 	"statsScript":"data.shipsystems.scripts.OasRedTimeDilationStats",
 	
 	"soundFilterType":"LOWPASS",

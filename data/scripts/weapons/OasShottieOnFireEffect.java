@@ -24,6 +24,9 @@ import java.lang.Math;
 import java.awt.Color;
 import java.util.EnumSet;
 
+//import data.scripts.OasUtil.Trail;
+//import data.scripts.OasUtil.TrailConfig;
+
 public class OasShottieOnFireEffect extends BaseCombatLayeredRenderingPlugin implements OnFireEffectPlugin {
 	@Override
 	public void onFire(DamagingProjectileAPI projectile, WeaponAPI weapon, CombatEngineAPI combatEngine) {
@@ -46,12 +49,39 @@ public class OasShottieOnFireEffect extends BaseCombatLayeredRenderingPlugin imp
 			OasShottieOnFireEffect trail = new OasShottieOnFireEffect(projectile);
 			CombatEntityAPI entity = combatEngine.addLayeredRenderingPlugin(trail);
 			entity.getLocation().set(projectile.getLocation());
+
+			/*SpriteAPI sprite = Global.getSettings().getSprite("graphics/oas/fx/oas_benergy_core.png");
+			TrailConfig configBright = new TrailConfig(sprite,
+				startColor,
+				endColor);
+			configBright.setSegmentSpawnFrequency(5.0f);
+			configBright.setDuration(0.10f);
+			configBright.setWidth(40.0f);
+			configBright.setAcceleration(-10000.0f);
+			configBright.useInitialVelocityDamp();
+			configBright.setFrequncies(1.5f, 0.75f);
+			configBright.setAmplitudes(1.5f, 5.0f);
+			Trail trailBright = new Trail(projectile, configBright);
+			TrailConfig configDark = new TrailConfig(sprite,
+				smokeStartColor,
+				smokeEndColor);
+			configDark.setAmplitudes(2.0f, 15.0f);
+			configDark.setDuration(0.25f);
+			configDark.setAcceleration(-20000.0f);
+			configDark.setWidth(60.0f);
+			configDark.setTexSpeed(1.0f, 2.0f);
+			configDark.setSegmentSpawnFrequency(2.5f);
+			configBright.setFrequncies(0.8f, 0.4f);
+			//configDark.setFrequncies(5.0f, 8.0f);
+			Trail trailDark = new Trail(projectile, configDark);*/
 		}
 	}
 
 	// hackety hack hack. as if I will ever remember to change these as I modify the
-	// .wpn
-	private static final float sMediumAngles[] = new float[] { -4.5f, 4.5f, -1.5f, 1.5f }; // oas_m_shottie
+	// .wpn,
+	// BTW! "separateRecoilForLinkedBarrels":"true" exists that would do what I do
+	// here. Wish I'd known that before coding this hacked garbage.
+	private static final float sMediumAngles[] = new float[] { -3.5f, 3.5f, -2.5f, 2.5f, -1.5f, 1.5f, -0.5f, 0.5f }; // oas_m_shottie
 	private static final float sLargeAngles[] = new float[] { -3.5f, 3.5f, -2.5f, 2.5f, -1.5f, 1.5f, -0.5f, 0.5f }; // oas_l_shottie
 	private static final float sLargePdAngles[] = new float[] { -3.5f,3.5f,-3.0f,3.0f,-2.5f,2.5f,-2.0f, 2.0f,-1.5f, 1.5f,-1.0f,1.0f,-0.5f,0.5f,0f}; // oas_l_pd
 	private static final float sDefaultAngles[] = new float[] { 0.0f };

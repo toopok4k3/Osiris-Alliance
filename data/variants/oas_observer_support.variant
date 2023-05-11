@@ -1,0 +1,76 @@
+{
+  "variantId": "oas_observer_support",
+  "hullId": "oas_observer",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 29,
+  "fluxVents": 28,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_kineticmissile",
+        "WS0006": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "oas_orb_observer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_l_benergy",
+        "WS0003": "oas_l_benergy",
+        "WS0004": "oas_m_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "oas_s_pd",
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd",
+        "WS0010": "oas_s_pd",
+        "WS0011": "oas_s_pd",
+        "WS0012": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_turtle2_snapper_wing",
+    "oas_turtle2_snapper_wing",
+    "oas_turtle2_snapper_wing",
+    "oas_turtle2_snapper_wing"
+  ]
+}

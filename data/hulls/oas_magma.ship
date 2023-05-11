@@ -1,0 +1,181 @@
+{
+  "hullName": "Magma",
+  "hullId": "oas_magma",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/oas/ships/oas_magma.png",
+  "style": "MIDLINE",
+  "height": 264,
+  "width": 116,
+  "center": [58, 132],
+  "collisionRadius": 169,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 159,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advanced_ground_support",
+    "hbi"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [112, -40]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [69, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [5, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -75,
+      "locations": [37, -42]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [90, 32]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [-1, -43]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [-1, 43]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -135,
+      "locations": [-73, -28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 135,
+      "locations": [-73, 28]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-79, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-115, 24.5],
+      "length": 50,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "OAS"
+    },
+    {
+      "location": [-132, 4],
+      "length": 60,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "OAS"
+    },
+    {
+      "location": [-122, -19],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "OAS"
+    },
+    {
+      "location": [-115, -31],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OAS"
+    },
+    {
+      "location": [-114, -35],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    107, 42.5,
+    11.5, 50.5,
+    9, 55,
+    -47.5, 55,
+    -56.5, 42.5,
+    -82.5, 42.5,
+    -99.5, 31.5,
+    -115, 31.5,
+    -115, 20,
+    -130, 14.5,
+    -130, -7.5,
+    -121, -9.5,
+    -121, -25.5,
+    -71.5, -48.5,
+    -64.5, -44,
+    -58, -55,
+    -24, -55,
+    -22.5, -57,
+    7, -57,
+    15.5, -49.5,
+    37.5, -54,
+    64.5, -44,
+    91, -51,
+    112, -52.5,
+    122, -46.5,
+    115, -40.5,
+    130, -25.5
+  ]
+}

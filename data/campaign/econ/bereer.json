@@ -2,14 +2,16 @@
 	"starSystem":"bereer",
 	"markets":[
 		{
-			"entities":["suns_gate"],
+			"entities":["vaultron"],
 			"faction":"osiris",
-			"size":6,
+			"size":7,
 			"startingConditions":[
 				"habitable",
-				"population_6",
-				"farmland_adequate",
-                "ruins_vast"
+				"population_7",
+				"farmland_poor",
+                "ruins_vast",
+				"hot",
+				"pollution"
 			],
 			"industries":[
 				"population",
@@ -19,32 +21,27 @@
                 "highcommand",
 				"starfortress_mid",
                 "techmining",
-				"ameghq",
-				"fuelprod"
+				"farming"
 			]
 		},
         {
-			"entities":["eria"],
+			"entities":["magnetron"],
 			"faction":"osiris",
 			"size":5,
 			"startingConditions":[
-				"habitable",
+				"very_cold",
+				"no_atmosphere",
 				"population_5",
-				"farmland_rich",
-                "organics_common",
                 "ore_sparse",
-                "rare_ore_sparse",
-                "mild_climate"
+                "low_gravity",
+				"volatiles_trace"
 			],
 			"industries":[
 				"population",
 				"spaceport",
-                "farming",
-                "mining",
 				"heavybatteries",
-                "refining",
-				"orbitalstation_mid",
-				"patrolhq"
+                ["fuelprod", "synchrotron"],
+				"ameghq"
 			]
 		},
         {
@@ -55,17 +52,15 @@
 				"population_4",
 				"extreme_tectonic_activity",
                 "rare_ore_abundant",
+				"thin_atmosphere",
                 "ore_abundant",
-                "thin_atmosphere",
                 "hot",
                 "low_gravity"
 			],
 			"industries":[
 				"population",
 				"spaceport",
-                "mining",
-                "grounddefenses",
-				"patrolhq"
+                "mining"
 			]
 		}
 	]

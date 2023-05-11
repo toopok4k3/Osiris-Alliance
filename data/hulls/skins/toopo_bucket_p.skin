@@ -1,0 +1,29 @@
+{
+	"baseHullId":"toopo_bucket",
+	"skinHullId":"toopo_bucket_p",
+	"hullName":"Butcher (P)",
+	"descriptionId":"toopo_bucket",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":1.25,
+	"systemId":"burndrive",
+    "suppliesToRecover":10,
+	"suppliesPerMonth":10,
+	"spriteName":"graphics/toopo/ships/nebulatarsusbrawler2_p.png",
+	"removeWeaponSlots":["WS0006","WS0005"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":["WS0009"], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS0009":{
+			"size": "LARGE",
+            "type": "MISSILE"
+        },
+        "WS0010": {
+            "mount": "HIDDEN"
+        }
+    },
+}

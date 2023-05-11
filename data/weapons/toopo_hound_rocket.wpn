@@ -26,4 +26,6 @@
 				 "particleColor":[125,15,25,105]},	
 	"projectileSpecId":"toopo_hound_rocket_shot",
 	"fireSoundTwo":"reaper_fire",
+	"noShieldImpactSounds":true,
+	"noNonShieldImpactSounds":true
 }

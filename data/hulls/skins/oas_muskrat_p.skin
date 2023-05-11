@@ -8,9 +8,9 @@
 	"tech":"Pirate",
 	"baseValueMult":1.2,
     "systemId":"burndrive",
-	"spriteName":"graphics/oas/ships/oas_muskrat_p.png",
+	"spriteName":"graphics/oas/ships/oas_muskrat2_p.png",
 	"removeWeaponSlots":[], 		# ids
-	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeEngineSlots":[2,3], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
 	"weaponSlotChanges":{
@@ -18,6 +18,20 @@
             "type": "COMPOSITE"
 		}	
 	},
+	"engineSlotChanges":{
+        "0":{
+      "length": 60,
+      "width": 22,
+      "angle": 180,
+			"style": "LOW_TECH",
+		},
+        "1":{
+      "length": 60,
+      "width": 22,
+      "angle": -180,
+			"style": "LOW_TECH",
+		}
+   },
 	"builtInMods":["comp_armor"],
 	"builtInWeapons":{
     },

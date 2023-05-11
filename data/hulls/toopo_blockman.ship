@@ -1,0 +1,185 @@
+{
+  "hullName": "Blockman",
+  "hullId": "toopo_blockman",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/toopo/ships/toopo_the_f_did_i_do.png",
+  "style": "MIDLINE",
+  "height": 166,
+  "width": 144,
+  "center": [72, 83],
+  "collisionRadius": 122,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 119.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [56, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [62, -55]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [62, 55]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [75, -22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -0,
+      "locations": [75, 22]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [30, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": -105,
+      "locations": [-40, -51]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 105,
+      "locations": [-40, 51]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-60, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, -49.5],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, 49.5],
+      "length": 30,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, -43],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, 43],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, -37.5],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, 37.5],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    61.5, 10,
+    78.5, 11.5,
+    79.5, 33,
+    60, 35,
+    63.5, 63,
+    48, 71,
+    -26.5, 57,
+    -37.5, 64,
+    -80.5, 51,
+    -80.5, 33,
+    -50, 24.5,
+    -77, 16.5,
+    -77, -16.5,
+    -50, -24.5,
+    -80.5, -33,
+    -80.5, -51,
+    -37.5, -64,
+    -26.5, -57,
+    48, -71,
+    63.5, -63,
+    60, -35,
+    79.5, -33,
+    78.5, -11.5,
+    61.5, -10
+  ]
+}

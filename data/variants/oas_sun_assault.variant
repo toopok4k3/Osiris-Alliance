@@ -3,14 +3,15 @@
   "hullId": "oas_sun",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 34,
-  "fluxVents": 50,
+  "fluxCapacitors": 26,
+  "fluxVents": 26,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "ballistic_rangefinder",
-    "heavyarmor",
-    "armoredweapons"
+    "armoredweapons",
+    "pointdefenseai",
+    "heavyarmor"
   ],
   "weaponGroups": [
     {
@@ -34,6 +35,13 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0020": "oas_orb_sun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0003": "oas_l_hyper"
       }
     },
@@ -41,7 +49,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0020": "oas_orb_sun"
+        "WS0004": "oas_m_cracker",
+        "WS0005": "oas_m_cracker"
       }
     },
     {
@@ -51,14 +60,6 @@
         "WS0013": "oas_s_benergy",
         "WS0014": "oas_s_benergy",
         "WS0015": "oas_s_benergy"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0004": "oas_m_cannon",
-        "WS0005": "oas_m_cannon"
       }
     },
     {

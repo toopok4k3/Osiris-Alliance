@@ -5,43 +5,57 @@
 		"oas_viper_strike":2.5,
 		"oas_viper_support":2.5,
 		"oas_viper_p_strike":10,
-		"oas_lasher2_standard":5,
-		"oas_lasher2_starter":5,
-		"oas_lasher2_od":2.5,
-		"oas_lasher2_assault":2.5,
 		"toopo_miningboi_standard":5, #no damper fields...? well this boi has no shield.
 		"toopo_miningboi_strike":5, #no damper fields...? well this boi has no shield.
 		"toopo_dramster_od":3,
 		"toopo_dramster_standard":3,
 		"toopo_dramster_elite":2,
 		"toopo_dramster_strike":2,
-#		"toopo_egg_standard":10, #this might be annoying laserwanker
-		"oas_polecat_standard":4,
-		"oas_polecat_patrol":4,
-		"oas_polecat_support":3
-	},
-	"combatSmall":{
-		"oas_lasher2_standard":4,
-		"oas_lasher2_od":3,
-		"oas_lasher2_assault":3,
-		"oas_viper_standard":2.5,
-		"oas_viper_assault":2.5,
-		"oas_viper_strike":2.5,
-		"oas_viper_support":2.5,
-		"oas_viper_p_strike":10,
 		"oas_hen_assault":3,
 		"oas_hen_escort":3,
 		"oas_hen_standard":4,
-		"oas_airo_standard":6,
-		"oas_airo_strike":4,
-		"oas_airo_oa_armored":3,
-		"oas_airo_oa_od":2,
-		"oas_airo_oa_ranged":2,
-		"oas_airo_oa_standard":3,
-		"oas_scissor_standard":10,
+#		"toopo_egg_standard":10, #this might be annoying laserwanker
 		"oas_polecat_standard":4,
 		"oas_polecat_patrol":4,
 		"oas_polecat_support":3,
+		"toopo_eraser_p_strike":10,
+		"toopo_eraser_standard":4,
+		"toopo_eraser_strike":3,
+		"toopo_eraser_support":3,
+		"oas_raccoon_od":2.5,
+		"oas_raccoon_standard":2.5,
+		"oas_raccoon_strike":2.5,
+		"oas_raccoon_support":2.5,
+		"oas_raccoon_p_flamed":5,
+		"oas_raccoon_p_strike":5,
+		"oas_calmella_standard":2.5,
+		"oas_eraser_assault":2.5,
+		"oas_eraser_cheap":2.5,
+		"oas_eraser_standard":2.5,
+		"oas_eraser_strike":2.5
+	},
+	"combatSmall":{
+		"oas_viper_standard":2,
+		"oas_viper_assault":2,
+		"oas_viper_strike":2,
+		"oas_viper_support":2,
+		"oas_viper_cheap":2,
+		"oas_viper_p_strike":10,
+		"oas_hen_assault":2,
+		"oas_hen_escort":2,
+		"oas_hen_standard":4,
+		"oas_hen_cheap":2,
+		#"oas_airo_standard":6,
+		#"oas_airo_strike":4,
+		#"oas_airo_oa_armored":3,
+		#"oas_airo_oa_od":2,
+		#"oas_airo_oa_ranged":2,
+		#"oas_airo_oa_standard":3,
+		"oas_scissor_standard":10,
+		"oas_polecat_standard":3,
+		"oas_polecat_patrol":3,
+		"oas_polecat_support":2,
+		"oas_polecat_cheap":2,
 		"toopo_miningboi_standard":5,
 		"toopo_miningboi_strike":5,
 		"toopo_dramster_od":3,
@@ -51,26 +65,49 @@
 		"toopo_egg_standard":10,
 		"toopo_cutie_standard":4,
 		"toopo_cutie_strike":3,
-		"toopo_cutie_support":3
-	},
-	"combatFreighterSmall":{
-		"oas_viper_standard":1,
-		"oas_opossum_standard":10
+		"toopo_cutie_support":3,
+		"toopo_eraser_p_strike":10,
+		"toopo_eraser_standard":4,
+		"toopo_eraser_strike":3,
+		"toopo_eraser_support":3,
+		"oas_eraser_assault":2,
+		"oas_eraser_cheap":2,
+		"oas_eraser_od":1,
+		"oas_eraser_standard":2,
+		"oas_eraser_strike":2,
+		"oas_eraser_support":1,
+		"oas_raccoon_od":2,
+		"oas_raccoon_standard":2,
+		"oas_raccoon_strike":2,
+		"oas_raccoon_support":2,
+		"oas_raccoon_cheap":2,
+		"oas_raccoon_p_flamed":5,
+		"oas_raccoon_p_strike":5,
+		"oas_calmella_standard":2.5
 	},
 	"combatMedium":{
+		"toopo_bucket_p_support":10,
+		"oas_skull_assault":3,
+		"oas_skull_standard":4,
+		"oas_skull_strike":3,
 		"oas_rhino2_standard":2,
-		"oas_rhino2_oa":2,
-		"oas_rhino2_assault":3,
-		"oas_rhino2_support":3,
-		"oas_purjo_disabler":3,
-		"oas_purjo_standard":4,
-		"oas_purjo_strike":3,
+		"oas_rhino2_oa":1,
+		"oas_rhino2_assault":2,
+		"oas_rhino2_support":2,
+		"oas_rhino2_strike":2,
+		"oas_rhino2_cheap":1,
+		#"oas_purjo_disabler":3,
+		#"oas_purjo_standard":4,
+		#"oas_purjo_strike":3,
 		"oas_butcher_standard":4,
-		"oas_butcher_strike":3,
-		"oas_butcher_support":3,
-		"oas_lightdestro_standard":4,
-		"oas_lightdestro_oa":4,
-		"oas_lightdestro_patrol":4,
+		"oas_butcher_strike":2,
+		"oas_butcher_support":2,
+		"oas_butcher_cheap":2,
+		"oas_lightdestro_standard":2,
+		"oas_lightdestro_oa":2,
+		"oas_lightdestro_patrol":2,
+		"oas_lightdestro_strike":2,
+		"oas_lightdestro_cheap":2,
 		"toopo_bucket_standard":2.5,
 		"toopo_bucket_balanced":2.5,
 		"toopo_bucket_railer":2.5,
@@ -82,16 +119,26 @@
 		"toopo_oscillator_strike":3,
 		"toopo_oscillator_support":3,
 		"oas_flabellina_support":2.5, # we dont want to spam these for combat purposes
+		"oas_spectator_standard":2,
+		"oas_spectator_support":2,
+		"oas_spectator_strike":2,
+		"oas_spectator_ranged":1,
+		"oas_spectator_assault":2,
+		"oas_spectator_od":1,
 		#"oas_unicorn_standard":10
 	},
 	"combatLarge":{
-		"oas_tusker2_standard": 4,
-		"oas_tusker2_support": 3,
-		"oas_tusker2_assault": 3,
-		"oas_gazer_assault":2.5,
-		"oas_gazer_missile":2.5,
-		"oas_gazer_standard":2.5,
-		"oas_gazer_support":2.5,
+		"oas_tusker2_standard": 3,
+		"oas_tusker2_support": 2,
+		"oas_tusker2_assault": 2,
+		"oas_tusker2_od": 1,
+		"oas_tusker2_balanced":1,
+		"oas_tusker2_cheap":1,
+		"oas_gazer_assault":2,
+		"oas_gazer_missile":2,
+		"oas_gazer_standard":2,
+		"oas_gazer_support":2,
+		"oas_gazer_cheap":2,
 		#"oas_hourglass_assault":2.5,
 		#"oas_hourglass_plasma":2.5,
 		#"oas_hourglass_standard":2.5,
@@ -101,17 +148,37 @@
 		"toopo_apoture_standard":5,
 		"toopo_clown_standard":5,
 		"toopo_clown_strike":5,
-		"toopo_tsunami_elite":2.5,
-		"toopo_tsunami_escort":2.5,
-		"toopo_tsunami_od":2.5,
-		"toopo_tsunami_standard":2.5
+		#"toopo_tsunami_elite":2.5,
+		#"toopo_tsunami_escort":2.5,
+		#"toopo_tsunami_od":2.5,
+		#"toopo_tsunami_standard":2.5,
+		"oas_magma_assault":2,
+		"oas_magma_fisher":1.5,
+		"oas_magma_standard":2,
+		"oas_magma_strike":1.5,
+		"oas_magma_support":1.5,
+		"oas_magma_cheap":1.5,
+		"oas_blaster_od":2,
+		"oas_blaster_pulser":2,
+		"oas_blaster_standard":2,
+		"oas_blaster_strike":2,
+		"oas_blaster_support":2,
+		"toopo_blockman_standard":2.5,
+		"toopo_blockman_assault":2.5,
+		"toopo_blockman_strike":2.5,
+		"toopo_blockman_support":2.5
 	},
 	"combatCapital":{
-		"oas_observer_standard": 6,
-		"oas_observer_balanced": 4,
-		"oas_sun_standard": 5,
-		"oas_sun_assault": 5,
-		"oas_lolslaught_standard":10,
+		"toopo_solace_assault":2,
+		"toopo_solace_elite":2,
+		"toopo_solace_oa":2,
+		"toopo_solace_standard":2,
+		"toopo_solace_support":2,
+		"oas_sun_standard": 2.5,
+		"oas_sun_assault": 2.5,
+		"oas_sun_magnetron":2.5,
+		"oas_sun_support":2.5,
+		#"oas_lolslaught_standard":1,
 		"toopo_haast_brawler":2.5,
 		"toopo_haast_cannoneer":2.5,
 		"toopo_haast_elite":2.5,
@@ -120,25 +187,20 @@
 		"toopo_genesis_assault":3,
 		"toopo_genesis_strike":3
 	},
-	"combatFreighterMedium":{
-		#		"oas_rhino_standard":1,
-		#		"oas_rhino_mjolnir":1,
-		#		"oas_rhino_support":1,
-		"oas_unicorn_standard":10,
-		"oas_unicorn2_standard":10
-	},
 	"carrierSmall":{
-		"oas_wayfarer2_standard":4,
-		"oas_wayfarer2_support":3,
-		"oas_wayfarer2_oa":3
+		"oas_wayfarer2_standard":2,
+		"oas_wayfarer2_support":2,
+		"oas_wayfarer2_oa":2,
+		"oas_wayfarer2_elite":2,
+		"oas_wayfarer2_cheap":2,
+		"oas_wayfarer2_p_standard":10
 	},
 	"carrierMedium":{
-#		"oas_crux_assault":3,
-#		"oas_crux_bomber":3,
-#		"oas_crux_standard":4,
-		"oas_saltire_standard":4,
-		"oas_saltire_assault":3,
-		"oas_saltire_support":3,
+		"oas_saltire_standard":3,
+		"oas_saltire_assault":2,
+		"oas_saltire_support":2,
+		"oas_saltire_balanced":1.5,
+		"oas_saltire_od":1.5,
 		"toopo_colosseum_standard":5,
 		"toopo_colosseum_strike":5,
 		"toopo_ecuador_assault":2.5,
@@ -146,41 +208,74 @@
 		"toopo_ecuador_standard":2.5,
 		"toopo_ecuador_strike":2.5,
 		"toopo_ecuador_p_standard":10,
-		"toopo_tsunamic_elite":3,
-		"toopo_tsunamic_escort":3,
-		"toopo_tsunamic_standard":4,
+		#"toopo_tsunamic_elite":3,
+		#"toopo_tsunamic_escort":3,
+		#"toopo_tsunamic_standard":4,
 		"toopo_scorpion_standard":5,
-		"toopo_scorpion_oa":5
+		"toopo_scorpion_oa":5,
+		"toopo_murderer_p_reaper":10,
+		"toopo_murderer_standard":10
 	},
-	#"freighterSmall":{
-		#"oas_unicorn_standard":2
-		#	},
-	#"tankerSmall":{
-#		"oas_viper_standard":1
-#	},
-	"tankerMedium":{
-		"oas_flabellina_standard":10,
-	#	"oas_rhino_standard":1,
-	#	"oas_unicorn_standard":1,
-	#	"oas_tusker_standard":1
+	"carrierLarge":{
+		"oas_observer_balanced":2.5,
+		"oas_observer_standard":2.5,
+		"oas_observer_strike":2.5,
+		"oas_observer_support":2.5,
+		"oas_hexagon_assault":4,
+		"oas_hexagon_standard":3,
+		"oas_hexagon_support":3
 	},
-	#"crig":{
-#		"oas_unicorn_standard":1
-	#},
-	#"utility":{
-	#	"oas_unicorn_standard":1
+	"combatFreighterSmall":{
+		"oas_viper_standard":1,
+		"oas_opossum_standard":10,
+		"oas_pullet_od":2,
+		"oas_pullet_strike":4,
+		"oas_pullet_support":4
+	},
+	"combatFreighterMedium":{
+		"oas_unicorn_standard":10,
+		"oas_narwhal_standard":2.5,
+		"oas_narwhal_support":2.5
+	},
+	"combatFreighterLarge":{
+		"oas_basalt_standard":5,
+		"oas_basalt_support":5
+	},
+	"phaseSmall":{
+		"oas_marten_standard":5,
+		"oas_marten_strike":5
+	},
+	"tankerSmall":{
+		"oas_calmella_standard":10
+	},
+	#"tankerMedium":{
+		#"oas_flabellina_standard":6,
+		#"oas_flabellina_support":4
 	#},
 	"civilianRandom":{
 		"oas_unicorn_standard":1,
-		"oas_unicorn2_standard":0.1
+		"oas_opossum_standard":2.5,
+		"oas_pullet_standard":5,
+		"oas_narwhal_hauler":2.5,
+		"oas_narwhal_lr":2.5,
+		"oas_basalt_fast":1.5,
+		"oas_basalt_hauler":2,
+		"oas_basalt_lr":1.5
 	},
 	"personnelSmall":{
-		"toopo_trooperboi_standard":10,
+		"toopo_trooperboi_standard":10
+	},
+	"freighterSmall":{
+		"oas_pullet_standard":10,
+		"oas_narwhal_hauler":5,
+		"oas_narwhal_lr":5
+	},
+	"freighterMedium":{
+		"oas_basalt_fast":3,
+		"oas_basalt_hauler":4,
+		"oas_basalt_lr":3
 	}
-	#"personnelMedium":{
-	#	"oas_phasey_standard":10,
+	#"freighterLarge":{
+	#	"atlas_Standard":10
 	#},
-	#"phaseMedium":{
-	#	"oas_phasey_standard":10,
-	#}
 }

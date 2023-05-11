@@ -1,0 +1,66 @@
+{
+  "variantId": "oas_skull_standard",
+  "hullId": "oas_skull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 15,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "irpulse",
+        "WS0005": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0003": "irpulse",
+        "WS0004": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "pdburst",
+        "WS0007": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,255 @@
+{
+  "hullName": "Skull",
+  "hullId": "oas_skull",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/oas/ships/oas_skull.png",
+  "style": "HIGH_TECH",
+  "height": 142,
+  "width": 154,
+  "center": [77, 77],
+  "collisionRadius": 115.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 106.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [51, -22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [51, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [21, -64]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [21, 64]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [44, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [29, -37]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [29, 37]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-7, -45]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-7, 45]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75, -3],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-75, 3],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-74, -7],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-74, 7],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-74, -11],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-74, 11],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-66, -22],
+      "length": 40,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-66, 22],
+      "length": 40,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-65, -26],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-65, 26],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-60, -36],
+      "length": 40,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-60, 36],
+      "length": 40,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-59, -40],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-59, 40],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-59, -44],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-59, 44],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    }
+  ],
+  "bounds": [
+    52, 6,
+    62, 7.5,
+    45.5, 14.5,
+    58.5, 28.5,
+    22, 56,
+    22, 69,
+    9.5, 76,
+    -4, 76,
+    -25.5, 69,
+    -19, 69,
+    -58, 39.5,
+    -62, 16.5,
+    -73.5, 13,
+    -73.5, -13,
+    -62, -16.5,
+    -58, -39.5,
+    -19, -69,
+    -25.5, -69,
+    -4, -76,
+    9.5, -76,
+    22, -69,
+    22, -56,
+    58.5, -28.5,
+    45.5, -14.5,
+    62, -7.5,
+    52, -6
+  ]
+}

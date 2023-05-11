@@ -3,9 +3,9 @@
 	"specClass":"missile",	
 	"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
 	"sprite":"graphics/oas/missiles/oas_smartbomb1_proj.png",
-	"size":[12,20],	
-	"center":[6,10],
-	"collisionRadius":16,
+	"size":[12,13],	
+	"center":[6,6.5],
+	"collisionRadius":14,
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255,225,50,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":100, # purely visual

@@ -1,0 +1,62 @@
+{
+  "variantId": "oas_spectator_od",
+  "hullId": "oas_spectator",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "toopo_hound_rocket"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_orb_spectator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_pd",
+        "WS0003": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

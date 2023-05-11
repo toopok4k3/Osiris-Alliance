@@ -1,0 +1,62 @@
+{
+  "variantId": "oas_tusker2_balanced",
+  "hullId": "oas_tusker2",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 15,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "heavyarmor",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_trident_large",
+        "WS0005": "oas_m_trident"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_s_smartbomb",
+        "WS0007": "oas_s_smartbomb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_xlcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_shottie",
+        "WS0003": "oas_m_shottie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd",
+        "WS0010": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_starburst_wing",
+    "oas_starburst_wing"
+  ]
+}

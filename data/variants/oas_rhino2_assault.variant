@@ -3,14 +3,28 @@
   "hullId": "oas_rhino2",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 14,
-  "fluxVents": 14,
+  "fluxCapacitors": 12,
+  "fluxVents": 13,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
     "missleracks"
   ],
   "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "toopo_hound_rocket"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "oas_s_kineticmissile"
+      }
+    },
     {
       "autofire": true,
       "mode": "LINKED",
@@ -22,34 +36,20 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "oas_m_cannon"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "typhoon"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0007": "harpoon"
+        "WS0003": "oas_s_shottie",
+        "WS0004": "oas_s_shottie"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "oas_s_pd",
-        "WS0004": "oas_s_pd"
+        "WS0002": "oas_m_pd"
       }
     }
   ],
   "modules": [],
   "wings": [
-    "oas_starburst_wing"
+    "oas_fattie_wing"
   ]
 }

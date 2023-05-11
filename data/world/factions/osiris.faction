@@ -53,8 +53,8 @@
 			"oas_lolslaught",
 			"toopo_haast",
 			"toopo_genesis",
-			"oas_unicorn2",
-			"toopo_bucket2"
+			"toopo_solace",
+			"oas_hexagon"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -62,7 +62,7 @@
 		"tags":[],
 		#"tags":["osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp"],
 		#let's try prioritising only caps
-		"hulls":["oas_sun", "oas_observer", "toopo_haast", "oas_lolslaught","toopo_genesis"]
+		"hulls":["oas_sun", "oas_observer", "toopo_haast", "oas_lolslaught","toopo_genesis","toopo_solace","oas_hexagon"]
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "osiris_bp", "osiris2_bp", "osiris3_bp", "toopo_bp", "ameg_bp"],
@@ -111,24 +111,26 @@
 			"augmentedengines",
 			"autorepair",
 			"expanded_deck_crew",
+			"eccm",
+			"ecm",
 			"magazines",
 			"missleracks",
 			"extendedshieldemitter",
 			"frontemitter",
 			"frontshield",
 			"heavyarmor",
+			"hiressensors",
 			"insulatedengine",
 			"targetingunit",
 			"nav_relay",
 			"operations_center",
 			"fluxbreakers",
 			"stabilizedshieldemitter",
-			"frontshield",  # makeshift
 			"surveying_equipment",
 			"efficiency_overhaul",
-			"escort_package",
-			"assault_package",
 			"converted_fighterbay",
+			"ballistic_rangefinder",
+			"shield_shunt"
 		],
 	},
 	"factionDoctrine":{
@@ -137,16 +139,16 @@
 		"phaseShips":2,
 		
 		"officerQuality":2,
-		"shipQuality":3,
-		"numShips":2,
+		"shipQuality":2,
+		"numShips":3,
 		
 		"shipSize":3,
 		
 		"aggression":5,
 		
-		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction":0.25,				# as part of the normal combat lineup
-		"combatFreighterCombatUseFractionWhenPriority":0.25,   # as part of normal combat lineup, when marked as priority ship
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.5,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.5,   # as part of normal combat lineup, when marked as priority ship
 		"autofitRandomizeProbability":0.5,
 
 		"commanderSkillsShuffleProbability":1,

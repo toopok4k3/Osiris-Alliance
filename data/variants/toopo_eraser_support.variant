@@ -1,0 +1,40 @@
+{
+  "variantId": "toopo_eraser_support",
+  "hullId": "toopo_eraser",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heatseeker",
+        "WS0003": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "vulcan",
+        "WS0005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

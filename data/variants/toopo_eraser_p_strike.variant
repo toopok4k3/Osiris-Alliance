@@ -1,0 +1,40 @@
+{
+  "variantId": "toopo_eraser_p_strike",
+  "hullId": "toopo_eraser_p",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hammer",
+        "WS0003": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun",
+        "WS0005": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

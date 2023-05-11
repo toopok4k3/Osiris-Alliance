@@ -1,0 +1,132 @@
+{
+  "hullName": "Marten",
+  "hullId": "oas_marten",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_lil_phase.png",
+  "style": "HIGH_TECH",
+  "height": 96,
+  "width": 84,
+  "center": [42, 45],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 69,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "phasefield",
+    "turretgyros"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [41, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [40, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [40, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -135,
+      "locations": [-20, -26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 135,
+      "locations": [-20, 26]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, -13],
+      "length": 34,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-45, 13],
+      "length": 34,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-45, -19],
+      "length": 28,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-45, 19],
+      "length": 28,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-44, -27],
+      "length": 20,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-44, 27],
+      "length": 20,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "OAS_RED"
+    }
+  ],
+  "bounds": [
+    42, 23,
+    12.5, 40,
+    -1.5, 40,
+    -5.5, 34,
+    -43, 30.5,
+    -43.5, 8.5,
+    -33.5, 4,
+    -33.5, -4,
+    -43.5, -8.5,
+    -43, -30.5,
+    -5.5, -34,
+    -1.5, -40,
+    12.5, -40,
+    42, -23
+  ]
+}

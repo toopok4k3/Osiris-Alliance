@@ -5,6 +5,7 @@
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
     "onHitEffect":"data.scripts.weapons.OasSmallBenergyEffect",
+	"onFireEffect":"data.scripts.weapons.OasSpacerCannonOnFireEffect",
 	"length":55,
 	"hitGlowRadius":20,
 	"width":4.0,

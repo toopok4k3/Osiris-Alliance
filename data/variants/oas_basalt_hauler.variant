@@ -1,0 +1,55 @@
+{
+  "variantId": "oas_basalt_hauler",
+  "hullId": "oas_basalt",
+  "displayName": "Hauler",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "blast_doors",
+    "dedicated_targeting_core",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_m_poor_cannon",
+        "WS0004": "oas_m_poor_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_pd",
+        "WS0006": "oas_s_pd",
+        "WS0007": "oas_s_pd",
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd",
+        "WS0010": "oas_s_pd",
+        "WS0011": "oas_s_pd",
+        "WS0012": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

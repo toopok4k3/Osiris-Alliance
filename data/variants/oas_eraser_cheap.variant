@@ -1,0 +1,41 @@
+{
+  "variantId": "oas_eraser_cheap",
+  "hullId": "oas_eraser",
+  "displayName": "Cheap",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_poor_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_cannon",
+        "WS0003": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_s_pd",
+        "WS0005": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

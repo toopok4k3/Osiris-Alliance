@@ -1,0 +1,17 @@
+{
+	"id":"oas_s_energy_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+    "onFireEffect":"data.scripts.weapons.OasExperimentalEnergyOnFireEffect",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":16.0,
+	"hitGlowRadius":50,
+	"glowRadius":8,
+	"width":16,
+	"fadeTime":0.3,
+	"fringeColor":[255,150,70,0],
+	"coreColor":[255,255,255,0],
+	"glowColor":[211,233,255,80],
+	"bulletSprite":"graphics//oas/missiles/oas_invisible.png"
+}

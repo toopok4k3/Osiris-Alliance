@@ -1,0 +1,42 @@
+{
+  "variantId": "oas_wayfarer2_cheap",
+  "hullId": "oas_wayfarer2",
+  "displayName": "Cheap",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_poor_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_smartbomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_nutcracker_wing"
+  ]
+}

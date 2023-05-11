@@ -245,11 +245,15 @@
 	],
 	"oas_benergy4_rotary":
 	[
-		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.40,"volume":0.53},
-		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.38,"volume":0.55},
-		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.36,"volume":0.56},
-		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.44,"volume":0.58},
-		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.42,"volume":0.52}
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.40,"volume":0.33},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.38,"volume":0.35},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.36,"volume":0.36},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.44,"volume":0.38},
+		{"file":"sounds/oas/fx/oas_benergy4_short.ogg","pitch":1.42,"volume":0.32}
+	],
+	"oas_orb_blast_spectator":
+	[
+		{"file":"sounds/oas/fx/oas_orb_blast5.ogg","pitch":1.2,"volume":0.85}
 	],
 	"oas_orb_blast_gazer":
 	[
@@ -262,6 +266,112 @@
 	"oas_orb_blast_sun":
 	[
 		{"file":"sounds/oas/fx/oas_orb_blast5.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_crackle":
+	[
+		{"file":"sounds/oas/fx/oas_crackle1.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/oas/fx/oas_crackle2.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/oas/fx/oas_crackle3.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/oas/fx/oas_crackle4.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/oas/fx/oas_crackle5.ogg","pitch":1.0,"volume":0.5}
+	],
+	"oas_crackleshot":
+	[
+		{"file":"sounds/oas/fx/oas_crackleshot1.ogg","pitch":0.6,"volume":0.8}
+	],
+	#"oas_m_cracker":
+	#[
+	#	{"file":"sounds/oas/fx/oas_cracker3.ogg","pitch":1.0,"volume":1.0},
+	#	{"file":"sounds/oas/fx/oas_cracker4.ogg","pitch":1.0,"volume":1.0},
+	#	{"file":"sounds/oas/fx/oas_cracker5.ogg","pitch":1.0,"volume":1.0}
+	#],
+	#"oas_m_cracker":
+	#[
+	#	{"file":"sounds/oas/fx/oas_cracker2.ogg","pitch":1.01,"volume":1.0},
+	#	{"file":"sounds/oas/fx/oas_cracker2.ogg","pitch":1.0,"volume":1.0},
+	#	{"file":"sounds/oas/fx/oas_cracker2.ogg","pitch":0.99,"volume":1.0}
+	#],
+	"oas_m_cracker":
+	[
+		{"file":"sounds/oas/fx/oas_cracker2_1.ogg","pitch":1.0,"volume":0.75},
+		{"file":"sounds/oas/fx/oas_cracker2_2.ogg","pitch":1.0,"volume":0.75},
+		{"file":"sounds/oas/fx/oas_cracker2_3.ogg","pitch":1.0,"volume":0.75}
+	],
+	"oas_bomb_woosh":
+	[
+		{"file":"sounds/oas/fx/oas_bomb_woosh.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_bomb_chargeup":
+	[
+		{"file":"sounds/oas/fx/oas_bomb_chargeup.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_poof":
+	[
+		{"file":"sounds/oas/fx/oas_poof.ogg","pitch":0.25,"volume":0.1}
+	],
+	"oas_antimatter_cloud_puff":
+	[
+		{"file":"sounds/oas/fx/oas_bigboom4_short.ogg","pitch":0.65,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_bigboom4_short.ogg","pitch":0.6,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_bigboom4_short.ogg","pitch":0.55,"volume":0.65}
+	],
+	"oas_s_cracker":
+	[
+		{"file":"sounds/oas/fx/oas_s_cracker1.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/oas/fx/oas_s_cracker2.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/oas/fx/oas_s_cracker3.ogg","pitch":1.0,"volume":0.5}
+	],
+	"oas_s_cracker_fighter":
+	[
+		{"file":"sounds/oas/fx/oas_s_cracker_fighter.ogg","pitch":0.66,"volume":0.35},
+		{"file":"sounds/oas/fx/oas_s_cracker_fighter.ogg","pitch":0.7,"volume":0.35},
+		{"file":"sounds/oas/fx/oas_s_cracker_fighter.ogg","pitch":0.6,"volume":0.35}
+	],
+	"oas_big_missile":
+	[
+		{"file":"sounds/oas/fx/oas_big_missile3.ogg","pitch":1.0,"volume":0.9}
+	],
+	"oas_big_missile_smooth":
+	[
+		{"file":"sounds/oas/fx/oas_big_missile_smooth.ogg","pitch":1.0,"volume":0.8}
+	],
+	"oas_m_missile3":
+	[
+		{"file":"sounds/oas/fx/oas_m_missile3.ogg","pitch":0.8,"volume":0.4}
+	],
+	"oas_m_poor_cannon":
+	[
+		{"file":"sounds/oas/fx/oas_m_poor_cannon.ogg","pitch":1.0,"volume":0.5}
+	],
+	"oas_l_eorb_trigger":
+	[
+		{"file":"sounds/oas/fx/oas_eorb_trigger.ogg","pitch":1.0,"volume":0.7}
+	],
+	"oas_l_eorb_zap":
+	[
+		{"file":"sounds/oas/fx/oas_eorb_zap3.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_nuke1":
+	[
+		{"file":"sounds/oas/fx/oas_nuke1.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_nuke2":
+	[
+		{"file":"sounds/oas/fx/oas_nuke2.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_nuke5":
+	[
+		{"file":"sounds/oas/fx/oas_nuke9.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/oas/fx/oas_nuke7.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/oas/fx/oas_nuke8.ogg","pitch":1.0,"volume":1.0}
+	],
+	"oas_l_mining_blaster":
+	[
+		{"file":"sounds/oas/fx/oas_l_mining_blaster3.ogg","pitch":1.05,"volume":0.63},
+		{"file":"sounds/oas/fx/oas_l_mining_blaster3.ogg","pitch":1.023,"volume":0.64},
+		{"file":"sounds/oas/fx/oas_l_mining_blaster3.ogg","pitch":1.0,"volume":0.65},
+		{"file":"sounds/oas/fx/oas_l_mining_blaster3.ogg","pitch":0.973,"volume":0.66},
+		{"file":"sounds/oas/fx/oas_l_mining_blaster3.ogg","pitch":0.96,"volume":0.62}
 	]
 }
 

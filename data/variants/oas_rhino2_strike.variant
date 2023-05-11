@@ -1,0 +1,51 @@
+{
+  "variantId": "oas_rhino2_strike",
+  "hullId": "oas_rhino2",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 13,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "unstable_injector",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "breachpod",
+        "WS0007": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_l_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_cracker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_pd",
+        "WS0004": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_starburst_wing"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "hullId": "toopo_bucket_p",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "toopo_bucket_p_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "locust"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "swarmer",
+                "WS0004": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "arbalest",
+                "WS0002": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ]
+}

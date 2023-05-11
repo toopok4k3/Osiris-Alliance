@@ -1,0 +1,111 @@
+Changelog from v3.0.1 to v4.0.0
+The changelog may not 100% accurate as things were changing fluidly.
+
+Campaign:
+- Added NPC Noel Crow, with two quests for starting levels, resides in Harman colony (And an introduction quest that leads to this questline from random bar event if you don't visit Noel by yourself)
+- Tuned Armin star system
+- Renamed Sun's gate to Vaultron
+- Added planet Magnetron, a small satellite moon for Vaultron where AMEG HQ is
+- Removed planet Eria
+
+Ships:
+- New! Calmella, Tanker
+- New! Skull, Destroyer
+- New! Hexagon, Battlecarrier
+- New! Blaster, Cruiser
+- New! Solace, Battlecruiser
+- New! Eraser, Frigate
+- New! Magma, Cruiser
+- New! Marten, Phase frigate
+- New!(Overhaul) Raccoon, Frigate
+- New! Raccoon (P), Skin
+- New! Spectator, Destroyer
+- New! Wombat (P), Skin
+- New! Slayer, Carrier
+- New! Slayer (P), Skin
+- New! Eraser, Frigate
+- New! Eraser (OA), Skin
+- New! Eraser (P), Skin
+- New! Blockman, Cruiser
+- New! Pullet, Freighter
+- New! Narwhal, Freighter
+- New! Basalt, Freighter
+- New! Nutcracker, Fighter wing
+- Clown sprite got updated
+- Muskrat sprite got updated
+- Hen sprite got updated
+- Tusker small sprite touchup
+- Bob arcwelder wing is now available as a LPC
+- New! Cur, (Unimplemented Quest ship that should not spawn yet)
+- New! Fallen Eagle (P), (Unimplemented Quest ship that should not spawn yet)
+- Sun ship system is now Targeting Assistant, reworked the old ORB friendly boost as a passive hullmod.
+- AMEG Time dilator has a custom AI, also shield is usable during the system to assist the AI not be so zigzaggy during the system.
+
+Removed ships, these might still show up(they shouldn't). They'll very likely get completely deleted/reworked in future. You can use various ways to spawn them if you really want to.
+- Onslaught (AMEG), Battleship
+- Blade, Destroyer
+- Ribcage, Frigate
+- Ribcage (OA), Frigate
+- Flabellina, Tanker
+- Tsunami, Cruiser
+- Tsunami (C), Carrier
+
+Guns:
+- New! Spacer Cannon, Medium ballistic, 8 Op better than nothing weapon
+- New! Oba's Hullcracker, Medium ballistic, excellent at cracking hull, mediocre/bad at anything else.
+- New! Quadquaker, small ballistic burst dps and PD frag gun, a lot of noise and dakka
+- New! Thunder Baller, Small energy
+- New! Pecker SRM, Medium missile, Kinetic short range brawling aid
+- New! Dodecabomba LRB (modified the old Smartbomb LRB)
+    - New missile AI with some lame effects, more straightforward spread pattern
+    - New sprite for the bomblets
+    - Has some ammo so it benefits from expanded missiles
+    - Adjusted regen rate
+    - Bomblets now do 300 HE damage instead of 400
+    - 12 bomblets per missile
+- New! Pentabomba LRB, Small missile
+- New! Lightning Orb Missile Launcher, Large missile
+- New! Flame Snapper SRM, Pirate version of Snapper SRM
+- Dogled torpedo
+    - Now comes with 2 ammo, shortened refire rate to 30s, more projectile hitpoints to make it worth the 10 OP.
+    - Nerfed launch speed and projectile speed to give smaller than capital ships a better change to escape getting hit.
+    - New VFX and SFX on hit. Try it out, it's just more satisfying when you do score a hit.
+- Star family PD weapons
+    - The medium and large weapons now do kinetic damage.
+    - Adjusted stats and recoil, should work much better.
+- Magnetrons
+    - Updated Sprite for the large version
+    - All sizes lost 100 range
+    - Adjusted stats for all sizes
+- Berry cannons
+    - Reduced range from all by 100
+    - somewhat better flux eff
+    - More per projectile damage
+    - Reduced refire rate
+- Proton weapons
+    - Medium and Large are now 1200 range
+    - Medium and Large flux eff at ~1.44
+    - They do more EMP damage
+    - Lost the ability to do hard flux on shield
+- Proton G5X-Annihilator
+    - Fires faster
+    - Reduced damage per projectile
+    - Increased overall dps, adjusted onhit emp arcing
+    - Modified the implementation so statcard is right
+- Hyperblaster
+    - Reduced per projectile damage down to 90
+    - Gave it onhit that does direct armor damage, 25% of the projectile damage
+    - Modified the implementation so statcard is right
+- Trident Large and Medium missiles
+    - Nerfed with slower refire rates, L and M also have different refire rate to reduce change of ai spamming synced volleys
+- ORB Laser buff during systems implemented as a listener based one, it should now be more accurate and show up as normal damage instead of unkown in Detailed combat results
+
+Changes to ship systems:
+- Sun
+    - Moved the ORB link buff to a passive hullmod effect
+        - The hullmod buffs nearest ship with increased range, only one ship targeted, cooldown depends on buffed ship size
+- Updated AMEG Timedilator
+    - the time dilator system now allows shield to be on, this reduces AI's willingness to stop engaging mid system usage
+    - Custom AI implementation
+        - Reduces the zigzagging around profoundly, tries not to use the system too much when it's in a position to use guns
+        - The AI is quite bad in using the system to get flux in close range since it likes to keep the shield turned on while being close to enemy

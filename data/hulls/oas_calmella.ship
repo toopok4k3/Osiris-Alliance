@@ -1,0 +1,182 @@
+{
+  "hullName": "Calmella",
+  "hullId": "oas_calmella",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_calmella.png",
+  "style": "HIGH_TECH",
+  "height": 98,
+  "width": 90,
+  "center": [45, 49],
+  "collisionRadius": 66,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0004": "amblaster",
+    "WS0005": "amblaster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, -33]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [21, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [38, -22.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [38, 22.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -142.5,
+      "locations": [-18, -33]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 142.5,
+      "locations": [-18, 33]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -45,
+      "locations": [7, -40]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 45,
+      "locations": [7, 40]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-26, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41.5, -5.5],
+      "length": 32,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-41.5, 5.5],
+      "length": 32,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-42, -11.5],
+      "length": 25,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-42, 11.5],
+      "length": 25,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-41, -16],
+      "length": 22,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    },
+    {
+      "location": [-41, 16],
+      "length": 22,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "OAS_RED"
+    }
+  ],
+  "bounds": [
+    46.5, 6.5,
+    36, 17.5,
+    45.5, 19,
+    27.5, 25.5,
+    18.5, 40,
+    -10.5, 44,
+    -15, 37,
+    -35.5, 31,
+    -46.5, 18.5,
+    -40.5, 18.5,
+    -40.5, -18.5,
+    -46.5, -18.5,
+    -35.5, -31,
+    -15, -37,
+    -10.5, -44,
+    18.5, -40,
+    27.5, -25.5,
+    45.5, -19,
+    36, -17.5,
+    46.5, -6.5
+  ]
+}

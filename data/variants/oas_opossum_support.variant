@@ -1,0 +1,31 @@
+{
+  "variantId": "oas_opossum_support",
+  "hullId": "oas_opossum",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

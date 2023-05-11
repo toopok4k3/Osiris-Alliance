@@ -1,0 +1,69 @@
+{
+  "variantId": "oas_magma_assault",
+  "hullId": "oas_magma",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 19,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_trident"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_l_shottie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_xlcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_pd",
+        "WS0006": "oas_s_pd",
+        "WS0007": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd",
+        "WS0010": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

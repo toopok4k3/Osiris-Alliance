@@ -1,0 +1,82 @@
+{
+  "variantId": "oas_sun_support",
+  "hullId": "oas_sun",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 33,
+  "fluxVents": 34,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "heavyarmor",
+    "magazines",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_smartbomb",
+        "WS0010": "oas_s_smartbomb",
+        "WS0011": "oas_s_smartbomb",
+        "WS0012": "oas_s_smartbomb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "oas_orb_sun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_benergy",
+        "WS0005": "oas_m_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_l_benergy",
+        "WS0007": "oas_l_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_m_pd",
+        "WS0009": "oas_m_pd",
+        "WS0013": "oas_s_pd",
+        "WS0014": "oas_s_pd",
+        "WS0015": "oas_s_pd",
+        "WS0016": "oas_s_pd",
+        "WS0017": "oas_s_pd",
+        "WS0018": "oas_s_pd",
+        "WS0019": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

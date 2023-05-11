@@ -1,0 +1,76 @@
+{
+    "baseHullId": "oas_raccoon",
+    "skinHullId": "oas_raccoon_p",
+    "hullName": "Raccoon (P)",
+    "descriptionId": "oas_raccoon",  # optional
+	"descriptionPrefix": "This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+    "tags": [
+        "pirate_bp"
+    ],
+    "tech": "Pirate",
+    "baseValueMult": 1.1,
+    "systemId": "maneuveringjets",
+    "spriteName": "graphics/oas/ships/oas_wing_raccoon_p.png",
+    "removeWeaponSlots": [], 		# ids
+	"removeEngineSlots": [], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods": [], 		# hullmod ids
+	"removeBuiltInWeapons": [], 		# weapon slot ids
+	"builtInMods": [
+        "oas_fast_flames"
+    ],
+    "engineSlotChanges": {
+        "0": {
+            "length": 40,
+            "width": 10,
+            "angle": 180,
+            "style": "LOW_TECH"
+        },
+        "1": {
+            "length": 40,
+            "width": 10,
+            "angle": -180,
+            "style": "LOW_TECH"
+        },
+        "2": {
+            "length": 30,
+            "width": 18,
+            "angle": -170,
+            "style": "LOW_TECH"
+        },
+        "3": {
+            "length": 30,
+            "width": 18,
+            "angle": 170,
+            "style": "LOW_TECH"
+        },
+        "4": {
+            "length": 30,
+            "width": 16,
+            "angle": -145,
+            "style": "LOW_TECH"
+        },
+        "5": {
+            "length": 30,
+            "width": 16,
+            "angle": 145,
+            "style": "LOW_TECH"
+        },
+        "6": {
+            "length": 30,
+            "width": 10,
+            "angle": -135,
+            "style": "LOW_TECH"
+        },
+        "7": {
+            "length": 30,
+            "width": 10,
+            "angle": 135,
+            "style": "LOW_TECH"
+        }
+    },
+    "weaponSlotChanges": {
+        "WS0003": {
+            "type": "COMPOSITE"
+        }
+    }
+}

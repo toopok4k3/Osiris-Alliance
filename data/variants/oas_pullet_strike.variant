@@ -1,0 +1,39 @@
+{
+  "variantId": "oas_pullet_strike",
+  "hullId": "oas_pullet",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "breach",
+        "WS0004": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_cracker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

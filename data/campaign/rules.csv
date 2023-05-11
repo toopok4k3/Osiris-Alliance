@@ -1,9 +1,270 @@
 id,trigger,conditions,script,text,options,notes
+#ngc beginning stuff,,,,,,
 ngcOasStartMenu,AddNewGameChoices,,"SetTooltip ngcOasStartPicked ""Multiple new different starting options are available from the mod Osiris Alliance.""",,"60:ngcOasStartPicked:On a pause, as you were traveling to the Osiris Alliance Territory...",
 ngcOasStartPicked,NewGameOptionSelected,$option == ngcOasStartPicked,"OasNGCRepAdjustment
-FireAll AddNewOasGameChoices",...and now that you have arrived. You continue your life as...,,
+FireBest OasStartingSizeOption",...and now that you have arrived. You continue your life with your fleet of...,,
+ngcOasPrintSizeOptions,OasStartingSizeOption,,,,"1:ngcOasFleetSize1:One ship
+2:ngcOasFleetSize2:Two ships
+3:ngcOasFleetSize3:Three ships
+4:ngcOasFleetSize4:Four ships
+5:ngcOasFleetSize5:Five ships
+5:ngcOasFleetSize6:Six ships
+5:ngcOasFleetSize7:Seven ships",
+ngcOasFleetSize1,NewGameOptionSelected,$option == ngcOasFleetSize1,"$ngcOasShipsPicked=1
+FireBest OasShipCatalogMain",,,
+ngcOasFleetSize2,NewGameOptionSelected,$option == ngcOasFleetSize2,"$ngcOasShipsPicked=2
+FireBest OasShipCatalogMain",,,
+ngcOasFleetSize3,NewGameOptionSelected,$option == ngcOasFleetSize3,"$ngcOasShipsPicked=3
+FireBest OasShipCatalogMain",,,
+ngcOasFleetSize4,NewGameOptionSelected,$option == ngcOasFleetSize4,"$ngcOasShipsPicked=4
+FireBest OasShipCatalogMain",,,
+ngcOasFleetSize5,NewGameOptionSelected,$option == ngcOasFleetSize5,"$ngcOasShipsPicked=5
+FireBest OasShipCatalogMain",,,
+ngcOasFleetSize6,NewGameOptionSelected,$option == ngcOasFleetSize6,"$ngcOasShipsPicked=6
+FireBest OasShipCatalogMain",,,
+ngcOasFleetSize7,NewGameOptionSelected,$option == ngcOasFleetSize7,"$ngcOasShipsPicked=7
+FireBest OasShipCatalogMain",,,
+#ngc Ship catalog,,,,,,
+ngcOasShipCatalogMain,OasShipCatalogMain,,"$ngcOasCatalog=SubCatalogs
+FireAll OasShipOptions","Select the ships you own from the catalog.",,
+ngcOasShipCatalogEscaped,NewGameOptionSelected,$option == ngcOasBackToCatalog,"$ngcOasCatalog=SubCatalogs
+FireAll OasShipOptions",,,
+ngcOasNextOptionDone,OasStartNextOptions,$ngcOasShipsPicked == 0,FireAll OasStartingBonusOption,,,
+ngcOasNextOptionStillPicking,OasStartNextOptions,$ngcOasShipsPicked>0,"$ngcOasCatalog=SubCatalogs
+FireAll OasShipOptions",,,
+ngcOasOptionSubFrigates1,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,1:ngcOasSubCatalogFrig1:Frigates (Support/Cheap),
+ngcOasOptionSubFrigates2,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,2:ngcOasSubCatalogFrig2:Frigates (Strong),
+ngcOasOptionSubDestro1,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,3:ngcOasSubCatalogDestro1:Destroyers,
+ngcOasOptionSubDestro2,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,4:ngcOasSubCatalogDestro2:Support Destroyers,
+ngcOasOptionSubCruisers,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,5:ngcOasSubCatalogCruisers:Cruisers,
+ngcOasOptionSubCarriers,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,6:ngcOasSubCatalogCarriers:Carriers,
+ngcOasOptionSubCapitals,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,7:ngcOasSubCatalogCapitals:Capitals,
+ngcOasOptionSubLogistics,OasShipOptions,$ngcOasCatalog == SubCatalogs,,,8:ngcOasSubCatalogLogistics:Logistics,
+ngcOasShipCatalogMainEscape,OasShipOptions,$ngcOasCatalog!=SubCatalogs,SetShortcut ngcOasBackToCatalog "ESCAPE",,100:ngcOasBackToCatalog:Back to catalog,
+ngcOasPickedSubFrigates1,NewGameOptionSelected,$option == ngcOasSubCatalogFrig1,"$ngcOasCatalog=Frig2
+FireAll OasShipOptions",,,
+ngcOasPickedSubFrigates2,NewGameOptionSelected,$option == ngcOasSubCatalogFrig2,"$ngcOasCatalog=Frig
+FireAll OasShipOptions",,
+ngcOasPickedSubDestro1,NewGameOptionSelected,$option == ngcOasSubCatalogDestro1,"$ngcOasCatalog=Destro
+FireAll OasShipOptions",,,
+ngcOasPickedSubDestro2,NewGameOptionSelected,$option == ngcOasSubCatalogDestro2,"$ngcOasCatalog=Destro2
+FireAll OasShipOptions",,,
+ngcOasPickedSubCruisers,NewGameOptionSelected,$option == ngcOasSubCatalogCruisers,"$ngcOasCatalog=Cruiser
+FireAll OasShipOptions",,,
+ngcOasPickedSubCarriers,NewGameOptionSelected,$option == ngcOasSubCatalogCarriers,"$ngcOasCatalog=Carrier
+FireAll OasShipOptions",,,
+ngcOasPickedSubCapitals,NewGameOptionSelected,$option == ngcOasSubCatalogCapitals,"$ngcOasCatalog=Capital
+FireAll OasShipOptions",,,
+ngcOasPickedSubLogistics,NewGameOptionSelected,$option == ngcOasSubCatalogLogistics,"$ngcOasCatalog=Logistic
+FireAll OasShipOptions",,,
+#,,,,,,
+ngcOasOptionCalmella,OasShipOptions,"$ngcOasCatalog == Frig2","SetTooltip ngcOasCalmella ""A slow frigate sized AMEG tanker. Combat capable.""",,1:ngcOasCalmella:Calmella-class Tanker,
+ngcOasCalmella,NewGameOptionSelected,$option == ngcOasCalmella,"NGCAddShip oas_calmella_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionRadiator3,OasShipOptions,"$ngcOasCatalog == Frig2","SetTooltip ngcOasRadiator3 ""A Troop Transporter version of Radiator, not that usable in combat""",,2:ngcOasRadiator3:Radiator Mk.III-class Troop Transport,
+ngcOasRadiator3,NewGameOptionSelected,$option == ngcOasRadiator3,"NGCAddShip toopo_trooperboi_starter
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionRaccoon,OasShipOptions,"$ngcOasCatalog == Frig2","SetTooltip ngcOasRaccoon ""A bit more armored and weaponized Kite-like skirmisher.""",,3:ngcOasRaccoon:Raccoon-class Frigate,
+ngcOasRaccoon,NewGameOptionSelected,$option == ngcOasRaccoon,"NGCAddShip oas_raccoon_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionPolecat,OasShipOptions,"$ngcOasCatalog == Frig2","SetTooltip ngcOasPolecat ""A fast ship with medium missile mount. Weakly armed otherwise""",,4:ngcOasPolecat:Polecat-class Frigate,
+ngcOasPolecat,NewGameOptionSelected,$option == ngcOasPolecat,"NGCAddShip oas_polecat_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionOpossum,OasShipOptions,"$ngcOasCatalog == Frig2","SetTooltip ngcOasOpossum ""Good logistical capability. Opossum can waste enemies time and the drones are even more annoying than shepherds due to EMP damage.""",,5:ngcOasOpossum:Opossum-class Drone Tender,
+ngcOasOpossum,NewGameOptionSelected,$option == ngcOasOpossum,"NGCAddShip oas_opossum_support
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionDramster,OasShipOptions,"$ngcOasCatalog == Frig2","SetTooltip ngcOasDramster ""Low tech Omen with bigger mounts than it can comfortably utilize""",,6:ngcOasDramster:Dramster-class Frigate,
+ngcOasDramster,NewGameOptionSelected,$option == ngcOasDramster,"NGCAddShip toopo_dramster_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionRadiator,OasShipOptions,"$ngcOasCatalog == Frig2","SetTooltip ngcOasRadiator ""Pure glass cannon, very good flux stats and a medium energy mount. No shield.""",,7:ngcOasRadiator:Radiator-class Frigate,
+ngcOasRadiator,NewGameOptionSelected,$option == ngcOasRadiator,"NGCAddShip toopo_miningboi_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+#,,,,,,
+ngcOasOptionWombat,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasWombat ""A bulky carrier in a frigate size. You can abuse the mounts and bay to really punch up.""",,8:ngcOasWombat:Wombat-class Carrier,
+ngcOasWombat,NewGameOptionSelected,$option == ngcOasWombat,"NGCAddShip oas_wayfarer2_starter
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionMuskrat,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasMuskrat ""A durable and efficient workhorse. Has two medium ballistic turret mounts.""",,9:ngcOasMuskrat:Muskrat-class Frigate,
+ngcOasMuskrat,NewGameOptionSelected,$option == ngcOasMuskrat,"NGCAddShip oas_viper_starter
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionEraser,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasEraser ""The better Cerberus for your low tech needs. Has Accelerated Ammo Feed(AAF) system.""",,10:ngcOasEraser:Eraser-class Frigate,
+ngcOasEraser,NewGameOptionSelected,$option == ngcOasEraser,"NGCAddShip toopo_eraser_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionEraserOA,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasEraserOA ""Osiris Alliance version of the Eraser. Has Ballistic Maneuver system instead of AAF""",,11:ngcOasEraserOA:Eraser (OA)-class Frigate,
+ngcOasEraserOA,NewGameOptionSelected,$option == ngcOasEraserOA,"NGCAddShip oas_eraser_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionHen,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasHen ""Heavily armored, its Missile Autoforge keeps the missiles coming.""",,12:ngcOasHen:Hen-class Missile Frigate,
+ngcOasHen,NewGameOptionSelected,$option == ngcOasHen,"NGCAddShip oas_hen_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionMarten,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasMarten ""Nicely armored phase ship. It can be really annoying with the right weapons.""",,13:ngcOasMarten:Marten-class Phase Frigate,
+ngcOasMarten,NewGameOptionSelected,$option == ngcOasMarten,"NGCAddShip oas_marten_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionEgg,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasEgg ""Works the same as Eagle, beams and kiting go a long way unless you got better options for the energy mounts.""",,14:ngcOasEgg:Egg-class Heavy Frigate,
+ngcOasEgg,NewGameOptionSelected,$option == ngcOasEgg,"NGCAddShip toopo_egg_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionResonator,OasShipOptions,"$ngcOasCatalog == Frig","SetTooltip ngcOasResonator ""A slower than usual high tech ship, can pull phase ships out of phase with the disruptor system.""",,15:ngcOasResonator:Resonator-class Frigate,
+ngcOasResonator,NewGameOptionSelected,$option == ngcOasResonator,"NGCAddShip toopo_cutie_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+#,,,,,,
+ngcOasOptionButcherOA,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasButcherOA ""Osiris Alliance version of Butcher with Fast Missile Racks system, with modular medium missile hardpoint. Good for support role.""",,16:ngcOasButcherOA:Butcher (OA)-class Destroyer,
+ngcOasButcherOA,NewGameOptionSelected,$option == ngcOasButcherOA,"NGCAddShip oas_butcher_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionButcher,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasButcher ""The original Butcher version comes with a built-in Dogleg torpedo. Cheap ship with burn drive. Combat results vary from one shot kill to accidental suicide.""",,17:ngcOasButcher:Butcher-class Destroyer,
+ngcOasButcher,NewGameOptionSelected,$option == ngcOasButcher,"NGCAddShip toopo_bucket_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionButcherP,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasButcherP ""The pirates managed to put a large missile hardpoint in place of the Dogleg-torpedo.""",,18:ngcOasButcherP:Butcher (P)-class Destroyer,
+ngcOasButcherP,NewGameOptionSelected,$option == ngcOasButcherP,"NGCAddShip toopo_bucket_p_support
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionScanner,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasScanner ""A lighter destroyer for hit'n'run gameplay. Still heavily armored compared to normal destroyers.""",,19:ngcOasScanner:Scanner-class Destroyer,
+ngcOasScanner,NewGameOptionSelected,$option == ngcOasScanner,"NGCAddShip oas_lightdestro_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionMutant,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasMutant ""Comes with Surveying equipment so it's a good starting exploration ship. A good option to brawl with the aid of a fortress shiel,d as long as you keep your flanks in check.""",,20:ngcOasMutant:Mutant-class Destroyer,
+ngcOasMutant,NewGameOptionSelected,$option == ngcOasMutant,"NGCAddShip toopo_xplorer_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionOscillator,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasOscillator ""A slow high tech exploration ship with a broadside style mount arrangement.""",,21:ngcOasOscillator:Oscillator-class Destroyer,
+ngcOasOscillator,NewGameOptionSelected,$option == ngcOasOscillator,"NGCAddShip toopo_oscillator_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionSpectator,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasSpectator ""A very mobile, state of the art Osiris Alliance ORB ship.""",,22:ngcOasSpectator:Spectator-class Destroyer,
+ngcOasSpectator,NewGameOptionSelected,$option == ngcOasSpectator,"NGCAddShip oas_spectator_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionSkull,OasShipOptions,"$ngcOasCatalog == Destro","SetTooltip ngcOasSkull ""Energy weaponry and time dilation without phase. Effective.""",,23:ngcOasSkull:Skull-class Destroyer,
+ngcOasSkull,NewGameOptionSelected,$option == ngcOasSkull,"NGCAddShip oas_skull_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+#,,,,,,
+ngcOasOptionUnicorn,OasShipOptions,"$ngcOasCatalog == Destro2","SetTooltip ngcOasUnicorn ""EMP ensures good PD, built-in Heavy Mining Laser cuts armors like butter. Built-in wing of Spitter drones.""",,24:ngcOasUnicorn:Unicorn-class Destroyer,
+ngcOasUnicorn,NewGameOptionSelected,$option == ngcOasUnicorn,"NGCAddShip oas_unicorn_starter
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionRhino,OasShipOptions,"$ngcOasCatalog == Destro2","SetTooltip ngcOasRhino ""Good mounts, good armor, a launch bay. The perfect ship to just charge at the enemy.""",,25:ngcOasRhino:Rhino-class Destroyer,
+ngcOasRhino,NewGameOptionSelected,$option == ngcOasRhino,"NGCAddShip oas_rhino2_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+#,,,,,,
+ngcOasOptionBlaster,OasShipOptions,"$ngcOasCatalog == Cruiser","SetTooltip ngcOasBlaster ""A mobile cruiser with large version of the mining blaster built-in. The class name explains it.""",,26:ngcOasBlaster:Blaster-class Cruiser,
+ngcOasBlaster,NewGameOptionSelected,$option == ngcOasBlaster,"NGCAddShip oas_blaster_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionTusker,OasShipOptions,"$ngcOasCatalog == Cruiser","SetTooltip ngcOasTusker ""Bays, Big guns, Armor, Logistics.""",,27:ngcOasTusker:Tusker-class Heavy Cruiser,
+ngcOasTusker,NewGameOptionSelected,$option == ngcOasTusker,"NGCAddShip oas_tusker2_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionMagma,OasShipOptions,"$ngcOasCatalog == Cruiser","SetTooltip ngcOasMagma ""Need to transfer troops? An artillery ship? Missiles? Magma can be customized to these needs.""",,28:ngcOasMagma:Magma-class Cruiser,
+ngcOasMagma,NewGameOptionSelected,$option == ngcOasMagma,"NGCAddShip oas_magma_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionGazer,OasShipOptions,"$ngcOasCatalog == Cruiser","SetTooltip ngcOasGazer ""Good platform for tracking missiles with the ORB providing ECCM.""",,29:ngcOasGazer:Gazer-class Cruiser,
+ngcOasGazer,NewGameOptionSelected,$option == ngcOasGazer,"NGCAddShip oas_gazer_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionClown,OasShipOptions,"$ngcOasCatalog == Cruiser","SetTooltip ngcOasClown ""Light only in designation, a tough nut to crack with a damper field system.""",,30:ngcOasClown:Clown-class Light Cruiser,
+ngcOasClown,NewGameOptionSelected,$option == ngcOasClown,"NGCAddShip toopo_clown_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionTsunami,OasShipOptions,"$ngcOasCatalog == nope","SetTooltip ngcOasTsunami ""Fast ballistic cruiser, does not need much crew due to automation.""",,31:ngcOasTsunami:Tsunami-class Cruiser,
+ngcOasTsunami,NewGameOptionSelected,$option == ngcOasTsunami,"NGCAddShip toopo_tsunami_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionBlockman,OasShipOptions,"$ngcOasCatalog == Cruiser","SetTooltip ngcOasBlockman ""Cruiser that will very slowly eat you, unless you shoot past its fortress shield.""",,32:ngcOasBlockman:Blockman-class Cruiser,
+ngcOasBlockman,NewGameOptionSelected,$option == ngcOasBlockman,"NGCAddShip toopo_blockman_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+#,,,,,,
+ngcOasOptionColosseum,OasShipOptions,"$ngcOasCatalog == Carrier","SetTooltip ngcOasColosseum ""The most bays per credit you can buy. Optimized with only that in mind.""",,33:ngcOasColosseum:Colosseum-class Carrier,
+ngcOasColosseum,NewGameOptionSelected,$option == ngcOasColosseum,"NGCAddShip toopo_colosseum_strike
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionApparatus,OasShipOptions,"$ngcOasCatalog == Carrier","SetTooltip ngcOasApparatus ""A high tech version of the Venture with more missile power and a bay.""",,34:ngcOasApparatus:Apparatus-class Cruiser,
+ngcOasApparatus,NewGameOptionSelected,$option == ngcOasApparatus,"NGCAddShip toopo_apoture_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionEcuador,OasShipOptions,"$ngcOasCatalog == Carrier","SetTooltip ngcOasEcuador ""Ecuador is a Condor that can join the frontline.""",,35:ngcOasEcuador:Ecuador-class Carrier,
+ngcOasEcuador,NewGameOptionSelected,$option == ngcOasEcuador,"NGCAddShip toopo_ecuador_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionTsunamiC,OasShipOptions,"$ngcOasCatalog == nope","SetTooltip ngcOasTsunamiC ""Version of the Tsunami with the front weapon array swapped for launch bays.""",,36:ngcOasTsunamiC:Tsunami (C)-class Carrier,
+ngcOasTsunamiC,NewGameOptionSelected,$option == ngcOasTsunamiC,"NGCAddShip toopo_tsunamic_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionScorpion,OasShipOptions,"$ngcOasCatalog == Carrier","SetTooltip ngcOasScorpion ""Watch out for the stinger!""",,37:ngcOasScorpion:Scorpion-class Carrier,
+ngcOasScorpion,NewGameOptionSelected,$option == ngcOasScorpion,"NGCAddShip toopo_scorpion_oa
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionSlayer,OasShipOptions,"$ngcOasCatalog == Carrier","SetTooltip ngcOasSlayer ""Battlecarrier, plays like a smaller legion.""",,38:ngcOasSlayer:Slayer-class Carrier,
+ngcOasSlayer,NewGameOptionSelected,$option == ngcOasSlayer,"NGCAddShip toopo_murderer_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionSaltire,OasShipOptions,"$ngcOasCatalog == Carrier","SetTooltip ngcOasSaltire ""A high performance combat carrier.""",,39:ngcOasSaltire:Saltire-class Carrier,
+ngcOasSaltire,NewGameOptionSelected,$option == ngcOasSaltire,"NGCAddShip oas_saltire_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+#,,,,,,
+ngcOasOptionPullet,OasShipOptions,"$ngcOasCatalog == Logistic","SetTooltip ngcOasPullet ""Small frigate sized freighter, can be modified to combat vessel if you are desperate.""",,40:ngcOasPullet:Pullet-class Freighter,
+ngcOasPullet,NewGameOptionSelected,$option == ngcOasPullet,"NGCAddShip oas_pullet_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionNarwhal,OasShipOptions,"$ngcOasCatalog == Logistic","SetTooltip ngcOasNarwhal ""Destroyer sized freighter, can be modified to combat vessel if you are desperate.""",,41:ngcOasNarwhal:Narwhal-class Freighter,
+ngcOasNarwhal,NewGameOptionSelected,$option == ngcOasNarwhal,"NGCAddShip oas_narwhal_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionBasalt,OasShipOptions,"$ngcOasCatalog == Logistic","SetTooltip ngcOasBasalt ""Cruiser sized freighter, can be modified to combat vessel if you are desperate.""",,42:ngcOasBasalt:Basalt-class Heavy Freighter,
+ngcOasBasalt,NewGameOptionSelected,$option == ngcOasBasalt,"NGCAddShip oas_basalt_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+#,,,,,,
+ngcOasOptionObserver,OasShipOptions,"$ngcOasCatalog == Capital","SetTooltip ngcOasObserver ""A carrier with big guns, a range boosting system and ORB laser.""",,43:ngcOasObserver:Observer-class Battlecarrier,
+ngcOasbserver,NewGameOptionSelected,$option == ngcOasObserver,"NGCAddShip oas_observer_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionSun,OasShipOptions,"$ngcOasCatalog == Capital","SetTooltip ngcOasSun ""The biggest ORB equipped Osiris Alliance ship. Sun is able to passively boost allies with more weapon range.""",,44:ngcOasSun:Sun-class Battleship,
+ngcOasSun,NewGameOptionSelected,$option == ngcOasSun,"NGCAddShip oas_sun_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionHexagon,OasShipOptions,"$ngcOasCatalog == Capital","SetTooltip ngcOasHexagon ""A mobile mining station. More guns and bays than it can handle.""",,45:ngcOasHexagon:Hexagon-class Battlecarrier,
+ngcOasHexagon,NewGameOptionSelected,$option == ngcOasHexagon,"NGCAddShip oas_hexagon_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionGenesis,OasShipOptions,"$ngcOasCatalog == Capital","SetTooltip ngcOasGenesis ""Plenty of missile slots, two fighter bays. Low tech flux levels.""",,46:ngcOasGenesis:Genesis-class Battlecruiser,
+ngcOasGenesis,NewGameOptionSelected,$option == ngcOasGenesis,"NGCAddShip toopo_genesis_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionSolace,OasShipOptions,"$ngcOasCatalog == Capital","SetTooltip ngcOasSolace ""A built in laser array that melts armor. Anti-Onslaught ship.""",,47:ngcOasSolace:Solace-class Battlecruiser,
+ngcOasSolace,NewGameOptionSelected,$option == ngcOasSolace,"NGCAddShip toopo_solace_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionHaast,OasShipOptions,"$ngcOasCatalog == Capital","SetTooltip ngcOasHaast ""Eagle's bigger brother.""",,48:ngcOasHaast:Haast-class Battleship,
+ngcOasHaast,NewGameOptionSelected,$option == ngcOasHaast,"NGCAddShip toopo_haast_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+ngcOasOptionOnslaughtAMEG,OasShipOptions,"$ngcOasCatalog == nope","SetTooltip ngcOasOnslaughtAMEG ""Antimatter Energy Group had their time with the Onslaught platform. Result is a nasty ship.""",,49:ngcOasOnslaughtAMEG:Onslaught (AMEG)-class Battleship,
+ngcOasOnslaughtAMEG,NewGameOptionSelected,$option == ngcOasOnslaughtAMEG,"NGCAddShip oas_lolslaught_standard
+$ngcOasShipsPicked--
+FireBest OasStartNextOptions",,,
+,,,,,,
+#Old inactive NGC stuff section,,,,,,
 ngcOasStart1,AddNewOasGameChoices,,"SetTooltip ngcOas1 ""The Radiator is a commercially unsuccessful Domain-era Mining hull. It has a damper-field to protect itself, a front facing energy cannon and strong flux dissipation. However, it lacks a modern shield. Your best bet on survival is to not get hit too many times.""",,"1:ngcOas1:A Spacer, Your lone Radiator-class frigate barely made the journey.  Countless riches await your greedy grasp (Hard)",
-ngcOasStart2,AddNewOasGameChoices,,"SetTooltip ngcOas2 ""Raccoon is as good as the person piloting it, combat results are dictated by the maneuvers executed during battle.\n\nAccompanied by a Polecat-class torpedo frigate.""",,"2:ngcOas2:A Bounty hunter, commanding a Raccoon-class skirmisher frigate.",
+ngcOasStart2,AddNewOasGameChoices,,"SetTooltip ngcOas2 ""Eraser is as good as the person piloting it, combat results are dictated by the maneuvers executed during battle.\n\nAccompanied by a Polecat-class torpedo frigate.""",,"2:ngcOas2:A Bounty hunter, commanding a Eraser-class skirmisher frigate.",
 ngcOasStart3,AddNewOasGameChoices,,"SetTooltip ngcOas3 ""Scanner fits the lifestyle of a busy mercenary captain. Catch your target, destroy, repeat. Keeps the income steady in a otherwise volatile profession.\n\nThe fleet consists of a Wombat-class frigate-sized carrier, Hen-class missile frigate and a Muskrat-class combat freighter. A single dram keeps the fleet fueled.""",,"3:ngcOas3:A Mercenary, commanding a fleet of warships from aboard Scanner-class Destroyer. (Faster start)",
 ngcOasStart4,AddNewOasGameChoices,,"SetTooltip ngcOas4 ""Scorpion is a slow moving carrier rig. Anything within its range is quickly destroyed by the large weapon mounted on its stinger.\n\nThe pirate fleet comes with a feisty Ecuador (P)-class cruiser carrier, smugglers' favorite Muskar (P)-class frigate and a EMP-arc capable Dramster-class frigate. A single dram keeps the fleet fueled.""",,"4:ngcOas4:A Pirate warlord, commanding a raiding party from aboard a Scorpion-class Carrier (Hard+Faster start)",
 ngcOasStart5,AddNewOasGameChoices,,"SetTooltip ngcOas5 ""Opossum is often used as a supporting cast for larger fleets, it has a wing of Bob Arcwelder drones. To defend itself it has a medium sized energy mount, picking the right weapon for this slot is crucial.\n\nComes with a sidekick Radiator-class frigate to aid fighting against pirates.""",,"5:ngcOas5:A Salvage captain, leading a crew from aboard an Opossum-class drone tender.",
@@ -13,14 +274,14 @@ ngcOasStart8,AddNewOasGameChoices,,"SetTooltip ngcOas8 ""A single Haast-class Ba
 ngcOasStart9,AddNewOasGameChoices,,"SetTooltip ngcOas9 ""Pick a ship from an unique selection of the Osiris Alliance catalogue.""",,"9:ngcOas9:A retired COMSEC agent, commanding a Radiator MK. III Troop transporter full of marines, your team has just ""acquired"" a brand new ship...",
 ngcOasPicked1,NewGameOptionSelected,$option == ngcOas1,"NGCAddShip toopo_miningboi_standard
 $ngcOasSelected = true
-FireAll NGCDifficultyOptions",,,
-ngcOasPicked2,NewGameOptionSelected,$option == ngcOas2,"NGCAddShip oas_lasher2_starter
+FireAll OasStartingStarSystemOption",,,
+ngcOasPicked2,NewGameOptionSelected,$option == ngcOas2,"NGCAddShip oas_eraser_standard
 NGCAddShip oas_polecat_starter
 $ngcOasSelected = true
 AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPicked3,NewGameOptionSelected,$option == ngcOas3,"NGCAddShip oas_lightdestro_starter
 NGCAddShip oas_wayfarer2_starter
 NGCAddShip oas_hen_starter
@@ -31,7 +292,7 @@ $ngcOasSelected = true
 AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPicked4,NewGameOptionSelected,$option == ngcOas4,"NGCAddShip toopo_scorpion_starter
 NGCAddShip toopo_ecuador_p_starter
 NGCAddShip oas_viper_p_starter
@@ -43,14 +304,14 @@ AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
 $ngcOasPirateStart = true
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPicked5,NewGameOptionSelected,$option == ngcOas5,"NGCAddShip oas_opossum_starter
 NGCAddShip toopo_miningboi_standard
 $ngcOasSelected = true
 AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPicked6,NewGameOptionSelected,$option == ngcOas6,"NGCAddShip oas_unicorn_starter
 NGCAddShip oas_opossum_starter
 NGCAddShip toopo_miningboi_standard
@@ -59,7 +320,7 @@ $ngcOasSelected = true
 AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPicked7,NewGameOptionSelected,$option == ngcOas7,"NGCAddShip toopo_apoture_standard
 NGCAddShip toopo_oscillator_starter
 NGCAddShip toopo_cutie_starter
@@ -70,11 +331,11 @@ $ngcOasSelected = true
 AddTextSmall ""Acquired level 1 officer"" good
 SetTextHighlights ""level 1 officer""
 $ngcAddOfficer = true
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPicked8,NewGameOptionSelected,$option == ngcOas8,"NGCAddShip toopo_haast_standard
 NGCAddCredits 1000000
 $ngcOasSelected = true
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPicked9,NewGameOptionSelected,$option == ngcOas9,"$ngcOasSelected = true
 NGCAddShip toopo_trooperboi_starter
 NGCAddCargo RESOURCES marines 45
@@ -83,20 +344,65 @@ ngcOasStealOptionScissor,NGCAddOasStealOptions,,"SetTooltip ngcOasStealScissor "
 ngcOasStealOptionRibcageOA,NGCAddOasStealOptions,,"SetTooltip ngcOasStealRibcageOA ""A ballistic version of the Antimatter Energy Groups' Ribcage. A deadly ship that can take down bigger prey.""",,2:ngcOasStealRibcageOA:A Ribcage (OA)-class frigate,
 ngcOasStealOptionRibcage,NGCAddOasStealOptions,,"SetTooltip ngcOasStealRibcage ""Antimatter Energy Groups' Ribcage-class frigate. A deadly ship that can take down bigger prey.""",,3:ngcOasStealRibcage:A Ribcage-class frigate,
 ngcOasStealOptionBlade,NGCAddOasStealOptions,,"SetTooltip ngcOasStealBlade ""Antimatter Energy Groups' Blade-class Destroyer. One of the most advanced destroyers out in the sector. Blade is equipped with an AMEG Time Dilator shipsystem, plenty of weapon mounts and an appearance that scares children.""",,4:ngcOasStealBlade:A Blade-class destroyer,
-ngcOasStealOptionTsunami,NGCAddOasStealOptions,,"SetTooltip ngcOasStealTsunami ""Automated High-Tech Cruiser with a beefy power core. Tsunami is a deadly craft, a ballistic counterpart to the Aurora-class.""",,5:ngcOasStealTsunami:A Tsunami-class cruiser,
+ngcOasStealOptionTsunami,NGCAddOasStealOptions,,"SetTooltip ngcOasStealBlaster ""Automated High-Tech Cruiser with a beefy power core. Tsunami is a deadly craft, a ballistic counterpart to the Aurora-class.""",,5:ngcOasStealTsunami:A Tsunami-class cruiser,
 ngcOasStealOptionGazer,NGCAddOasStealOptions,,"SetTooltip ngcOasStealGazer ""Gazer is able to control the battlefield from a long range. Thanks to a composite mount arrangement, you can arm it in anyway to fit your needs.""",,6:ngcOasStealGazer:A Gazer-class cruiser,
 ngcOasPickedStealScissor,NewGameOptionSelected,$option == ngcOasStealScissor,"NGCAddShip oas_scissor_standard
-FireAll NGCDifficultyOptions",,,
-ngcOasPickedStealRibcageOA,NewGameOptionSelected,$option == ngcOasStealRibcageOA,"NGCAddShip oas_airo_oa_standard
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
+ngcOasPickedStealSpectator,NewGameOptionSelected,$option == ngcOasStealSpectator,"NGCAddShip oas_spectator_standard
+FireAll OasStartingStarSystemOption",,,
 ngcOasPickedStealRibcage,NewGameOptionSelected,$option == ngcOasStealRibcage,"NGCAddShip oas_airo_standard
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
 ngcOasPickedStealBlade,NewGameOptionSelected,$option == ngcOasStealBlade,"NGCAddShip oas_purjo_standard
-FireAll NGCDifficultyOptions",,,
-ngcOasPickedStealTsunami,NewGameOptionSelected,$option == ngcOasStealTsunami,"NGCAddShip toopo_tsunami_standard
-FireAll NGCDifficultyOptions",,,
+FireAll OasStartingStarSystemOption",,,
+ngcOasPickedStealBlaster,NewGameOptionSelected,$option == ngcOasStealBlaster,"NGCAddShip oas_blaster_standard
+FireAll OasStartingStarSystemOption",,,
 ngcOasPickedStealGazer,NewGameOptionSelected,$option == ngcOasStealGazer,"NGCAddShip oas_gazer_standard
+FireAll OasStartingStarSystemOption",,,
+,,,,,,
+#back to active rules,,,,,,
+#bonus options,,,,,,
+ngcOasStartingBonusOption,OasStartingBonusOption,,,"In addition, you have...","1:ngcOasBonusOfficer:An officer, your trusted sidekick.
+2:ngcOasBonusMarines:A company of marines
+3:ngcOasBonusHeavyMachinery:Some heavy machinery for exploration and salvaging
+4:ngcOasBonusEverything:A sidekick officer,a company of marines and some heavy machinery",
+ngcOasBonusOfficer,NewGameOptionSelected,$option == ngcOasBonusOfficer,"AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll OasStartingCreditOption",,,
+ngcOasBonusMarines,NewGameOptionSelected,$option == ngcOasBonusMarines,"NGCAddCargo RESOURCES marines 45
+FireAll OasStartingCreditOption",,,
+ngcOasBonusHeavyMachinery,NewGameOptionSelected,$option == ngcOasBonusHeavyMachinery,"NGCAddCargo RESOURCES heavy_machinery 20
+FireAll OasStartingCreditOption",,,
+ngcOasBonusEverything,NewGameOptionSelected,$option == ngcOasBonusEverything,"AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+NGCAddCargo RESOURCES marines 45
+NGCAddCargo RESOURCES heavy_machinery 20
+FireAll OasStartingCreditOption",,,
+#money options,,,,,,
+ngcOasStartingCreditOption,OasStartingCreditOption,,,"Fincancially speaking, you are","1:ngcOasCreditPoor:Struggling
+2:ngcOasCreditOkay:Doing Okay (50 000 Credits)
+3:ngcOasCreditFine:Doing more than fine (100 000 Credits)
+4:ngcOasCreditLottery:Lucky, You just won the Power Jinx R&D lottery (1 000 000 Credits)",
+ngcOasCreditPoor,NewGameOptionSelected,$option == ngcOasCreditPoor,FireAll OasStartingStarSystemOption,,,
+ngcOasCreditOkay,NewGameOptionSelected,$option == ngcOasCreditOkay,"NGCAddCredits 18000
+FireAll OasStartingStarSystemOption",,,
+ngcOasCreditFine,NewGameOptionSelected,$option == ngcOasCreditFine,"NGCAddCredits 68000
+FireAll OasStartingStarSystemOption",,,
+ngcOasCreditLottery,NewGameOptionSelected,$option == ngcOasCreditLottery,"NGCAddCredits 968000
+FireAll OasStartingStarSystemOption",,,
+#starsystem picking,,,,,,
+ngcOasStartingStarSystemOption,OasStartingStarSystemOption,,FireAll OasAddStartingStarSystemOption,"After some time traveling, you have arrived in...",,
+ngcOasPickStartingSystemOption1,OasAddStartingStarSystemOption,,"SetTooltip ngcOasHarmanStart ""The closest Osiris Alliance system towards the core worlds. Orbiting a small mining colony is a Harman fuel station, a resting point for travelers and merchants.""",,"1:ngcOasArminStart:Armin system, far away from everything, plagued by pirates",
+ngcOasPickStartingSystemOption2,OasAddStartingStarSystemOption,,"SetTooltip ngcOasBereerStart ""Bereer System hosts three colonies of the Alliance. Vaultron being the most famed, hosting vast subsurface tunnel networks ripe of technological wonders from before the collapse.""",,"2:ngcOasBereerStart:Bereer system, well protected and peaceful system",
+ngcOasArminStart,NewGameOptionSelected,$option == ngcOasArminStart,"NGCSetStartingLocation Armin -8000 0
+$ngcOasSelected = true
 FireAll NGCDifficultyOptions",,,
+ngcOasBereerStart,NewGameOptionSelected,$option == ngcOasBereerStart,"NGCSetStartingLocation Bereer 6000 0
+$ngcOasSelected = true
+FireAll NGCDifficultyOptions",,,
+,,,,,,
+# overwrite the tutorial options,,,,,,
 ngcOasTutorialPicked,NewGameOptionSelected,"$option == ngcTutorial
 $ngcOasSelected","NGCSetStartingLocation Galatia 1000 -15000
 NGCAddStandardStartingScript
@@ -105,6 +411,196 @@ NGCDone",,,
 ngcOasSkipTutorialPicked,NewGameOptionSelected,"$option == ngcSkip
 $ngcOasSelected","$ngcSkipTutorial = true
 NGCAddCharacterPoints 1
-NGCSetStartingLocation Armin -9000 0
 NGCAddStandardStartingScript
 NGCDone",,,
+,,,,,,
+# Noel intro quest that leads the player to noel,,,,,,
+oasQHintAddBarEvent,AddBarEvents,"!$market.isHidden
+!$global.oasQuestIntroBarEventDone
+!$global.oasQuestIntro_completed
+$faction.id != osiris
+$global.daysSinceStart > 30
+RollProbability 0.2","AddBarEvent oasQHintBarEvent ""Join the crowd around the gambler"" ""Someone is attracting a cheering crowd at the gambling table."" highlight",,,
+oasQHintBarEvent,DialogOptionSelected,"$option == oasQHintBarEvent
+OasQuestHintCaptain","SetTextHighlights ""Osiris Alliance""","You join the crowd. The gambling captain is visibly enjoying the buzz around $himOrHer. $HeOrShe takes a sip from her Orbital Bombardment and places a marker on the game table.
+
+$HeOrShe seems to be in the middle of a story, ""As I was being chased by pirates. Osiris Alliance patrol appeared out of nowhere to engage it. I finally had an opportunity to escape.""
+
+The captain takes in the moment, looking back at the focused crowd. ""I took it. I turned on my burn drive and never looked behind."" looking dramatically at the back wall of the bar.",oasQHintBarEvent1:Continue,
+oasQHintBarEvent1,DialogOptionSelected,$option == oasQHintBarEvent1,"SetTextHighlights ""free enterprise""","$HeOrShe takes another sip. The table host spins the circular device. ""The free enterprise doesn't sound so exciting with all those pirates."" $heOrShe lectures. ""The path has become riddled with them, praying on us independent traders. Making a successful trip without losing your life is much harder than it used to be. I was lucky to survive this one.""
+
+The spinning device comes to a halt, and the disappointed face of the captain tells you the winning streak is over. As the crowd scatters, only you remain.
+
+The captain gives you a stare, ""Guess my luck finally ran out.""","oasQHintBarEvent2:""What is this talk of free enterprise?""
+oasQHintBarEvent3:""You mentioned Osiris Alliance? Are they offering bounties?""",
+oasQHintBarEvent2,DialogOptionSelected,$option == oasQHintBarEvent2,"SetTextHighlights ""Vaultron""","""They have this planet called Vaultron with vast underground techmines, full of ancient technology waiting to be salvaged. The first AI war glassed whatever remained on the surface. Some of the locals claimed the surface was destroyed during the collapse."" $heOrShe picks up their empty glass, looking at its bottom. ""Now, I don't care about the history. What I am saying is the planet is full of loot."" $heOrShe turns to face you, ""The alliance claims that you can move to their region and start a company, they'll provide protection and infrastructure.""
+
+$HeOrShe grins, ""With the help of taxes, of course.""
+
+$HeOrShe takes a long look at your apparel. ""For a captain like me, and you, this provides little incentive since we do our business in the vacuum of space. The problems of surface dwellers do not matter to us."" talking to you like equal. $heOrShe mutters, ""I did enjoy the profits as people pay handsomely to get to the Osiris Alliance space. But, the trips are getting harder with all the pirate activity.""",oasQHintBarEvent3:Continue,
+oasQHintBarEvent3,DialogOptionSelected,$option == oasQHintBarEvent3,"SetTextHighlights ""Noel Crow"" ""Harman Fuel Station""
+$global.oasQuestIntroBarEventDone = true
+BeginMission oasQuestIntro","""Their military is doing who knows what? You look like the kind of a captain that could aid them. Seek Noel Crow, the quartermaster at the Harman Fuel Station, last I talked to him, he was trying to come up with a solution on his own.""
+
+As you begin to move away from the table, the captain makes a final remark, ""Bring a lot of fuel, it's a long way.""",backToBar:Return to the bar,
+oasNoelFirstTime,PickGreeting,"$id == noel_crow
+!$metAlready","$contact_printedFirstReturnGreeting = true 0
+$global.oasQuestIntro_completed = true
+Call $global.oasQuestIntro_ref updateStage
+$metAlready = true
+ShowPersonVisual","The Osiris Alliance logo sticks for a few hesitant seconds, a young man with a pouting facial expression appears on the comms screen.
+
+""Hel..."" the man takes a quick peak at something. ""..lo? Ohh you're the captain of $player.flagshipName. I was just reading the docking report. I'm Noel Crow. I was hoping to run into you at the station."" You see a glimpse of smile on his face.","oasNoelQuest1StarterOption1:""Why me?""",
+oasNoelGreeting,PickGreeting,"$id == noel_crow
+$metAlready","$contact_printedFirstReturnGreeting = true 0
+ShowPersonVisual
+FireAll PopulateOptions","The Osiris Alliance logo is quickly replaced with the face of Noel Crow.
+
+""Greetings captain, I was wondering if you'd give me a call. I noticed you were docked with your $shipOrFleet""",,
+oasNoelDefaultGreeting,PickGreeting,"$contact_printedFirstReturnGreeting
+$id == noel_crow score:1000","ShowPersonVisual
+FireAll PopulateOptions","""Anything else? I'm quite busy so if that's all...""",,
+,,,,,,
+# Noel quest 1,,,,,,
+oasNoelQuest1StarterOption,PopulateOptions,"$id == noel_crow
+!$global.oasQuestNoel1_ref score:1000
+!$global.oasQuestNoel1Accepted",,,oasNoelQuest1StarterOption2:Ask about the intel on a pirate crew,
+oasNoelQuest1StarterOption1,DialogOptionSelected,$option == oasNoelQuest1StarterOption1,,"""We could use some help around here. Most of our larger fleets are patrolling the void around us, looking out for bigger things. The scary AI machines, not that I have ever seen any, or searching for Hegemony spies. As if Daud himself would be looking at us.""
+
+""It's all history to me. They say I'm too young to understand as I was not here when it all happened. I just don't get why we waste all our military efforts on invisible boogeymen when we have pirates right at our doorsteps. But enough about us!""",oasNoelQuest1StarterOption2:Continue,
+oasNoelQuest1StarterOption2,DialogOptionSelected,$option == oasNoelQuest1StarterOption2,OasShowQuestIntel noel1,"Noel taps his pad ""Now, I have fresh intel on a low level pirate crew. They have been causing trouble and are a menace at our fringe jump-point. You'd do me a great favor by getting rid of them. I can provide some credits and arrange for a shipment of our military weapons inside your cargo hold. Make it worth the trouble.""","oasNoelQuest1StarterAccept:""I'll do it.""
+oasNoelQuest1StarterDecline:""I don't have time for this right now.""",
+oasNoelQuest1StarterAccept,DialogOptionSelected,$option == oasNoelQuest1StarterAccept,"BeginMission oasQuestNoel1
+$global.oasQuestNoel1Accepted = true
+FireAll PopulateOptions","""Splendid! Now if you excuse me, I've shipments to deal with. Good luck with the pirates""",,
+oasNoelQuest1StarterDecline,DialogOptionSelected,$option == oasNoelQuest1StarterDecline,FireAll PopulateOptions,"""Understandable, don't take too long. Innocent lifes are at risk as long as we do nothing to these pirates.""",,
+oasQuestNoel1PirateDefeated,oasQuestNoel1PirateDefeated,$someShipsDestroyed,"SetTextHighlights ""Power Jinx R&D""",Your crew gathers everything from the destroyed ships databanks to proof the job was done. You spot the name Power Jinx R&D along the data.,,
+oasQuestNoel1PirateDefeatedOption,PopulateOptions,"$id == noel_crow
+$oasQuestNoel1_contact",,,"oasNoelQuest1RewardOption:""I dealt with the pirates""",
+oasNoelQuest1RewardOption,DialogOptionSelected,$option == oasNoelQuest1RewardOption,"$global.oasQuestNoel1GotReward = true
+Call $global.oasQuestNoel1_ref updateStage","You send all the proof you gathered from the ships to Noel.
+
+Noel starts to talk ""I see everything is in order"", he stops talking as he reviews the data. ""Ohh, this is alarming"" he mutters. ""I might have another task for you after this one.""","oasNoelQuest1RewardOption1:""The reward?""",
+oasNoelQuest1RewardOption1,DialogOptionSelected,$option == oasNoelQuest1RewardOption1,"OasAddWeapons oas_s_cannon 5 true
+OasAddWeapons oas_s_shottie 5 true
+OasAddWeapons oas_s_cracker 5 true
+OasAddWeapons oas_s_kineticmissile 5 true
+OasAddWeapons oas_s_pd 5 true
+OasAddWeapons oas_s_smartbomb 5 true
+OasAddWeapons oas_s_benergy 2 true
+FireAll PopulateOptions","He quickly snaps out of his thought. ""Indeed, the reward, my screen tells me the weapons are delivered and should have been received by your crew.""",,
+,,,,,,
+# Noel quest 2,,,,,,
+oasNoelQuest2StarterOption,PopulateOptions,"$id == noel_crow
+$global.oasQuestNoel1_missionCompleted score:1000
+!$global.oasQuestNoel2Accepted",,,"oasNoelQuest2StarterOption2pretext:""What did you find in the data?""",
+oasNoelQuest2StarterOption2pretext,DialogOptionSelected,$option == oasNoelQuest2StarterOption2pretext,OasShowQuestIntel noel2,"Noel gathers his thoughts for awhile. ""We have had allegations that Power Jinx R&D makes deals with the pirates. The intel you brought to me brings merit to these allegations.""
+
+Noel taps his pad, You receive data on a single Scorpion-class carrier to your TriPad.
+
+""The pirates you brought to justice were serving a pirate warlord, commanding this rig. It's been causing havoc around the system. We don't fully know where it rests.""","oasNoelQuest2StarterOption3:""Power Jinx?""
+oasNoelQuest2StarterOption2:Continue",
+oasNoelQuest2StarterOption2,DialogOptionSelected,$option == oasNoelQuest2StarterOption2,,"Noel continues his instructions, ""Our agent in Fugura should have intel on how to find it. So head there first. Once you find the rig, I need it destroyed, bring me all physical evidence that could be linked to Power Jinx R&D""
+
+$heOrShe looks at you, ""You up for this? I've more weapons and credits I can send your way if you do this.""","oasNoelQuest2StarterAccept:""I'll do it.""
+oasNoelQuest2StarterDecline:""I don't have time for this right now""",
+oasNoelQuest2StarterOption3,DialogOptionSelected,$option == oasNoelQuest2StarterOption3,,"""Besides being a huge techmining group with access to fancy blueprints, they own most of the ship dealers around here. If a ship is sold, you can bet they have their hands on some part of that deal.""",oasNoelQuest2StarterOption2:Continue,
+oasNoelQuest2StarterAccept,DialogOptionSelected,$option == oasNoelQuest2StarterAccept,"BeginMission oasQuestNoel2
+OasAddWeapons toopo_hound_rocket 1 true
+$global.oasQuestNoel2Accepted = true
+FireAll PopulateOptions","""Excellent, I'm sending a parting gift as we talk to your cargo bays, try to see if you can refit it to one of your ships"". Your comms officers confirms that a package has been received by your crew.
+
+""One of our hot shot pilots adviced on a easy tactic to destroy that Scorpion. While your main fleet is keeping its main battery busy, have a fast ship with one of these Dogleg torpedos surprise it from the rear.""",,
+oasNoelQuest2StarterDecline,DialogOptionSelected,$option == oasNoelQuest2StarterDecline,FireAll PopulateOptions,"""Come back when you have more courage or ships. We need to get to the bottom of this.""",,
+oasNoelQuest2FuguraAgent,PickGreeting,"$oasQuestNoel2_agent score:1000
+!$gotIntel","$gotIntel = true
+Call $global.oasQuestNoel2_ref updateStage","""I was informed you need to find where a certain pirate warlord is hiding. I've found out the frequencies they used to contact their fence. You could use the Comm Relay to locate their signal source."" The $rank taps his tripad. ""You should be receiving the data. Happy hunting.""
+
+Your CO informs you have received the data.",cutCommLink:Leave,
+oasNoelQuest2UseRelayAddOpts,COB_AddOptions,"$tag:comm_relay
+$id == armin_relay
+$oasQuestNoel2GotIntel",,,5:COB_oas_locate:Locate the Pirate's nest,
+oasNoelQuest2UseRelayDisableOpts,COB_DisableOptionsIfNeeded,"$tag:comm_relay
+$id == armin_relay
+$oasQuestNoel2GotIntel
+HostileFleetNearbyAndAware score:100",SetEnabled COB_oas_locate false,,,
+oasNoelQuest2UseRelay,DialogOptionSelected,$option == COB_oas_locate,"$cob_action = oas_locate 0
+FireBest COB_ConfirmPrompt
+FireBest COB_ConfirmOptions",,,
+oasNoelQuest2UseRelayConfirmOpts,COB_ConfirmOptions,$cob_action == oas_locate,,,COB_confirmAction:Proceed,
+oasNoelQuest2UseRelayConfirmPrompt,COB_ConfirmPrompt,"$cob_action == oas_locate
+$tag:comm_relay",,"You can install a singleshot comm sniffer with a filter for the specified frequencies, no one will notice your brief tapping to the relay data.",,
+oasNoelQuest2UseRelayPreAct,COB_PreActionDesc,$cob_action == oas_locate,,"A quick scan on the maintenance shortwave reveals several common vulnerabilities to choose from. Your comms officers installs the data-sniffing script, and confirms it's running on $shortName. All you can now do is wait.",,
+oasNoelQuest2UseRelayPostAct,COB_PostActionDesc,"$cob_action == oas_locate
+$tag:comm_relay",,"As you patiently wait, the silence is broken as your console beeps. The sniffer has done its job, locating the signal source somewhere along the Harman's belt.",,
+oasNoelQuest2UseRelayAct,DialogOptionSelected,"$option == COB_confirmAction
+$cob_action == oas_locate","FireBest COB_PreActionDesc
+$global.oasQuestNoel2UsedRelay = true
+FireBest COB_PostActionDesc
+Call $global.oasQuestNoel2_ref showStation
+Call $global.oasQuestNoel2_ref updateStage
+FireAll COB_AddOptions
+FireBest COB_DisableOptionsIfNeeded
+FireAll COB_DisableIndividualOptions",,,
+oasQuestNoel2PirateDefeated,oasQuestNoel2PirateDefeated,$someShipsDestroyed,,Your comms officer informs you that a few escape shuttles was aiming towards the abandoned station. You deduce the pirates were doing something over there.,,
+oasAbandonedMarketDock,MarketPostDock,"$id == harman_abandoned_station score:100
+$oasOccupied","$menuState = oasAbandoned 0
+FireAll PopulateOptions",,,
+oasQuestNoel2StationOption,PopulateOptions,"$hasMarket
+$id == harman_abandoned_station score:1000
+$menuState == oasAbandoned
+$oasQuestNoel2_inspect",,,oasQuestNoel2StationInspected:Send crew to investigate,
+oasQuestNoel2StationOptionLeave,PopulateOptions,"$hasMarket
+$id == harman_abandoned_station score:1000
+$menuState == oasAbandoned","SetTooltip marketLeave $marketLeaveTooltip
+SetShortcut marketLeave ""ESCAPE""",,100:marketLeave:Leave,
+oasQuestNoel2StationInspected,DialogOptionSelected,$option == oasQuestNoel2StationInspected,,"You send your crew to investigate the abandoned station more thoroughly. After a few moments, you hear chatter ""Checking in, the station has power and a thin athmosphere. The pirates managed to block an area from our scanners to hide their supply stash.""",oasQuestNoel2StationInspected2:Continue,
+oasQuestNoel2StationInspected2,DialogOptionSelected,$option == oasQuestNoel2StationInspected2,,"You tell the crew to continue. After a few minutes you hear more news. ""There's a working heavy destroyer here, fully equipped. Also found a few fresh bodies, looks like they couldn't agree on who gets to use the remaining escape shuttle. The shuttle itself is long gone."" A few static clicks later ""Coming home, we got something you ought to see.""",oasQuestNoel2StationInspected3:Continue,
+oasQuestNoel2StationInspected3,DialogOptionSelected,$option == oasQuestNoel2StationInspected3,"unset $oasOccupied
+$menuState = main 0
+$global.oasQuestNoel2StationInspected = true
+Call $global.oasQuestNoel2_ref seeStationPermanently
+Call $global.oasQuestNoel2_ref updateStage
+FireAll PopulateOptions","A working Tri-Pad from one of the dead pirates is brought to you. Skipping through personal data, you find an interesting inventory catalog. It partially matches with the supplies stashed here, but a lot more ships and supplies seem to be missing.
+
+Obviously, the plan was to fill the station with enough equipment and supplies to support a larger fleet. Larger than the ships you encountered alongside the Scorpion-class carrier.
+
+You feel like you should take your share of the supplies and have a look at the stashed ship.",,
+oasQuestNoel2PirateDefeatedOption,PopulateOptions,"$id == noel_crow score:1000
+$oasQuestNoel2_contact",,,"oasNoelQuest2RewardOption:""Rig is gone and I found some intel""",
+oasQuestNoel2Pirate2Encounter,BeginFleetEncounter,"$oasQuestNoel2Pirate2 score:1000
+!$oasQuestNoel2Pirate2_encounteredAlready","$oasQuestNoel2Pirate2_encounteredAlready = true
+FleetDesc
+HailPlayer",,,
+oasQuestNoel2Pirate2OpenCommLink,OpenCommLink,"$oasQuestNoel2Pirate2 score:1000
+!$entity.ignorePlayerCommRequests",$entity.ignorePlayerCommRequests = true,"The comms open with an angry looking pirate pointing a finger at you. ""Stop right there, it was you wasn't it!?"" $heOrShe screams.
+
+""Months of planning, all in ruins because you decided to meddle in our affairs!"" The screen turns into static image. Your CO turns on the battle alarm.",cutCommLinkNoText:Continue,
+oasNoelQuest2PirateAnswerHumor,DialogOptionSelected,$option == oasNoelQuest2PirateAnswerHumor,,"The pirate stutters ""I'll.."" visibly shocked at your audacity.
+
+""I'll destroy you. That's what I'll do. I'll shove a torpedo up your engines and see how you glare up on my screen.""
+
+You turn at your tactical officer, who informs you ""Hostiles incoming, sir."" Just as you predicted.","cutCommLinkNoText:Continue
+oasNoelQuest2PirateAnswerHumor:""Wasn't much of a plan, only took a single torpedo to ruin it.""",
+oasNoelQuest2PirateAnswerBargain,DialogOptionSelected,$option == oasNoelQuest2PirateAnswerBargain,,"You explain to the best of your ability, in a neutral tone how you just happened to have multiple misunderstandings, not knowing the local pirate turfs and power structures. You offer to make amends to your best ability, wishing to just keep breathing and not caring how harsh of a judgement they'll make.
+
+$HeOrShe is still angry, but is surprisingly calm and clear in their demands ""I can forget this, provided that you will pay us $oasPirateBargainCredits monthly in credits, for the next six cycles. That should cover our expenses"" They look upon their tripad, ""In addition, you shall transmit all your current cargo to us. Call it a bond on your precious little life.""","oasNoelQuest2PirateAnswer2Agree:Accept the harsh financial terms
+oasNoelQuest2PirateAnswer2Refuse:Refuse",
+oasNoelQuest2PirateAnswer2Agree,DialogOptionSelected,$option == oasNoelQuest2PirateAnswer2Agree,,"""Agreed""",cutCommLinkNoText:Continue,
+oasNoelQuest2PirateAnswer2Refuse,DialogOptionSelected,$option == oasNoelQuest2PirateAnswer2Refuse,,"""Refused""",cutCommLinkNoText:Continue,
+oasNoelQuest2PirateAnswerStory,DialogOptionSelected,$option == oasNoelQuest2PirateAnswerStory,,"""You bluff and buff""",cutCommLinkNoText:Continue,
+oasNoelQuest2RewardOption,DialogOptionSelected,$option == oasNoelQuest2RewardOption,"$global.oasQuestNoel2GotReward = true
+Call $global.oasQuestNoel2_ref updateStage","You upload the data to Noel. He takes a quick look at it ""Excellent news, I doubt anyone here would care much if you were to use that Abandoned station for storage. You'd be a better neighbour than a pirate crew.""","oasNoelQuest2RewardOption1:""The reward?""",
+oasNoelQuest2RewardOption1,DialogOptionSelected,$option == oasNoelQuest2RewardOption1,"OasAddWeapons oas_m_cannon 5 true
+OasAddWeapons oas_m_shottie 5 true
+OasAddWeapons oas_m_trident 5 true
+OasAddWeapons oas_m_cracker 5 true
+OasAddWeapons oas_m_pd 5 true
+OasAddWeapons oas_m_smartbomb 5 true
+OasAddWeapons oas_m_benergy 2 true
+AddPotentialContact noel_crow
+FireAll PopulateOptions","Noel looks at you, not amused ""You don't have to constantly remind me of your reward. It's already been delivered.""
+
+He continues before you can cut in. ""Unfortunately, the brass has noticed our little working relationship. I've received word that I should continue working with you in a more official capacity. You can add me as a contact if you wish.""
+
+Noel is clearly annoyed by the official constraints, ""If we only had more time, We could have solved the Power Jinx situation in a more thorough manner. Maybe in the future, who knows?""",,

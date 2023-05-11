@@ -1,0 +1,58 @@
+{
+  "hullName": "Nutcracker",
+  "hullId": "oas_nutcracker",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/oas/ships/oas_cracker_fighter2.png",
+  "style": "LOW_TECH",
+  "height": 18,
+  "width": 22,
+  "center": [11, 9],
+  "collisionRadius": 14,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 13,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8, 6]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [8, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -5.5],
+      "length": 10,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9, 5.5],
+      "length": 10,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    7, 7.5,
+    -7, 10,
+    -7, -10,
+    7, -7.5
+  ]
+}

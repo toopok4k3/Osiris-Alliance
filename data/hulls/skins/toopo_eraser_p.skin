@@ -1,0 +1,20 @@
+{
+	"baseHullId":"toopo_eraser",
+	"skinHullId":"toopo_eraser_p",
+	"hullName":"Eraser (P)",
+	"descriptionId":"toopo_eraser",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":0.75,
+	"systemId":"burndrive",
+    "suppliesToRecover":4,
+	"suppliesPerMonth":4,
+	"spriteName":"graphics/toopo/ships/toopo_eraser2_p.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+}

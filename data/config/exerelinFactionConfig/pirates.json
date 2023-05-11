@@ -1,3 +1,6 @@
 {
-    "startShipsCarrierLarge":[["toopo_scorpion_starter", "toopo_ecuador_p_starter", "oas_viper_p_starter", "toopo_dramster_standard"]]
+    "startShipsCarrierLarge":[["toopo_scorpion_starter", "toopo_ecuador_p_starter", "oas_viper_p_starter", "toopo_dramster_standard"]],
+    "startShipsCombatSmall":[["toopo_eraser_p_strike", "oas_viper_p_strike", "oas_raccoon_p_strike"],
+        ["oas_wayfarer2_p_standard", "oas_raccoon_p_flamed", "oas_raccoon_p_flamed"],
+        ["toopo_bucket_p_support", "toopo_eraser_p_strike", "toopo_dramster_standard"]]
 }

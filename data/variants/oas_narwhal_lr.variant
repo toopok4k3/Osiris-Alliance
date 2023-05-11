@@ -1,0 +1,41 @@
+{
+  "variantId": "oas_narwhal_lr",
+  "hullId": "oas_narwhal",
+  "displayName": "Long Range",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "oas_s_kineticmissile",
+        "WS0004": "oas_s_kineticmissile",
+        "WS0005": "oas_s_kineticmissile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,57 @@
+{
+  "variantId": "oas_saltire_od",
+  "hullId": "oas_saltire",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 21,
+  "fluxVents": 22,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "unstable_injector",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "breachpod",
+        "WS0009": "breachpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_l_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_cannon",
+        "WS0003": "oas_s_cannon",
+        "WS0004": "oas_s_cannon",
+        "WS0005": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_s_pd",
+        "WS0007": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_starburst_wing",
+    "oas_starburst_wing",
+    "oas_starburst_wing",
+    "oas_starburst_wing"
+  ]
+}

@@ -1,0 +1,6 @@
+id,type,frame,magnitude,map,path
+oas_tusker2,ship,,1,normal,graphics/oas/ships/normals/oas_new_tusker4_2.png
+oas_tusker2,ship,,,surface,graphics/oas/ships/surface/oas_new_tusker4.png
+oas_tusker2,ship,,,material,graphics/oas/ships/material/oas_new_tusker4.png
+oas_sun,ship,,1,normal,graphics/oas/ships/normals/oas_sun2.png
+oas_gazer,ship,,1,normal,graphics/oas/ships/normals/oas_gazer4.png

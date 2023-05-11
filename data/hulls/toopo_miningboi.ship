@@ -2,7 +2,7 @@
   "hullName": "Radiator",
   "hullId": "toopo_miningboi",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/toopo/ships/toopo_minerboi4.png",
+  "spriteName": "graphics/toopo/ships/toopo_radiator.png",
   "style": "LOW_TECH",
   "height": 79,
   "width": 62,
@@ -11,6 +11,9 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 68,
   "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -27,7 +30,7 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 180,
+      "angle": 0,
       "locations": [12, 15]
     },
     {

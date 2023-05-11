@@ -85,6 +85,8 @@ public class OasTimeDilationStats extends BaseShipSystemScript {
 			stats.getDeceleration().modifyMult(id, mult);
 			stats.getTurnAcceleration().modifyMult(id, mult);
 			stats.getMaxTurnRate().modifyMult(id, mult);
+			stats.getShieldDamageTakenMult().modifyPercent(id, 50f*effectLevel);
+			//stats.getSystemRegenBonus().modifyMult(id, 0.0f);
 		}
 	}
 	
@@ -107,14 +109,18 @@ public class OasTimeDilationStats extends BaseShipSystemScript {
 		stats.getDeceleration().unmodify(id);
 		stats.getTurnAcceleration().unmodify(id);
 		stats.getMaxTurnRate().unmodify(id);
+		stats.getShieldDamageTakenMult().unmodify(id);
+		//stats.getSystemRegenBonus().unmodify(id);
 	}
 	
 	public StatusData getStatusData(int index, State state, float effectLevel) {
 		float shipTimeMult = 1f + (MAX_TIME_MULT - 1f) * effectLevel;
 		if (index == 0) {
-			return new StatusData("time flow altered", false);
+			return new StatusData("Time flow altered", false);
 		}
-
+		if (index == 1) {
+			return new StatusData("Reduced shield efficiency", true);
+		}
 		return null;
 	}
 }

@@ -1,0 +1,50 @@
+{
+  "variantId": "oas_lightdestro_cheap",
+  "hullId": "oas_lightdestro",
+  "displayName": "Cheap",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "reinforcedhull",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "breachpod",
+        "WS0003": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_poor_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_s_cannon",
+        "WS0005": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_s_cracker",
+        "WS0007": "oas_s_cracker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

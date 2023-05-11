@@ -1,0 +1,74 @@
+{
+	"baseHullId":"enforcer",
+	"skinHullId":"toopo_enforcer_ht",
+	"hullName":"Enforcer (HT)",
+	"descriptionId":"enforcer",  # optional
+	"descriptionPrefix":"This ship has been heavily customized with state of the art Domain parts.",
+	"tags":["rare_bp"],
+	"tech":"Hightech",
+	"baseValueMult":2.0,
+	"systemId":"plasmajets",
+	"spriteName":"graphics/toopo/ships/toopo_enforcer_ht.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+    "builtInMods":["oas_ht_mod"],
+	"builtInWeapons":{
+    },
+    "engineSlotChanges":{
+        "0":{
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+			"style": "HIGH_TECH",
+		},
+        "1":{
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+			"style": "HIGH_TECH",
+		},
+        "2":{
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+			"style": "HIGH_TECH",
+		},
+        "3":{
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+			"style": "HIGH_TECH",
+		},
+        "4":{
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+			"style": "HIGH_TECH",
+		},
+        "5":{
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+			"style": "HIGH_TECH",
+		}
+   },
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS 001":{
+            "type": "HYBRID"
+        },
+        "WS 002":{
+            "type": "HYBRID"
+        },
+        "WS 003":{
+            "type": "HYBRID"
+        },
+        "WS 004":{
+            "type": "HYBRID"
+        },
+        "WS 005":{
+            "type": "HYBRID"
+        }
+    },
+}

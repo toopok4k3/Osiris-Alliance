@@ -1,0 +1,22 @@
+{
+  "variantId": "oas_fisher_p_standard",
+  "hullId": "oas_fisher_p",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_s_kineticmissile_p"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

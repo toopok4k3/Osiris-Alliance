@@ -8,18 +8,24 @@
     "startShipsSolo":[
       ["toopo_dramster_standard"],
       ["toopo_miningboi_standard"],
+      ["oas_raccoon_standard"],
       ["oas_viper_starter"],
-      ["oas_lasher2_starter"],
+      ["oas_eraser_standard"],
       ["oas_wayfarer2_starter"],
       ["oas_opossum_starter"],
-      ["oas_hen_starter"]
+      ["oas_hen_starter"],
+      ["oas_marten_standard"],
+      ["toopo_eraser_standard"],
+      ["toopo_egg_standard"],
+      ["toopo_cutie_standard"]
     ],
     "startShipsCombatSmall":[
       ["oas_unicorn_standard", "oas_wayfarer2_starter", "oas_polecat_starter"],
-      ["oas_rhino2_standard", "oas_hen_starter", "oas_lasher2_standard"],
+      ["oas_rhino2_standard", "oas_hen_starter", "oas_eraser_standard"],
       ["oas_lightdestro_starter", "oas_wayfarer2_starter", "oas_viper_starter"],
-      ["oas_butcher_standard", "toopo_egg_standard", "toopo_dramster_standard"],
-      ["oas_purjo_standard","oas_airo_standard","oas_scissor_standard"]
+      ["oas_spectator_standard","oas_raccoon_standard","oas_raccoon_standard"],
+      ["toopo_bucket_standard", "toopo_egg_standard", "toopo_eraser_standard"],
+      ["oas_skull_standard","oas_calmella_standard","oas_calmella_standard"]
     ],
     "startShipsCombatLarge":[
       ["oas_tusker2_standard", "oas_rhino2_standard", "oas_viper_standard"],
@@ -31,19 +37,19 @@
       ["toopo_xplorer_standard", "toopo_miningboi_standard", "toopo_cutie_standard"]
     ],
     "startShipsExplorerLarge":[
-      ["toopo_apoture_standard", "toopo_oscillator_starter", "toopo_cutie_starter"]
+      ["toopo_apoture_standard", "toopo_oscillator_starter", "toopo_cutie_starter"],
+      ["oas_blaster_standard", "oas_unicorn_starter", "oas_opossum_starter"]
     ],
     "startShipsCarrierLarge":[
       ["oas_saltire_standard", "oas_rhino2_standard", "oas_wayfarer2_standard"]
     ],
-    "startShipsSuper":[
-      ["oas_lolslaught_standard"],
-      ["toopo_haast_standard"]
-    ],
     "startShipsGrandFleet":[["oas_sun_standard", "oas_saltire_standard", "oas_lightdestro_standard", "oas_unicorn_starter", "oas_viper_standard", "oas_opossum_starter", "oas_hen_starter"],
-      ["oas_observer_standard", "oas_gazer_standard", "oas_tusker2_standard", "oas_rhino2_standard", "oas_lasher2_starter", "oas_wayfarer2_starter", "oas_polecat_starter"],
-      ["toopo_genesis_standard", "toopo_tsunami_standard", "toopo_xplorer_standard", "toopo_oscillator_starter", "toopo_egg_standard", "toopo_cutie_starter", "toopo_miningboi_standard"]
+      ["oas_observer_standard", "oas_gazer_standard", "oas_tusker2_standard", "oas_rhino2_standard", "oas_eraser_standard", "oas_wayfarer2_starter", "oas_polecat_starter"],
+      ["toopo_genesis_standard", "toopo_murderer_standard", "toopo_xplorer_standard", "toopo_oscillator_starter", "toopo_egg_standard", "toopo_cutie_starter", "toopo_miningboi_standard"],
+      ["oas_hexagon_standard", "oas_blaster_standard", "oas_unicorn_starter", "oas_opossum_starter", "toopo_miningboi_standard", "oas_basalt_standard", "oas_narwhal_standard"]
     ],
+    "startShipsTradeSmall":[["oas_narwhal_standard", "oas_pullet_standard", "oas_pullet_standard"]],
+    "startShipsTradeLarge":[["oas_basalt_standard", "oas_narwhal_standard", "oas_pullet_standard"]],
 
     "startSpecialItems":[
         [["osiris_package1", ""]],

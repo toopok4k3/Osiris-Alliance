@@ -1,0 +1,41 @@
+{
+  "variantId": "oas_pullet_od",
+  "hullId": "oas_pullet",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "safetyoverrides",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_cracker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "breach",
+        "WS0004": "breach"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

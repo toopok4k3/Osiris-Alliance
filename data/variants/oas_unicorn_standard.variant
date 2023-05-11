@@ -2,10 +2,10 @@
   "variantId": "oas_unicorn_standard",
   "hullId": "oas_unicorn",
   "displayName": "Standard",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 13,
   "fluxVents": 20,
-  "quality": 0.5,
+  "quality": 1,
   "permaMods": [],
   "hullMods": [],
   "weaponGroups": [

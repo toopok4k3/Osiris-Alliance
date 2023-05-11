@@ -1,0 +1,46 @@
+{
+  "variantId": "oas_eraser_od",
+  "hullId": "oas_eraser",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_kineticmissile",
+        "WS0003": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_s_shottie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_benergy"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

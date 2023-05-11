@@ -1,0 +1,35 @@
+{
+  "variantId": "oas_narwhal_hauler",
+  "hullId": "oas_narwhal",
+  "displayName": "Hauler",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_pd",
+        "WS0002": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "swarmer",
+        "WS0004": "swarmer",
+        "WS0005": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

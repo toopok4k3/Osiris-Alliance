@@ -4,6 +4,7 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onFireEffect":"data.scripts.weapons.OasSpacerCannonOnFireEffect",
 	"length":70,
 	"hitGlowRadius":24,
 	"width":4.0,

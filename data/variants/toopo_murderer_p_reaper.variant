@@ -1,0 +1,68 @@
+{
+  "variantId": "toopo_murderer_p_reaper",
+  "hullId": "toopo_murderer_p",
+  "displayName": "Reaper",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 17,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "reaper",
+        "WS0002": "reaper",
+        "WS0003": "reaper",
+        "WS0004": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "typhoon",
+        "WS0006": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyac",
+        "WS0008": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightac",
+        "WS0012": "lightac",
+        "WS0013": "lightac",
+        "WS0014": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "vulcan",
+        "WS0018": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "variantId": "oas_sun_magnetron",
+  "hullId": "oas_sun",
+  "displayName": "Magnetron",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 31,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "missleracks",
+    "armoredweapons",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_trident_large",
+        "WS0002": "oas_m_trident",
+        "WS0003": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "oas_orb_sun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_xlcannon",
+        "WS0007": "oas_xlcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_cannon",
+        "WS0005": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "oas_s_cannon",
+        "WS0011": "oas_s_cannon",
+        "WS0012": "oas_s_cannon",
+        "WS0013": "oas_s_cannon",
+        "WS0014": "oas_s_cannon",
+        "WS0015": "oas_s_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "oas_m_pd",
+        "WS0009": "oas_m_pd",
+        "WS0016": "oas_s_pd",
+        "WS0017": "oas_s_pd",
+        "WS0018": "oas_s_pd",
+        "WS0019": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

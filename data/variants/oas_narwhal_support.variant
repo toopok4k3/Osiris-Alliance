@@ -1,0 +1,41 @@
+{
+  "variantId": "oas_narwhal_support",
+  "hullId": "oas_narwhal",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker",
+        "WS0005": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,22 @@
+{
+	"baseHullId":"oas_fisher",
+	"skinHullId":"oas_fisher_p",
+	"hullName":"Fisher (P)",
+	"descriptionId":"oas_fisher",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tech":"Pirate",
+	"spriteName":"graphics/oas/ships/oas_fisher_p.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["oas_fast_flames"],
+	"engineSlotChanges":{
+        "0":{
+      		"length": 30,
+      		"width": 16,
+			"angle": 180,
+			"style": "LOW_TECH",
+		}
+	}
+}

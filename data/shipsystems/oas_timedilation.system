@@ -1,7 +1,8 @@
 {
 	"id":"oas_timedilation",
 	"type":"ENGINE_MOD",
-	"aiType":"MANEUVERING_JETS",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.OasTimeDilationAI",
 	
 	"statsScript":"data.shipsystems.scripts.OasTimeDilationStats",
 	

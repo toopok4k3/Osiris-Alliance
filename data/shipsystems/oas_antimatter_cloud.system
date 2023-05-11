@@ -1,0 +1,8 @@
+{
+	"id":"oas_antimatter_cloud",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"oas_antimatter_cloud",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

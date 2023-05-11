@@ -2,17 +2,18 @@
   "hullName": "Muskrat",
   "hullId": "oas_viper",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/oas/ships/oas_muskrat.png",
+  "spriteName": "graphics/oas/ships/oas_muskrat2.png",
   "style": "MIDLINE",
-  "height": 132,
-  "width": 58,
-  "center": [29, 64],
+  "height": 126,
+  "width": 62,
+  "center": [31, 64],
   "collisionRadius": 83.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 83.5,
   "viewOffset": 0,
   "builtInMods": [
-    "rugged", "shielded_holds"
+    "rugged",
+    "shielded_holds"
   ],
   "weaponSlots": [
     {
@@ -22,25 +23,25 @@
       "mount": "TURRET",
       "arc": 315,
       "angle": 0,
-      "locations": [35, -0]
+      "locations": [35, 0]
     },
     {
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 315,
-      "angle": 180,
-      "locations": [-33, -0]
+      "arc": 360,
+      "angle": 0,
+      "locations": [-33, 0]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 200,
-      "angle": -90,
-      "locations": [0.5, -20]
+      "arc": 160,
+      "angle": -75,
+      "locations": [0, -20]
     },
     {
       "id": "WS0004",
@@ -49,53 +50,57 @@
       "mount": "TURRET",
       "arc": 10,
       "angle": 0,
-      "locations": [51, 18]
+      "locations": [44, 23]
     }
   ],
   "engineSlots": [
     {
-      "location": [-64.5, -8],
-      "length": 42.5,
-      "width": 18,
+      "location": [-64, -10.5],
+      "length": 60,
+      "width": 22,
       "angle": 180,
-      "contrailSize": 18,
+      "contrailSize": 22,
       "style": "OAS"
     },
     {
-      "location": [-64.5, 8],
-      "length": 42.5,
-      "width": 18,
+      "location": [-64, 10.5],
+      "length": 60,
+      "width": 22,
       "angle": -180,
-      "contrailSize": 18,
+      "contrailSize": 22,
       "style": "OAS"
     },
     {
-      "location": [-62.5, -19.5],
-      "length": 30,
-      "width": 10,
-      "angle": 180,
-      "contrailSize": 30,
+      "location": [10, -29],
+      "length": 15,
+      "width": 6,
+      "angle": -135,
+      "contrailSize": 128,
       "style": "OAS"
     },
     {
-      "location": [-62.5, 19.5],
-      "length": 30,
-      "width": 10,
-      "angle": -180,
-      "contrailSize": 30,
+      "location": [10, 29],
+      "length": 15,
+      "width": 6,
+      "angle": 135,
+      "contrailSize": 128,
       "style": "OAS"
     }
   ],
   "bounds": [
-    56.5, -4,
-    50.5, -27.5,
+    56.5, -6.5,
+    42.5, -28.5,
+    20, -30,
     0, -18,
-    -47, -27,
-    -61.5, -19.5,
-    -61.5, 19.5,
-    -47, 27,
+    -18.5, -30,
+    -46, -30,
+    -63, -18,
+    -63, 18,
+    -46, 30,
+    -18.5, 30,
     0, 18,
-    50.5, 27.5,
-    56.5, 4
+    20, 30,
+    42.5, 28.5,
+    56.5, 6.5
   ]
 }

@@ -3,10 +3,17 @@
 		"mining_ship_strengths":{
 			"toopo_miningboi": 4,
 			"oas_blaster_drone2": 1,
-			"oas_unicorn2": 12
+			"oas_opossum": 5,
+			"oas_unicorn": 12,
+			"oas_blaster":70,
+			"oas_hexagon":220
 		},
 		"mining_weapon_strengths":{
 			"oas_hml": 25,
+			"oas_l_miningblaster": 50,
+			"oas_l_pd_mining": 24,
+			"oas_m_cracker": 15,
+			"oas_s_cracker": 3,
 			"oas_miningblaster_fighter": 2
 		}
     }

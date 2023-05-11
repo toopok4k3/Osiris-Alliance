@@ -3,6 +3,7 @@ package data.scripts.weapons;
 import com.fs.starfarer.api.combat.OnHitEffectPlugin;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamagingProjectileAPI;
+import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.ShieldAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
@@ -58,7 +59,12 @@ public class OasMagnetronOnHitEffect implements OnHitEffectPlugin {
 				engine.addSmoothParticle(point, velocity, 2 * size, brightness, duration + 0.2f,
 						particleColor2);
 			}
-		}
+		} /* naaah let's just add kinetic dmg, simpler for the player to understand the stats
+		else if(!shieldHit && target != null && projectile != null && projectile.getLocation() != null) {
+			// let's add frag damage.
+			engine.applyDamage(target, projectile.getLocation(), getFragmentationDamage(projectile.getWeapon()),
+					DamageType.FRAGMENTATION, 0.0f, false, false, projectile.getSource(), false);
+		}*/
 	}
 
 	private static int getParticleCount(WeaponAPI weapon) {
@@ -74,4 +80,18 @@ public class OasMagnetronOnHitEffect implements OnHitEffectPlugin {
 		}
 		return particles;
 	}
+
+	/*private static float getFragmentationDamage(WeaponAPI weapon) {
+		final float damage;
+		if (weapon == null) {
+			damage = 20;
+		} else if (WeaponAPI.WeaponSize.SMALL == weapon.getSize()) {
+			damage = 20;
+		} else if (WeaponAPI.WeaponSize.MEDIUM == weapon.getSize()) {
+			damage = 100;
+		} else {
+			damage = 400;
+		}
+		return damage;
+	}*/
 }

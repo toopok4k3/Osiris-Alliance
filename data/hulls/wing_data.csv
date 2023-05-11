@@ -1,10 +1,12 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-oas_lg_drone_wing,oas_lg_drone_standard,"no_drop, no_sell, low",0,,4,0,BOX,2000,300,,6,INTERCEPTOR,Drone,5,1500,,,,,,,,,,,,,17.2
+oas_lg_drone_wing,oas_lg_drone_standard,"support0, drone, low, osiris_bp, auto_fighter",0,,4,5,BOX,2000,300,,6,INTERCEPTOR,Drone,5,1500,,,,,,,,,,,,,17.2
 oas_blaster_drone2_wing,oas_blaster_drone2_standard,"fighter4, fighter, auto_fighter, osiris_bp, merc",1,,5,10,BOX,2000,500,400,4,FIGHTER,Fighter Drone,10,7000,,,,,,,,,,,,,17.2
 oas_blaster_drone3_wing,oas_blaster_drone3_standard,"fighter5, fighter, auto_fighter, osiris_bp, merc",3,,7,14,CLAW,2000,500,400,3,FIGHTER,Fighter Drone,10,9000,,,,,,,,,,,,,17.3
 oas_starburst_wing,oas_starburst_standard,"interceptor1, interceptor, osiris_bp",0,,3,2,BOX,4000,200,300,4,INTERCEPTOR,Interceptor,5,2500,,,,,,,,,,,,,5.5
-oas_fattie_wing,oas_igniter_standard,"bomber3, bomber,  osiris_bp, merc",0,,4,6,V,6000,1000,500,6,BOMBER,Bomber,8,4500,,,,,,,,,,,,,5.5
+oas_fattie_wing,oas_igniter_standard,"bomber3, bomber, osiris_bp, merc",0,,4,6,V,6000,1000,500,5,BOMBER,Bomber,12,4500,,,,,,,,,,,,,5.5
 oas_turtle2_ball_wing,oas_bowler_standard,"fighter4, fighter, osiris_bp, merc",2,,8,12,CLAW,2000,500,-200,3,FIGHTER,Heavy Fighter,10,8000,,,,,,,,,,,,,5.5
 oas_turtle2_magnetron_wing,oas_turtle2_magnetron,"fighter4, fighter, osiris_bp, merc",2,,6,8,V,4000,700,,3,FIGHTER,Fighter,10,6000,,,,,,,,,,,,,5.5
-oas_turtle2_snapper_wing,oas_fisher_standard,"bomber4, bomber, osiris_bp, merc",3,,6,14,V,4000,2000,600,1,BOMBER,Bomber,20,10000,,,,,,,,,,,,,5.5
+oas_turtle2_snapper_wing,oas_fisher_standard,"bomber4, bomber, osiris_bp, merc",3,,6,14,V,4000,1200,600,1,BOMBER,Bomber,20,10000,,,,,,,,,,,,,5.5
 oas_retinator_wing,oas_retinator_standard,"no_drop, no_sell, high",3,,6,0,BOX,0,200,,3,SUPPORT,Point Defense,20,6000,,,,,,,,,,,,,12
+oas_fisher_p_wing,oas_fisher_p_standard,"no_drop, no_sell, bomber",3,,6,14,V,4000,1200,600,1,BOMBER,Bomber,20,10000,,,,,,,,,,,,,5.6
+oas_nutcracker_wing,oas_nutcracker_standard,"support0, drone, low, osiris_bp, auto_fighter",0,,5,4,BOX,2000,500,,5,FIGHTER,Drone,10,3500,,,,,,,,,,,,,13

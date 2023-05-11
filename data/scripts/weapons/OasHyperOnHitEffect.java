@@ -1,13 +1,18 @@
 package data.scripts.weapons;
 
+import data.scripts.OasUtil;
+
 import com.fs.starfarer.api.combat.OnHitEffectPlugin;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.ShieldAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.SoundPlayerAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+import com.fs.starfarer.api.combat.ArmorGridAPI;
+import com.fs.starfarer.api.impl.combat.DisintegratorEffect;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.util.Misc;
 
@@ -47,6 +52,10 @@ public class OasHyperOnHitEffect implements OnHitEffectPlugin {
 				final float duration = 0.05f + (Misc.random.nextFloat() * 0.25f);
 				engine.addHitParticle(point, velocity, size, brightness, duration, particleColor);
 				engine.addSmoothParticle(point, velocity, 2 * size, brightness, duration + 0.2f, particleColor2);
+			}
+
+			if(target instanceof ShipAPI) {
+				OasUtil.dealArmorDamage(projectile.getDamageAmount() * 0.25f, projectile, (ShipAPI)target, point); // deal 50% of the damage as direct armor damage
 			}
 		}
 	}

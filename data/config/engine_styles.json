@@ -10,8 +10,8 @@
 		"contrailColor":[120,100,80,25],
 		"contrailCampaignColor":[150,120,100,75],
 		"type":"SMOKE",
-		"glowSprite":"graphics/oas/fx/oas_engine32glow.png",
-		"glowOutline":"graphics/oas/fx/oas_engine32flame.png"
+		"glowSprite":"graphics/oas/fx/oas_engine32glow2.png",
+		"glowOutline":"graphics/oas/fx/oas_engine32flame2.png"
 	},
 	"OAS_RED":{
 		"engineColor":[255,100,100,255],
@@ -24,8 +24,8 @@
 		"glowSizeMult":1.5,
 		"glowAlternateColor":[255,0,0,90],
 		"type":"GLOW", # GLOW or SMOKE
-		"glowSprite":"graphics/oas/fx/oas_engine32glow.png",
-		"glowOutline":"graphics/oas/fx/oas_engine32flame.png"
+		"glowSprite":"graphics/oas/fx/oas_engine32glow2.png",
+		"glowOutline":"graphics/oas/fx/oas_engine32flame2.png"
 	},
 	"OAS_SNAPPER":{
 		"engineColor":[150,70,255,150],

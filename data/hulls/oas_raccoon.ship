@@ -1,0 +1,135 @@
+{
+  "hullName": "Raccoon",
+  "hullId": "oas_raccoon",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/oas/ships/oas_wing_raccoon.png",
+  "style": "MIDLINE",
+  "height": 66,
+  "width": 98,
+  "center": [49, 33],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 64.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, -23]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [11, 23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [19, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-13, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, -4.5],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "OAS"
+    },
+    {
+      "location": [-33, 4.5],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "OAS"
+    },
+    {
+      "location": [-30, -14],
+      "length": 30,
+      "width": 18,
+      "angle": -170,
+      "contrailSize": 18,
+      "style": "OAS"
+    },
+    {
+      "location": [-30, 14],
+      "length": 30,
+      "width": 18,
+      "angle": 170,
+      "contrailSize": 18,
+      "style": "OAS"
+    },
+    {
+      "location": [-18, -30],
+      "length": 30,
+      "width": 16,
+      "angle": -145,
+      "contrailSize": 128,
+      "style": "OAS"
+    },
+    {
+      "location": [-18, 30],
+      "length": 30,
+      "width": 16,
+      "angle": 145,
+      "contrailSize": 128,
+      "style": "OAS"
+    },
+    {
+      "location": [-15, -37],
+      "length": 30,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "OAS"
+    },
+    {
+      "location": [-15, 37],
+      "length": 30,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "OAS"
+    }
+  ],
+  "bounds": [
+    31, 10,
+    16, 17,
+    14, 34.5,
+    -15, 49,
+    -15, 23.5,
+    -27, 20,
+    -31, 6.5,
+    -31, -6.5,
+    -27, -20,
+    -15, -23.5,
+    -15, -49,
+    14, -34.5,
+    16, -17,
+    31, -10,
+    23.5, -0
+  ]
+}

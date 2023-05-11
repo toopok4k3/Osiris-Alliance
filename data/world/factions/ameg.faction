@@ -1,13 +1,13 @@
 {
 	"id":"ameg",
 	"color":[210,200,183,255],
-	"displayName":"AM Energy Group",
-	"displayNameWithArticle":"the AM Energy Group",
+	"displayName":"AMEG",
+	"displayNameWithArticle":"the AMEG",
 	"displayNameLong":"Antimatter Energy Group",
 	"displayNameLongWithArticle":"the Antimatter Energy Group",
 	"showInIntelTab":false,
-	"logo":"graphics/oas/factions/ameg_logo7.png",
-	"crest":"graphics/oas/factions/ameg_crest7.png",
+	"logo":"graphics/oas/factions/logo_osiris_alliance7.png",
+	"crest":"graphics/oas/factions/crest_osiris_alliance7.png",
 	"shipNamePrefix":"AMS",
 	"shipNameSources":{
 		"GREEK":1,
@@ -37,6 +37,7 @@
 			"oas_lolslaught":0.25,
 			"toopo_haast":1,
 			"toopo_genesis":1,
+			"toopo_solace":1
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -57,7 +58,7 @@
 			"odyssey",
 			"afflictor",
 			"prometheus",
-			"buffalo_tritachyon",
+			#"buffalo_tritachyon",
 			"hyperion",
 			"brawler_tritachyon",
 			"omen",
@@ -69,8 +70,10 @@
 			"oas_lolslaught",
 			"toopo_haast",
 			"toopo_genesis",
-			"oas_unicorn2",
-			"toopo_bucket2"
+			"toopo_solace",
+			"oas_narwhal",
+			"oas_pullet",
+			"oas_basalt"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -184,10 +187,7 @@
 			"flux_regulation",
 		],
 	},
-	"illegalCommodities":[
-		"drugs",
-		"organs"
-	],
+	"illegalCommodities":[],
 	"music":{
 		"theme":"music_osiris_market_neutral",
 		"market_neutral":"music_osiris_market_neutral",
@@ -340,5 +340,24 @@
         "scavengerLarge":"AMEG Research Fleet",
         
         "foodReliefFleet":"AMEG Charity Convoy"
+	},
+	"custom":{
+		"offersCommissions":false,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":0,
+		"postsNoBounties":true,
+		"buysSurveyData":false,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"willTradeWhenHostile":true,
+		"allowsTransponderOffTrade":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":false,
+		},
 	}
 }

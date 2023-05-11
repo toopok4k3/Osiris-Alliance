@@ -1,0 +1,54 @@
+{
+  "variantId": "oas_basalt_standard",
+  "hullId": "oas_basalt",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 19,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "oas_s_kineticmissile",
+        "WS0002": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_shottie",
+        "WS0006": "oas_s_shottie",
+        "WS0007": "oas_s_shottie",
+        "WS0008": "oas_s_shottie",
+        "WS0009": "oas_s_shottie",
+        "WS0010": "oas_s_shottie"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_pd",
+        "WS0011": "oas_s_pd",
+        "WS0012": "oas_s_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

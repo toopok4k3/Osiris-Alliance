@@ -3,14 +3,15 @@
   "hullId": "oas_sun",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 32,
-  "fluxVents": 50,
-  "quality": 1,
+  "fluxCapacitors": 26,
+  "fluxVents": 27,
+  "quality": 0.5,
   "permaMods": [],
   "hullMods": [
+    "ballistic_rangefinder",
     "heavyarmor",
     "missleracks",
-    "ballistic_rangefinder"
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
@@ -24,7 +25,7 @@
     },
     {
       "autofire": false,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
         "WS0010": "oas_s_kineticmissile",
         "WS0011": "oas_s_kineticmissile",
@@ -42,16 +43,25 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "oas_l_benergy",
-        "WS0007": "oas_l_benergy"
+        "WS0006": "oas_l_shottie",
+        "WS0007": "oas_l_shottie"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "oas_m_benergy",
-        "WS0005": "oas_m_benergy"
+        "WS0004": "oas_m_cannon",
+        "WS0005": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "oas_s_cannon",
+        "WS0014": "oas_s_cannon",
+        "WS0015": "oas_s_cannon"
       }
     },
     {
@@ -59,16 +69,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0008": "oas_m_pd",
-        "WS0009": "oas_m_pd"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0013": "oas_s_pd",
-        "WS0014": "oas_s_pd",
-        "WS0015": "oas_s_pd",
+        "WS0009": "oas_m_pd",
         "WS0016": "oas_s_pd",
         "WS0017": "oas_s_pd",
         "WS0018": "oas_s_pd",

@@ -1,0 +1,29 @@
+{
+    "displayName": "Flamed",
+    "fluxCapacitors": 7,
+    "fluxVents": 8,
+    "hullId": "oas_raccoon_p",
+    "hullMods": [
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "oas_raccoon_p_flamed",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "lightac"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "oas_s_kineticmissile_p",
+                "WS0002": "oas_s_kineticmissile_p",
+                "WS0003": "oas_s_kineticmissile_p"
+            }
+        }
+    ]
+}

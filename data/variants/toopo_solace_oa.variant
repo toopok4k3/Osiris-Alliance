@@ -1,0 +1,80 @@
+{
+  "variantId": "toopo_solace_oa",
+  "hullId": "toopo_solace",
+  "displayName": "OA",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 31,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "armoredweapons",
+    "ballistic_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "toopo_solace_l_lazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "toopo_solace_s_r_lazer",
+        "WS0003": "toopo_solace_s_l_lazer",
+        "WS0004": "toopo_solace_s_r_lazer",
+        "WS0005": "toopo_solace_s_l_lazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "oas_trident_large",
+        "WS0012": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "oas_m_cannon",
+        "WS0008": "oas_m_cannon",
+        "WS0009": "oas_m_cannon",
+        "WS0010": "oas_m_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "oas_l_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "oas_s_pd",
+        "WS0014": "oas_s_pd",
+        "WS0015": "oas_s_pd",
+        "WS0016": "oas_s_pd",
+        "WS0017": "oas_s_pd",
+        "WS0018": "oas_s_pd",
+        "WS0019": "oas_s_pd",
+        "WS0020": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

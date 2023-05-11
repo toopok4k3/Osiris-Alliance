@@ -3,8 +3,8 @@
   "hullId": "oas_rhino2",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 11,
-  "fluxVents": 11,
+  "fluxCapacitors": 12,
+  "fluxVents": 12,
   "quality": 0.5,
   "permaMods": [],
   "hullMods": [
@@ -15,14 +15,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "oas_l_shottie"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "annihilatorpod"
+        "WS0005": "oas_m_trident"
       }
     },
     {
@@ -30,6 +23,13 @@
       "mode": "LINKED",
       "weapons": {
         "WS0007": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_l_shottie"
       }
     },
     {

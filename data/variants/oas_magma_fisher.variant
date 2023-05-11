@@ -1,0 +1,56 @@
+{
+  "variantId": "oas_magma_fisher",
+  "hullId": "oas_magma",
+  "displayName": "Fisher",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 4,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_trident",
+        "WS0002": "oas_trident_large",
+        "WS0003": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "oas_m_benergy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_s_pd",
+        "WS0006": "oas_s_pd",
+        "WS0007": "oas_s_pd",
+        "WS0008": "oas_s_pd",
+        "WS0009": "oas_s_pd",
+        "WS0010": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

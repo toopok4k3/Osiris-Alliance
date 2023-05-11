@@ -1,0 +1,56 @@
+{
+  "variantId": "oas_rhino2_cheap",
+  "hullId": "oas_rhino2",
+  "displayName": "Cheap",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "oas_s_kineticmissile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_m_kinetic2_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_m_poor_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_cracker",
+        "WS0004": "oas_s_cracker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_l_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_nutcracker_wing"
+  ]
+}

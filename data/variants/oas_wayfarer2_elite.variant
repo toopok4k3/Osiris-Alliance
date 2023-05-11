@@ -1,0 +1,40 @@
+{
+  "variantId": "oas_wayfarer2_elite",
+  "hullId": "oas_wayfarer2",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oas_m_kinetic2_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "oas_s_benergy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_s_kineticmissile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_fattie_wing"
+  ]
+}

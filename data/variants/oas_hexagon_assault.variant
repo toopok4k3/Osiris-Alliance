@@ -1,0 +1,95 @@
+{
+  "variantId": "oas_hexagon_assault",
+  "hullId": "oas_hexagon",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 21,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "magazines",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "oas_trident_large",
+        "WS0002": "oas_trident_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "oas_m_trident",
+        "WS0012": "oas_m_trident",
+        "WS0013": "oas_m_trident"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "oas_s_smartbomb",
+        "WS0019": "oas_s_smartbomb",
+        "WS0020": "oas_s_smartbomb",
+        "WS0021": "oas_s_smartbomb"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "oas_l_hyper",
+        "WS0004": "oas_l_hyper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "oas_xlcannon",
+        "WS0006": "oas_xlcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "oas_l_pd",
+        "WS0008": "oas_l_pd",
+        "WS0014": "oas_s_pd",
+        "WS0015": "oas_s_pd",
+        "WS0016": "oas_s_pd",
+        "WS0017": "oas_s_pd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "oas_l_pd_mining",
+        "WS0010": "oas_l_pd_mining",
+        "WS0022": "mininglaser",
+        "WS0023": "mininglaser",
+        "WS0024": "mininglaser",
+        "WS0025": "mininglaser",
+        "WS0026": "mininglaser",
+        "WS0027": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "oas_nutcracker_wing",
+    "oas_nutcracker_wing",
+    "oas_lg_drone_wing",
+    "oas_lg_drone_wing",
+    "oas_blaster_drone2_wing",
+    "oas_blaster_drone2_wing"
+  ]
+}

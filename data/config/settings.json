@@ -12,10 +12,21 @@
 			"osiris_package3":"graphics/oas/icons/cargo/osiris_package3.png",
 			"toopo_cheap_package":"graphics/oas/icons/cargo/power_jinx_logo3_smoll.png",
 			"toopo_ameg_package":"graphics/oas/icons/cargo/ameg_logo6_smoll2.png"
-		}#,
-		#"characters":{
-			#"osiris_sun":"graphics/oas/portraits/characters/osiris_sun.png"
-		#}
+		},
+		"misc":{
+			"oas_noise_ball1":"graphics/oas/fx/oas_noise_ball1.png",
+			"oas_noise_ball2":"graphics/oas/fx/oas_noise_ball2.png",
+			"oas_benergy_core":"graphics/oas/fx/oas_benergy_core.png",
+			"oas_glow_blob":"graphics/oas/fx/oas_glow_blob.png",
+			"oas_antimatter_gas":"graphics/oas/fx/oas_antimatter_gas.png",
+			"oas_brown_gas":"graphics/oas/fx/oas_brown_gas.png",
+			"oas_blast_wave":"graphics/oas/fx/oas_blast_wave.png",
+			"oas_pinched_light2":"graphics/oas/fx/oas_pinched_light2.png"
+		},
+		"characters":{
+			"osiris_sun":"graphics/oas/portraits/characters/oas_osiris_sun.png",
+			"noel_crow":"graphics/oas/portraits/characters/oas_noel_crow.png"
+		}
 	},
 	"ruleCommandPackages":[
 		"fi.toopok4k3.oas.rulecmd"
